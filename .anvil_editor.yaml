@@ -1,8 +1,12 @@
 unique_ids:
   assets:
+    images/.gitkeep: '174234953718744733406316.02895'
+    images/app-store.png: '1742349585633672666405751.7937'
+    images/bullet.svg: '174234961120755952051317.65923'
     standard-page.html: GT2NWDGVDYDV44S2MEYIOEENFQWBV2UZ
     theme.css: RHYABXL2K3AIWVFEXH54YE2IMVNT2HKJ
-  forms: {}
+  forms:
+    Homepage: '1742349345505814338069854.7753'
   modules: {}
   scripts: {}
   server_modules: {}
