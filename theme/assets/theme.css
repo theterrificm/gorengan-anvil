@@ -85,6 +85,7 @@ img {
 .nav-list-item {
     padding: 5px 10px;
     font-size: 16px;
+    cursor: pointer;
 }
 
 .nav-list-item.has-submenu {
@@ -123,9 +124,10 @@ img {
     align-items: center;
     background-image: url(./images/hero-bg.png);
     background-position: center center;
-    background-size: contain;
+    background-size: cover;
     background-repeat: no-repeat;
-    padding: 0px 40px;
+    padding: 40px;
+    border-radius: 20px;
 }
 
 .text-box {
@@ -152,7 +154,7 @@ img {
     border-radius: 50px;
     outline: 0;
     border: 0;
-    font-size: 17px;
+    font-size: 16px;
 }
 
 .btn-spacing.btn-white {
