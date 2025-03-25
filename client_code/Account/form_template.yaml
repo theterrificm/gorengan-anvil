@@ -16,14 +16,14 @@ container:
           <!-- Navbar -->
           <div class="nav-wrapper">
               <div class="logo-container">
-                  <a href="./index.html"><img src="./images/logo.png" alt="logo" /></a>
+                  <a href="_/theme/index.html"><img src="_/theme/images/logo.png" alt="logo" /></a>
               </div>
               <div class="navigation-container">
                   <ul class="nav-list">
-                      <li class="nav-list-item"><a href="./contact.html">Contact Us</a></li>
-                      <li class="nav-list-item"><a href="./pricing.html">Upgrade</a></li>
-                      <li class="nav-list-item"><a href="./account.html">Account</a></li>
-                      <li class="nav-list-item"><a href="./login.html">Login</a></li>
+                      <li class="nav-list-item"><a href="_/theme/contact.html">Contact Us</a></li>
+                      <li class="nav-list-item"><a href="_/theme/pricing.html">Upgrade</a></li>
+                      <li class="nav-list-item"><a href="_/theme/account.html">Account</a></li>
+                      <li class="nav-list-item"><a href="_/theme/login.html">Login</a></li>
                   </ul>
               </div>
           </div>
@@ -39,10 +39,10 @@ container:
           <!-- Button Divs -->
           <div class="button-div mb-20">
               <p class="line-1 font-20 mb-20 bg-green"><a href="#modal2"><span class="mr-10"><img
-                              src="./images/plus-button.svg" class="vertical-bottom" alt="" srcset=""></span>Add a new
+                              src="_/theme/images/plus-button.svg" class="vertical-bottom" alt="" srcset=""></span>Add a new
                       sign</a></p>
               <p class="line-1 font-20 mb-20 bg-green"><a href="#modal3"><span class="mr-10"><img
-                              src="./images/setting-button.svg" class="vertical-bottom" alt="" srcset=""></span>Settings</a>
+                              src="_/theme/images/setting-button.svg" class="vertical-bottom" alt="" srcset=""></span>Settings</a>
               </p>
           </div>
 
@@ -159,7 +159,7 @@ container:
           <!-- Footer -->
           <div class="footer-container-with-bg">
               <div class="footer-col-1">
-                  <img src="./images/logo.png" class="mb-20" alt="" srcset="">
+                  <img src="_/theme/images/logo.png" class="mb-20" alt="" srcset="">
                   <p class="mb-20">Seamlessly connect to the services you need—shopping, food delivery, medicine, logistics,
                       and
                       investments—all in one powerful app.</p>
@@ -183,11 +183,11 @@ container:
               <div class="footer-col-4">
                   <p class="text-green mb-20">Social</p>
                   <div class="social-container">
-                      <a href="#"><img src="./images/twitter.svg" alt="" srcset=""></a>
-                      <a href="#"><img src="./images/instagram.svg" alt="" srcset=""></a>
-                      <a href="#"><img src="./images/facebook.svg" alt="" srcset=""></a>
-                      <a href="#"><img src="./images/youtube.svg" alt="" srcset=""></a>
-                      <a href="#"><img src="./images/tiktok.svg" alt="" srcset=""></a>
+                      <a href="#"><img src="_/theme/images/twitter.svg" alt="" srcset=""></a>
+                      <a href="#"><img src="_/theme/images/instagram.svg" alt="" srcset=""></a>
+                      <a href="#"><img src="_/theme/images/facebook.svg" alt="" srcset=""></a>
+                      <a href="#"><img src="_/theme/images/youtube.svg" alt="" srcset=""></a>
+                      <a href="#"><img src="_/theme/images/tiktok.svg" alt="" srcset=""></a>
                   </div>
               </div>
           </div>
