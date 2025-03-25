@@ -16,14 +16,14 @@ container:
         <!-- Navbar -->
         <div class="nav-wrapper">
           <div class="logo-container">
-            <a href="./index.html"><img src="./images/logo.png" alt="logo" /></a>
+            <a href="_/theme/index.html"><img src="_/theme/images/logo.png" alt="logo" /></a>
           </div>
           <div class="navigation-container">
             <ul class="nav-list">
-              <li class="nav-list-item"><a href="./contact.html">Contact Us</a></li>
-              <li class="nav-list-item"><a href="./pricing.html">Upgrade</a></li>
-              <li class="nav-list-item"><a href="./account.html">Account</a></li>
-              <li class="nav-list-item"><a href="./login.html">Login</a></li>
+              <li class="nav-list-item"><a href="_/theme/contact.html">Contact Us</a></li>
+              <li class="nav-list-item"><a href="_/theme/pricing.html">Upgrade</a></li>
+              <li class="nav-list-item"><a href="_/theme/account.html">Account</a></li>
+              <li class="nav-list-item"><a href="_/theme/login.html">Login</a></li>
             </ul>
           </div>
         </div>
@@ -33,7 +33,7 @@ container:
           <div class="hero-container-with-bg">
             <div class="text-box">
               <p class="text-white font-bold">
-                <span class="mr-10"><img src="./images/bullet.svg" alt="" srcset="" /></span>SaaS Super App Platform
+                <span class="mr-10"><img src="_/theme/images/bullet.svg" alt="" srcset="" /></span>SaaS Super App Platform
               </p>
               <p class="heading-font-1 text-white font-bold">
                 One App,<br />
@@ -46,7 +46,7 @@ container:
               <div class="button-container">
                 <button class="btn-spacing btn-white font-dm">
                   Download Now
-                  <span class="ml-10"><img src="./images/download.svg" alt="" srcset="" /></span>
+                  <span class="ml-10"><img src="_/theme/images/download.svg" alt="" srcset="" /></span>
                 </button>
                 <button class="btn-spacing btn-transparent font-dm">
                   Explore Services
@@ -77,7 +77,7 @@ container:
               </div>
             </div>
             <div class="image-box">
-              <img src="./images/iphone-img.png" alt="" srcset="" />
+              <img src="_/theme/images/iphone-img.png" alt="" srcset="" />
             </div>
           </div>
         </div>
@@ -88,7 +88,7 @@ container:
             <div class="service-text-wrapper">
               <div class="text-box">
                 <p class="text-black font-bold">
-                  <span class="mr-10"><img src="./images/bullet.svg" alt="" srcset="" /></span>Our Services
+                  <span class="mr-10"><img src="_/theme/images/bullet.svg" alt="" srcset="" /></span>Our Services
                 </p>
                 <p class="heading-font-2 text-black font-bold">
                   All-in-One Solution for Your Daily Needs
@@ -109,7 +109,7 @@ container:
                       );
                     ">
                   <p class="font-bold text-white card-heading">
-                    <span class="mr-10"><img src="./images/flower.svg" alt="" srcset="" /></span>Go Mall
+                    <span class="mr-10"><img src="_/theme/images/flower.svg" alt="" srcset="" /></span>Go Mall
                   </p>
                   <div class="card-flex-container">
                     <p class="text-white">
@@ -118,7 +118,7 @@ container:
                     </p>
                     <button class="btn-spacing btn-green font-dm">
                       Learn More
-                      <span class="ml-10"><img src="./images/right-arrow.svg" alt="" srcset="" /></span>
+                      <span class="ml-10"><img src="_/theme/images/right-arrow.svg" alt="" srcset="" /></span>
                     </button>
                   </div>
                 </div>
@@ -127,7 +127,7 @@ container:
             <div class="service-card-container">
               <div class="card-wrapper">
                 <p class="font-bold text-black card-heading">
-                  <span class="mr-10"><img src="./images/flower.svg" alt="" srcset="" /></span>Go Food
+                  <span class="mr-10"><img src="_/theme/images/flower.svg" alt="" srcset="" /></span>Go Food
                 </p>
                 <p class="text-black">
                   Get fast and reliable food delivery from top restaurants, whenever
@@ -135,12 +135,12 @@ container:
                 </p>
                 <button class="btn-spacing btn-green font-dm">
                   Learn More
-                  <span class="ml-10"><img src="./images/right-arrow.svg" alt="" srcset="" /></span>
+                  <span class="ml-10"><img src="_/theme/images/right-arrow.svg" alt="" srcset="" /></span>
                 </button>
               </div>
               <div class="card-wrapper">
                 <p class="font-bold text-black card-heading">
-                  <span class="mr-10"><img src="./images/flower.svg" alt="" srcset="" /></span>Go Medicine
+                  <span class="mr-10"><img src="_/theme/images/flower.svg" alt="" srcset="" /></span>Go Medicine
                 </p>
                 <p class="text-black">
                   Easily order prescription and over-the-counter medicine with
@@ -148,12 +148,12 @@ container:
                 </p>
                 <button class="btn-spacing btn-green font-dm">
                   Learn More
-                  <span class="ml-10"><img src="./images/right-arrow.svg" alt="" srcset="" /></span>
+                  <span class="ml-10"><img src="_/theme/images/right-arrow.svg" alt="" srcset="" /></span>
                 </button>
               </div>
               <div class="card-wrapper">
                 <p class="font-bold text-black card-heading">
-                  <span class="mr-10"><img src="./images/flower.svg" alt="" srcset="" /></span>Go Send
+                  <span class="mr-10"><img src="_/theme/images/flower.svg" alt="" srcset="" /></span>Go Send
                 </p>
                 <p class="text-black">
                   Secure and quick parcel delivery for hassle-free shipping.
@@ -161,12 +161,12 @@ container:
                 </p>
                 <button class="btn-spacing btn-green font-dm">
                   Learn More
-                  <span class="ml-10"><img src="./images/right-arrow.svg" alt="" srcset="" /></span>
+                  <span class="ml-10"><img src="_/theme/images/right-arrow.svg" alt="" srcset="" /></span>
                 </button>
               </div>
               <div class="card-wrapper">
                 <p class="font-bold text-black card-heading">
-                  <span class="mr-10"><img src="./images/flower.svg" alt="" srcset="" /></span>Go Invest
+                  <span class="mr-10"><img src="_/theme/images/flower.svg" alt="" srcset="" /></span>Go Invest
                 </p>
                 <p class="text-black">
                   Explore easy and safe investment options to grow your wealth
@@ -174,7 +174,7 @@ container:
                 </p>
                 <button class="btn-spacing btn-green font-dm">
                   Learn More
-                  <span class="ml-10"><img src="./images/right-arrow.svg" alt="" srcset="" /></span>
+                  <span class="ml-10"><img src="_/theme/images/right-arrow.svg" alt="" srcset="" /></span>
                 </button>
               </div>
             </div>
@@ -186,7 +186,7 @@ container:
           <div class="guide-container-with-bg">
             <div class="text-box">
               <p class="text-black font-bold">
-                <span class="mr-10"><img src="./images/bullet.svg" alt="" srcset="" /></span>Step-by-Step Guide
+                <span class="mr-10"><img src="_/theme/images/bullet.svg" alt="" srcset="" /></span>Step-by-Step Guide
               </p>
               <p class="heading-font-2 text-black font-bold">
                 Effortless & Seamless Experience
@@ -247,7 +247,7 @@ container:
           <div class="choose-section">
             <div class="choose-text-box-1">
               <p class="text-black font-bold">
-                <span class="mr-10"><img src="./images/bullet.svg" alt="" srcset="" /></span>Why Choose Gorengan?
+                <span class="mr-10"><img src="_/theme/images/bullet.svg" alt="" srcset="" /></span>Why Choose Gorengan?
               </p>
               <div class="sub-text-box">
                 <p class="heading-font-2 text-black font-bold flex-2">
@@ -264,7 +264,7 @@ container:
             <div class="choose-text-box-2">
               <div class="flex-1">
                 <div class="point-item mb-20">
-                  <img src="./images/why-icon-1.png" alt="">
+                  <img src="_/theme/images/why-icon-1.png" alt="">
                   <div class="short-text">
                     <p class="text-green font-bold flex-1">Lightning-Fast Service</p>
                     <p class="text-green flex-1">Get everything you need delivered right to your doorstep in just minutes—no
@@ -272,7 +272,7 @@ container:
                   </div>
                 </div>
                 <div class="point-item mb-20">
-                  <img src="./images/why-icon-2.png" alt="">
+                  <img src="_/theme/images/why-icon-2.png" alt="">
                   <div class="short-text">
                     <p class="text-black font-bold flex-1">Secure & Reliable</p>
                     <p class="text-black flex-1">Trusted by millions nationwide, Gorengan ensures safe transactions and
@@ -280,14 +280,14 @@ container:
                   </div>
                 </div>
                 <div class="point-item mb-20">
-                  <img src="./images/why-icon-3.png" alt="">
+                  <img src="_/theme/images/why-icon-3.png" alt="">
                   <div class="short-text">
                     <p class="text-black font-bold flex-1">Affordable & Transparent</p>
                     <p class="text-black flex-1">Enjoy the best prices with no hidden fees—what you see is what you pay.</p>
                   </div>
                 </div>
                 <div class="point-item mb-20">
-                  <img src="./images/why-icon-4.png" alt="">
+                  <img src="_/theme/images/why-icon-4.png" alt="">
                   <div class="short-text">
                     <p class="text-black font-bold flex-1">One Tap for Everything</p>
                     <p class="text-black flex-1">No more switching between multiple apps—access all essential services from a
@@ -296,7 +296,7 @@ container:
                 </div>
               </div>
               <div class="flex-1 image-box">
-                <img src="./images/why-choose-image.png" alt="">
+                <img src="_/theme/images/why-choose-image.png" alt="">
               </div>
             </div>
           </div>
@@ -307,7 +307,7 @@ container:
           <div class="test-section">
             <div class="test-text-box-1">
               <p class="text-black font-bold">
-                <span class="mr-10"><img src="./images/bullet.svg" alt="" srcset="" /></span>Customer Testimonials
+                <span class="mr-10"><img src="_/theme/images/bullet.svg" alt="" srcset="" /></span>Customer Testimonials
               </p>
               <div class="sub-text-box">
                 <p class="heading-font-2 text-black font-bold flex-2">
@@ -323,32 +323,32 @@ container:
             </div>
             <div class="test-card-wrapper">
               <div class="test-card">
-                <img src="./images/rating.png" class="mb-10" alt="">
+                <img src="_/theme/images/rating.png" class="mb-10" alt="">
                 <p class="mb-10 text-black">"I love how I can get my medicines delivered in minutes. So convenient and
                   hassle-free!"</p>
                 <p class="font-bold text-black">Siti Aisyah</p>
-                <img class="customer-image" src="./images/customer.png" alt="">
+                <img class="customer-image" src="_/theme/images/customer.png" alt="">
               </div>
               <div class="test-card">
-                <img src="./images/rating.png" class="mb-10" alt="">
+                <img src="_/theme/images/rating.png" class="mb-10" alt="">
                 <p class="mb-10 text-black">"Gorengan has completely changed the way I shop and order food. Super fast and
                   reliable!"</p>
                 <p class="font-bold text-black">Ahmad Firdaus</p>
-                <img class="customer-image" src="./images/customer.png" alt="">
+                <img class="customer-image" src="_/theme/images/customer.png" alt="">
               </div>
               <div class="test-card">
-                <img src="./images/rating.png" class="mb-10" alt="">
+                <img src="_/theme/images/rating.png" class="mb-10" alt="">
                 <p class="mb-10 text-black">"From food delivery to parcel shipping, Gorengan makes everything effortless. One
                   app for everything!"</p>
                 <p class="font-bold text-black">Faisal Rahman</p>
-                <img class="customer-image" src="./images/customer.png" alt="">
+                <img class="customer-image" src="_/theme/images/customer.png" alt="">
               </div>
               <div class="test-card">
-                <img src="./images/rating.png" class="mb-10" alt="">
+                <img src="_/theme/images/rating.png" class="mb-10" alt="">
                 <p class="mb-10 text-black">"Affordable prices, excellent service, and super quick delivery—I can’t imagine my
                   daily routine without Gorengan!"</p>
                 <p class="font-bold text-black">Rina Kartika</p>
-                <img class="customer-image" src="./images/customer.png" alt="">
+                <img class="customer-image" src="_/theme/images/customer.png" alt="">
               </div>
             </div>
           </div>
@@ -358,7 +358,7 @@ container:
         <div class="get-started-bg">
           <div class="get-started-section">
             <div class="flex-1">
-              <img src="./images/get-device.png" alt="">
+              <img src="_/theme/images/get-device.png" alt="">
             </div>
             <div class="flex-1 gap-20">
               <p class="heading-font-2 text-black">Get Started Today</p>
@@ -369,10 +369,10 @@ container:
                 apps—download now and enjoy fast, secure, and hassle-free services, all at your fingertips!</p>
               <div class="flex-gap-20">
                 <a href="#">
-                  <img src="./images/play-store.png" alt="">
+                  <img src="_/theme/images/play-store.png" alt="">
                 </a>
                 <a href="#">
-                  <img src="./images/app-store.png" alt="">
+                  <img src="_/theme/images/app-store.png" alt="">
                 </a>
               </div>
             </div>
@@ -401,7 +401,7 @@ container:
         <!-- Footer -->
         <div class="footer-container-with-bg">
           <div class="footer-col-1">
-            <img src="./images/logo.png" class="mb-20" alt="" srcset="">
+            <img src="_/theme/images/logo.png" class="mb-20" alt="" srcset="">
             <p class="mb-20">Seamlessly connect to the services you need—shopping, food delivery, medicine, logistics, and
               investments—all in one powerful app.</p>
             <p>Experience convenience anytime, anywhere!</p>
@@ -424,11 +424,11 @@ container:
           <div class="footer-col-4">
             <p class="text-green mb-20">Social</p>
             <div class="social-container">
-              <a href="#"><img src="./images/twitter.svg" alt="" srcset=""></a>
-              <a href="#"><img src="./images/instagram.svg" alt="" srcset=""></a>
-              <a href="#"><img src="./images/facebook.svg" alt="" srcset=""></a>
-              <a href="#"><img src="./images/youtube.svg" alt="" srcset=""></a>
-              <a href="#"><img src="./images/tiktok.svg" alt="" srcset=""></a>
+              <a href="#"><img src="_/theme/images/twitter.svg" alt="" srcset=""></a>
+              <a href="#"><img src="_/theme/images/instagram.svg" alt="" srcset=""></a>
+              <a href="#"><img src="_/theme/images/facebook.svg" alt="" srcset=""></a>
+              <a href="#"><img src="_/theme/images/youtube.svg" alt="" srcset=""></a>
+              <a href="#"><img src="_/theme/images/tiktok.svg" alt="" srcset=""></a>
             </div>
           </div>
         </div>
