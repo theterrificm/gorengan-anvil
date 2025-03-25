@@ -1,0 +1,201 @@
+components: []
+container:
+  properties:
+    html: |-
+      <!DOCTYPE html>
+      <html lang="en">
+
+      <head>
+          <meta charset="UTF-8">
+          <meta name="viewport" content="width=device-width, initial-scale=1.0">
+          <link rel="stylesheet" href="_/theme/theme.css" />
+          <title>My Account</title>
+      </head>
+
+      <body>
+          <!-- Navbar -->
+          <div class="nav-wrapper">
+              <div class="logo-container">
+                  <a href="./index.html"><img src="./images/logo.png" alt="logo" /></a>
+              </div>
+              <div class="navigation-container">
+                  <ul class="nav-list">
+                      <li class="nav-list-item"><a href="./contact.html">Contact Us</a></li>
+                      <li class="nav-list-item"><a href="./pricing.html">Upgrade</a></li>
+                      <li class="nav-list-item"><a href="./account.html">Account</a></li>
+                      <li class="nav-list-item"><a href="./login.html">Login</a></li>
+                  </ul>
+              </div>
+          </div>
+
+
+          <!-- Page Header -->
+          <div class="page-header-section ">
+              <div class="page-header-container-with-bg">
+                  <p class="heading-font-2 text-white text-center">My Account</p>
+              </div>
+          </div>
+
+          <!-- Button Divs -->
+          <div class="button-div mb-20">
+              <p class="line-1 font-20 mb-20 bg-green"><a href="#modal2"><span class="mr-10"><img
+                              src="./images/plus-button.svg" class="vertical-bottom" alt="" srcset=""></span>Add a new
+                      sign</a></p>
+              <p class="line-1 font-20 mb-20 bg-green"><a href="#modal3"><span class="mr-10"><img
+                              src="./images/setting-button.svg" class="vertical-bottom" alt="" srcset=""></span>Settings</a>
+              </p>
+          </div>
+
+          <!-- Table -->
+          <table>
+              <tr>
+                  <th>Date Added</th>
+                  <th>Sign Name</th>
+                  <th><a href="#modal">Location</a></th>
+              </tr>
+              <tr>
+                  <td>Alfreds Futterkiste</td>
+                  <td>Maria Anders</td>
+                  <td>Germany</td>
+              </tr>
+          </table>
+
+
+          <!-- modal Form -->
+
+          <div id="modal" class="modal">
+              <div class="modal-content">
+                  <a href="#" class="close">&times;</a>
+                  <input type="text">
+              </div>
+          </div>
+          <div id="modal2" class="modal">
+              <div class="modal-content">
+                  <p class="font-20 font-bold mb-20">Add A New Sign:</p>
+                  <a href="#" class="close">&times;</a>
+                  <form action="#">
+                      <div class="d-flex mb-20">
+                          <label class="label flex-1" for="name">Image Of Sign :</label>
+                          <input class="flex-1 input" type="file">
+                      </div>
+                      <div class="d-flex mb-20">
+                          <label class="label flex-1" for="name">Sign Title :</label>
+                          <input class="input flex-1" type="text" id="name" name="name">
+                      </div>
+                      <div class="d-flex mb-20">
+                          <label class="label flex-1" for="name">Sign Content :</label>
+                          <textarea class="input flex-1" name="comment" rows="5"></textarea>
+                      </div>
+                      <div class="d-flex mb-20">
+                          <label class="label flex-1" for="name">Sign Notes (patrons will not see this):</label>
+                          <textarea class="input flex-1" name="comment" rows="5"></textarea>
+                      </div>
+                      <!-- <label class="label" for="email">Email:</label> -->
+                      <!-- <input class="input mb-20" type="email" id="email" name="email"> -->
+                      <!-- <label class="label" for="comment">Question/Comment:</label> -->
+                      <!-- <textarea class="textarea mb-20" name="comment" rows="10"></textarea> -->
+                      <div class="button-div-2">
+                          <p class="line-1 font-20 mb-20 bg-green"><a href="#">Save</a>
+                          </p>
+                          <p class="line-1 font-20 mb-20 bg-green"><a href="#">Cancel</a>
+                          </p>
+                      </div>
+                  </form>
+              </div>
+          </div>
+          <div id="modal3" class="modal">
+              <div class="modal-content">
+                  <p class="font-20 font-bold mb-20">Account Settings</p>
+                  <a href="#" class="close">&times;</a>
+                  <form action="#">
+                      <div class="d-flex mb-20">
+                          <label class="label flex-1" for="name">Company Logo:</label>
+                          <input class="flex-1 input" type="file">
+                      </div>
+                      <div class="d-flex mb-20">
+                          <label class="label flex-1" for="name">Company Name:</label>
+                          <input class="input flex-1" type="text" id="name" name="name">
+                      </div>
+                      <div class="d-flex mb-20">
+                          <label class="label flex-1" for="name">Contact Name:</label>
+                          <input class="input flex-1" type="text" id="name" name="name">
+                      </div>
+                      <div class="d-flex mb-20">
+                          <label class="label flex-1" for="name">Contact Email:</label>
+                          <input class="input flex-1" type="email" id="email" name="email">
+
+                      </div>
+                      <div class="d-flex mb-20">
+                          <label class="label flex-1" for="name">Company Address:</label>
+                          <textarea class="input flex-1" name="comment" rows="5"></textarea>
+                      </div>
+                      <div class="d-flex mb-20">
+                          <label class="label flex-1" for="name">Company Website:</label>
+                          <input class="input flex-1" type="text" id="name" name="name">
+                      </div>
+                      <div class="d-flex mb-20">
+                          <label class="label flex-1" for="name">Custom Locations:</label>
+                          <textarea class="input flex-1" name="comment" rows="5"></textarea>
+                      </div>
+                      <div class="d-flex mb-20">
+                          <label class="label flex-1" for="name">Account Type:</label>
+                          <input class="input flex-1" type="text" id="name" name="name">
+                      </div>
+                      <!-- <label class="label" for="email">Email:</label> -->
+                      <!-- <input class="input mb-20" type="email" id="email" name="email"> -->
+                      <!-- <label class="label" for="comment">Question/Comment:</label> -->
+                      <!-- <textarea class="textarea mb-20" name="comment" rows="10"></textarea> -->
+                      <div class="button-div-2">
+                          <p class="line-1 font-20 mb-20 bg-green"><a href="#">Save</a>
+                          </p>
+                          <p class="line-1 font-20 mb-20 bg-green"><a href="#">Cancel</a>
+                          </p>
+                      </div>
+                  </form>
+              </div>
+          </div>
+
+
+          <!-- Footer -->
+          <div class="footer-container-with-bg">
+              <div class="footer-col-1">
+                  <img src="./images/logo.png" class="mb-20" alt="" srcset="">
+                  <p class="mb-20">Seamlessly connect to the services you need—shopping, food delivery, medicine, logistics,
+                      and
+                      investments—all in one powerful app.</p>
+                  <p>Experience convenience anytime, anywhere!</p>
+              </div>
+              <div class="footer-col-2">
+                  <p class="text-green mb-20">Explore Gorengan</p>
+                  <p class="mb-10">About us</p>
+                  <p class="mb-10">Our Service</p>
+                  <p class="mb-10">How It Works</p>
+                  <p class="mb-10">Testimonials</p>
+                  <p>Blog & Updates</p>
+              </div>
+              <div class="footer-col-3">
+                  <p class="text-green mb-20">Support & Help</p>
+                  <p class="mb-10">FAQ</p>
+                  <p class="mb-10">Contact Us</p>
+                  <p class="mb-10">Privacy Policy</p>
+                  <p class="mb-10">Terms & Conditions</p>
+              </div>
+              <div class="footer-col-4">
+                  <p class="text-green mb-20">Social</p>
+                  <div class="social-container">
+                      <a href="#"><img src="./images/twitter.svg" alt="" srcset=""></a>
+                      <a href="#"><img src="./images/instagram.svg" alt="" srcset=""></a>
+                      <a href="#"><img src="./images/facebook.svg" alt="" srcset=""></a>
+                      <a href="#"><img src="./images/youtube.svg" alt="" srcset=""></a>
+                      <a href="#"><img src="./images/tiktok.svg" alt="" srcset=""></a>
+                  </div>
+              </div>
+          </div>
+          <p class="footer-copyright">
+              © 2025 Gorengan. All Rights Reserved.
+          </p>
+      </body>
+
+      </html>
+  type: HtmlTemplate
+is_package: true
