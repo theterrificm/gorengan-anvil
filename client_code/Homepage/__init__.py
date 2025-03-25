@@ -21,4 +21,7 @@ class Homepage(HomepageTemplate):
 
   def login_page_link_click(self, **event_args):
     open_form('Login')
+
+  def link_1_click(self, **event_args):
+    open_form('Homepage')
    

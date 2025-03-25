@@ -8,3 +8,16 @@ class Account(AccountTemplate):
     self.init_components(**properties)
 
     # Any code you write here will run before the form opens.
+
+  def contact_us_link_click(self, **event_args):
+    open_form('Contact')
+
+  def upgrade_page_link_click(self, **event_args):
+    open_form('Pricing')
+
+  def account_page_link_click(self, **event_args):
+    open_form('Account')
+
+  def login_page_link_click(self, **event_args):
+    open_form('Login')
+
