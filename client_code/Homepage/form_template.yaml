@@ -20,7 +20,11 @@ container:
           </div>
           <div class="navigation-container">
             <ul class="nav-list">
-              <li class="nav-list-item"><a href="_/theme/contact.html">Contact Us</a></li>
+              <!-- <li class="nav-list-item"><a href="_/theme/contact.html">Contact Us</a></li> -->
+              <li class="nav-list-item">
+                <div anvil-slot="default" style="border: 2px solid lightblue">
+                </div>
+              </li>
               <li class="nav-list-item"><a href="_/theme/pricing.html">Upgrade</a></li>
               <li class="nav-list-item"><a href="_/theme/account.html">Account</a></li>
               <li class="nav-list-item"><a href="_/theme/login.html">Login</a></li>
