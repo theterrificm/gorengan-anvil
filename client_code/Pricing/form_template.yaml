@@ -16,7 +16,7 @@ container:
            <!-- Navbar -->
         <div class="nav-wrapper">
           <div class="logo-container">
-            <a href="_/theme/index.html"><img src="_/theme/images/logo.png" alt="logo" /></a>
+            <a href="/"><img src="_/theme/images/logo.png" alt="logo" /></a>
           </div>
           <div class="navigation-container">
             <ul class="nav-list">
