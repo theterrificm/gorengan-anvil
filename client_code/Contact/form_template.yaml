@@ -1,32 +1,27 @@
-components:
-- event_bindings: {click: link_1_click}
-  layout_properties: {slot: logo-slot}
-  name: link_1
-  properties: {}
-  type: Link
-- event_bindings: {click: account_page_link_click}
-  layout_properties: {slot: login-page-slot}
-  name: account_page_link
-  properties: {text: Account}
-  type: Link
-- event_bindings: {click: login_page_link_click}
-  layout_properties: {slot: account-page-slot}
-  name: login_page_link
-  properties: {text: Login}
-  type: Link
-- event_bindings: {click: contact_us_link_click}
-  layout_properties: {slot: contact-page-slot}
-  name: contact_us_link
-  properties: {text: Contact Us}
-  type: Link
-- event_bindings: {click: upgrade_page_link_click}
-  layout_properties: {slot: upgrade-page-slot}
-  name: upgrade_page_link
-  properties: {text: Upgrade}
-  type: Link
+components: []
 container:
   properties:
-    html: "<!DOCTYPE html>\n<html lang=\"en\">\n\n<head>\n    <meta charset=\"UTF-8\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n    <link rel=\"stylesheet\" href=\"_/theme/theme.css\" />\n    <title>Contact Us</title>\n</head>\n\n<body>\n     <!-- Navbar -->\n    <div class=\"nav-wrapper\">\n      <div class=\"logo-container\">\n        <img src=\"_/theme/images/logo.png\" alt=\"logo\" />\n      </div>\n      <div class=\"navigation-container\">\n        <ul class=\"nav-list\">\n          <!-- <li class=\"nav-list-item\"><a href=\"_/theme/contact.html\">Contact Us</a></li> -->\n          <li class=\"nav-list-item\">\n            <a>\n              <span anvil-slot=\"contact-page-slot\" >\n                <span class=\"placeholder anvil-designer-only\" anvil-if-slot-empty=\"contact-page-slot\" \n                  anvil-drop-here>\n                  [Contact page]\n                </span>\n              </span>\n            </a>\n          </li>\n        \n          <li class=\"nav-list-item\">\n            <a>\n              <span anvil-slot=\"upgrade-page-slot\" >\n                <span class=\"placeholder anvil-designer-only\" anvil-if-slot-empty=\"upgrade-page-slot\" \n                  anvil-drop-here>\n                  [Upgrade page]\n                </span>\n              </span>\n            </a>\n          </li>\n        \n          <li class=\"nav-list-item\">\n            <a>\n              <span anvil-slot=\"account-page-slot\" >\n                <span class=\"placeholder anvil-designer-only\" anvil-if-slot-empty=\"account-page-slot\" \n                  anvil-drop-here>\n                  [Account page]\n                </span>\n              </span>\n            </a>\n          </li>\n        \n          <li class=\"nav-list-item\">\n            <a>\n              <span anvil-slot=\"login-page-slot\" >\n                <span class=\"placeholder anvil-designer-only\" anvil-if-slot-empty=\"login-page-slot\" \n                  anvil-drop-here>\n                  [Login page]\n                </span>\n              </span>\n            </a>\n          </li>\n        \n          <!-- <li class=\"nav-list-item\"><a href=\"_/theme/pricing.html\">Upgrade</a></li>\n          <li class=\"nav-list-item\"><a href=\"_/theme/account.html\">Account</a></li>\n          <li class=\"nav-list-item\"><a href=\"_/theme/login.html\">Login</a></li> -->\n        </ul>\n      </div>\n</div>\n\n    <!-- Form Section -->\n    <div class=\"form-section\">\n        <div class=\"form-container-with-bg\">\n            <p class=\"heading-font-2 text-white font-bold text-center mb-20\">Let's talk!</p>\n            <div class=\"contact-form\">\n                <p class=\"text-center font-bold text-black\">Please leave your contact info and message. We will get back to you\n                    within 24 hours</p>\n                <form action=\"#\">\n                    <label class=\"label\" for=\"name\">Name:</label>\n                    <input class=\"input mb-20\" type=\"text\" id=\"name\" name=\"name\">\n                    <label class=\"label\" for=\"email\">Email:</label>\n                    <input class=\"input mb-20\" type=\"email\" id=\"email\" name=\"email\">\n                    <label class=\"label\" for=\"comment\">Question/Comment:</label>\n                    <textarea class=\"textarea mb-20\" name=\"comment\" rows=\"10\"></textarea>\n                    <input class=\"submit mb-20\" type=\"submit\" value=\"Submit\">\n                </form>\n            </div>\n        </div>\n    </div>\n\n    <!-- Footer -->\n    <div class=\"footer-container-with-bg\">\n        <div class=\"footer-col-1\">\n            <img src=\"_/theme/images/logo.png\" class=\"mb-20\" alt=\"\" srcset=\"\">\n            <p class=\"mb-20\">Seamlessly connect to the services you need—shopping, food delivery, medicine, logistics,\n                and\n                investments—all in one powerful app.</p>\n            <p>Experience convenience anytime, anywhere!</p>\n        </div>\n        <div class=\"footer-col-2\">\n            <p class=\"text-green mb-20\">Explore Gorengan</p>\n            <p class=\"mb-10\">About us</p>\n            <p class=\"mb-10\">Our Service</p>\n            <p class=\"mb-10\">How It Works</p>\n            <p class=\"mb-10\">Testimonials</p>\n            <p>Blog & Updates</p>\n        </div>\n        <div class=\"footer-col-3\">\n            <p class=\"text-green mb-20\">Support & Help</p>\n            <p class=\"mb-10\">FAQ</p>\n            <p class=\"mb-10\">Contact Us</p>\n            <p class=\"mb-10\">Privacy Policy</p>\n            <p class=\"mb-10\">Terms & Conditions</p>\n        </div>\n        <div class=\"footer-col-4\">\n            <p class=\"text-green mb-20\">Social</p>\n            <div class=\"social-container\">\n                <a href=\"#\"><img src=\"_/theme/images/twitter.svg\" alt=\"\" srcset=\"\"></a>\n                <a href=\"#\"><img src=\"_/theme/images/instagram.svg\" alt=\"\" srcset=\"\"></a>\n                <a href=\"#\"><img src=\"_/theme/images/facebook.svg\" alt=\"\" srcset=\"\"></a>\n                <a href=\"#\"><img src=\"_/theme/images/youtube.svg\" alt=\"\" srcset=\"\"></a>\n                <a href=\"#\"><img src=\"_/theme/images/tiktok.svg\" alt=\"\" srcset=\"\"></a>\n            </div>\n        </div>\n    </div>\n    <p class=\"footer-copyright\">\n        © 2025 Gorengan. All Rights Reserved.\n    </p>\n</body>\n\n</html>"
+    html: |+
+      <!-- Form Section -->
+      <div class="form-section">
+        <div class="form-container-with-bg">
+          <p class="heading-font-2 text-white font-bold text-center mb-20">Let's talk!</p>
+          <div class="contact-form">
+            <p class="text-center font-bold text-black">Please leave your contact info and message. We will get back to you
+                within 24 hours</p>
+            <form action="#">
+                <label class="label" for="name">Name:</label>
+                <input class="input mb-20" type="text" id="name" name="name">
+                <label class="label" for="email">Email:</label>
+                <input class="input mb-20" type="email" id="email" name="email">
+                <label class="label" for="comment">Question/Comment:</label>
+                <textarea class="textarea mb-20" name="comment" rows="10"></textarea>
+                <input class="submit mb-20" type="submit" value="Submit">
+            </form>
+          </div>
+        </div>
+      </div>
+
   type: HtmlTemplate
 custom_component: false
 is_package: true

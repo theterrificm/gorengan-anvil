@@ -8,7 +8,7 @@ components:
     - layout_properties: {full_width_row: true, grid_position: 'XTBCKA,MVSSBF'}
       name: home_page_minimized_1
       properties: {}
-      type: form:HomePageMinimized
+      type: form:Home
     layout_properties: {full_width_row: true, grid_position: 'HADPKC,ZAFTKG'}
     name: content_panel_section
     properties: {col_spacing: none}
