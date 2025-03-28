@@ -1,0 +1,30 @@
+components:
+- components:
+  - layout_properties: {full_width_row: true, grid_position: 'MLMKTP,XVNYGX'}
+    name: header_1
+    properties: {}
+    type: form:Header
+  - components:
+    - layout_properties: {full_width_row: true, grid_position: 'XTBCKA,MVSSBF'}
+      name: home_page_minimized_1
+      properties: {}
+      type: form:HomePageMinimized
+    layout_properties: {full_width_row: true, grid_position: 'HADPKC,ZAFTKG'}
+    name: column_panel_1
+    properties: {col_spacing: none}
+    type: ColumnPanel
+  - layout_properties: {full_width_row: true, grid_position: 'PELSKO,JHQZTV'}
+    name: footer_1
+    properties: {}
+    type: form:Footer
+  layout_properties: {slot: ''}
+  name: content_panel
+  properties:
+    col_spacing: none
+    spacing:
+      margin: [null, 0, null, null]
+  type: ColumnPanel
+container:
+  properties: {html: '@theme:standard-page.html'}
+  type: HtmlTemplate
+is_package: true
