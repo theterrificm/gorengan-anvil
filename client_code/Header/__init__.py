@@ -10,4 +10,4 @@ class Header(HeaderTemplate):
     # Any code you write here will run before the form opens.
 
   def nav_link_click(self, **event_args):
-    print(self.parent.get_components())
+    print(self.parent.parent.change_content_panel(event_args['sender'].text))
