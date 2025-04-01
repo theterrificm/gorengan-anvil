@@ -1,27 +1,31 @@
 components: []
 container:
   properties:
-    html: |+
-      <!-- Form Section -->
-      <div class="form-section">
-          <div class="form-container-with-bg no-bg no-padding">
-              <p class="heading-font-2 text-black font-bold text-center mb-20">Please Login</p>
-              <div class="contact-form login-form">
-                  <form action="#">
-                      <label class="label" for="email">Email:</label>
-                      <input class="input mb-20" type="email" id="email" name="email">
-                      <label class="label" for="password">Password:</label>
-                      <input class="input mb-10" type="password" name="password">
-                      <div class="mb-10"><input type="checkbox" name="" id="" ><label class="label ml-5" for="email">Remember me</label></div>
-                      <p class="mb-20 text-green font-small">Forgot Your Password?</p>
-                      <input class="submit mb-20" type="submit" value="Login">
-                      <p class="line-1 font-20 mb-20">OR</p>
-                      <p class="line-1 font-20 mb-20 bg-green"><span class="mr-10"><img src="_/theme/images/google.svg" class="vertical-bottom" alt="" srcset=""></span>Sign in with Google</p>
-                      <p class="line-1 font-20 bg-green"><span class="mr-10"><img src="_/theme/images/sign-up.svg" class="vertical-bottom" alt="" srcset=""></span>Sign up for a new account</p>
-                  </form>
-              </div>
+    html: |2
+        <!-- Form Section -->
+        <div class="form-section container-2 pd-0-40">
+          <div class="pricing-container-with-bg background-contain pd-20">
+            <p class="heading-font-2 text-black font-bold text-center mb-20">Please Login</p>
+            <div class="contact-form login-form">
+              <form class="d-flex flex-col align-start" action="#">
+                <label class="label" for="email">Email:</label>
+                <input class="input mb-20" type="email" id="email" name="email">
+                <label class="label" for="password">Password:</label>
+                <input class="input mb-10" type="password" name="password">
+                <div class="mb-10"><input type="checkbox" name="" id=""><label class="label ml-5" for="email">Remember
+                    me</label></div>
+                <p class="mb-20 text-green font-small">Forgot Your Password?</p>
+                <input class="submit mb-20" type="submit" value="Login">
+                <p class="line-1 font-large mb-20">OR</p>
+                <p class="line-1 font-large mb-20 bg-green-hover bg-green border-5 pd-10 shadow pointer text-black"><span
+                    class="mr-10"><img src="_/theme/images/google.svg" class="vertical-bottom" alt="" srcset=""></span>Sign in with
+                  Google</p>
+                <p class="line-1 font-large bg-green-hover bg-green border-5 pd-10 shadow pointer text-black"><span
+                    class="mr-10"><img src="_/theme/images/sign-up.svg" class="vertical-bottom" alt="" srcset=""></span>Sign up for
+                  a new account</p>
+              </form>
+            </div>
           </div>
-      </div>
-
+        </div>
   type: HtmlTemplate
 is_package: true

@@ -1,27 +1,30 @@
 components: []
 container:
   properties:
-    html: |+
-      <!-- Form Section -->
-      <div class="form-section">
-        <div class="form-container-with-bg">
-          <p class="heading-font-2 text-white font-bold text-center mb-20">Let's talk!</p>
-          <div class="contact-form">
-            <p class="text-center font-bold text-black">Please leave your contact info and message. We will get back to you
-                within 24 hours</p>
-            <form action="#">
-                <label class="label" for="name">Name:</label>
-                <input class="input mb-20" type="text" id="name" name="name">
-                <label class="label" for="email">Email:</label>
-                <input class="input mb-20" type="email" id="email" name="email">
-                <label class="label" for="comment">Question/Comment:</label>
-                <textarea class="textarea mb-20" name="comment" rows="10"></textarea>
-                <input class="submit mb-20" type="submit" value="Submit">
+    html: |2-
+        <!-- Form Section -->
+        <div class="form-section container-2 pd-0-40">
+        <div class="form-container-with-bg border-20 pd-40 background-cover">
+          <p class="heading-font-2 text-white font-bold text-center mb-20">
+            Let's talk!
+          </p>
+          <div class="contact-form bg-white container-5 pd-40 border-20">
+            <p class="text-center font-bold text-black">
+              Please leave your contact info and message. We will get back to you
+              within 24 hours
+            </p>
+            <form class="d-flex flex-col align-start" action="#">
+              <label class="label" for="name">Name:</label>
+              <input class="input mb-20" type="text" id="name" name="name" />
+              <label class="label" for="email">Email:</label>
+              <input class="input mb-20" type="email" id="email" name="email" />
+              <label class="label" for="comment">Question/Comment:</label>
+              <textarea class="textarea mb-20" name="comment" rows="10"></textarea>
+              <input class="submit mb-20" type="submit" value="Submit" />
             </form>
           </div>
         </div>
       </div>
-
   type: HtmlTemplate
 custom_component: false
 is_package: true
