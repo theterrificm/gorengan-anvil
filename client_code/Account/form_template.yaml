@@ -1,132 +1,138 @@
 components: []
 container:
   properties:
-    html: |2+
+    html: |2
         <!-- Page Header -->
-        <div class="page-header-section ">
-            <div class="page-header-container-with-bg">
-                <p class="heading-font-2 text-white text-center">My Account</p>
-            </div>
+        <div class="page-header-section container-2">
+          <div class="page-header-container-with-bg border-20 background-cover">
+            <p class="heading-font-2 text-white text-center">My Account</p>
+          </div>
         </div>
 
         <!-- Button Divs -->
-        <div class="button-div mb-20">
-            <p class="line-1 font-20 mb-20 bg-green"><a href="#modal2"><span class="mr-10"><img
-                            src="_/theme/images/plus-button.svg" class="vertical-bottom" alt="" srcset=""></span>Add a new
-                    sign</a></p>
-            <p class="line-1 font-20 mb-20 bg-green"><a href="#modal3"><span class="mr-10"><img
-                            src="_/theme/images/setting-button.svg" class="vertical-bottom" alt="" srcset=""></span>Settings</a>
-            </p>
+        <div class="button-div d-flex flex-col align-center space-center mb-20">
+          <p class="line-1 font-large mb-20 bg-green-hover bg-green border-5 pd-10 shadow pointer text-black">
+            <a href="#modal2" class="decoration-none"><span class="mr-10"><img src="_/theme/images/plus-button.svg"
+                  class="vertical-bottom" alt="" srcset="" /></span>Add a new sign</a>
+          </p>
+          <p class="line-1 font-large mb-20 bg-green-hover bg-green border-5 pd-10 shadow pointer text-black">
+            <a href="#modal3" class="decoration-none"><span class="mr-10"><img src="_/theme/images/setting-button.svg"
+                  class="vertical-bottom" alt="" srcset="" /></span>Settings</a>
+          </p>
         </div>
 
         <!-- Table -->
         <table>
-            <tr>
-                <th>Date Added</th>
-                <th>Sign Name</th>
-                <th><a href="#modal">Location</a></th>
-            </tr>
-            <tr>
-                <td>Alfreds Futterkiste</td>
-                <td>Maria Anders</td>
-                <td>Germany</td>
-            </tr>
+          <tr>
+            <th>Date Added</th>
+            <th>Sign Name</th>
+            <th><a href="#modal">Location</a></th>
+          </tr>
+          <tr>
+            <td>Alfreds Futterkiste</td>
+            <td>Maria Anders</td>
+            <td>Germany</td>
+          </tr>
         </table>
-
 
         <!-- modal Form -->
 
         <div id="modal" class="modal">
-            <div class="modal-content">
-                <a href="#" class="close">&times;</a>
-                <input type="text">
-            </div>
+          <div class="modal-content">
+            <a href="#" class="close">&times;</a>
+            <form action="#">
+              <div class="d-flex flex-col">
+                <label class="label flex-1 mb-10" for="name">Location :</label>
+                <input class="flex-1 input" type="text" />
+              </div>
+            </form>
+          </div>
         </div>
         <div id="modal2" class="modal">
-            <div class="modal-content">
-                <p class="font-20 font-bold mb-20">Add A New Sign:</p>
-                <a href="#" class="close">&times;</a>
-                <form action="#">
-                    <div class="d-flex mb-20">
-                        <label class="label flex-1" for="name">Image Of Sign :</label>
-                        <input class="flex-1 input" type="file">
-                    </div>
-                    <div class="d-flex mb-20">
-                        <label class="label flex-1" for="name">Sign Title :</label>
-                        <input class="input flex-1" type="text" id="name" name="name">
-                    </div>
-                    <div class="d-flex mb-20">
-                        <label class="label flex-1" for="name">Sign Content :</label>
-                        <textarea class="input flex-1" name="comment" rows="5"></textarea>
-                    </div>
-                    <div class="d-flex mb-20">
-                        <label class="label flex-1" for="name">Sign Notes (patrons will not see this):</label>
-                        <textarea class="input flex-1" name="comment" rows="5"></textarea>
-                    </div>
-                    <!-- <label class="label" for="email">Email:</label> -->
-                    <!-- <input class="input mb-20" type="email" id="email" name="email"> -->
-                    <!-- <label class="label" for="comment">Question/Comment:</label> -->
-                    <!-- <textarea class="textarea mb-20" name="comment" rows="10"></textarea> -->
-                    <div class="button-div-2">
-                        <p class="line-1 font-20 mb-20 bg-green"><a href="#">Save</a>
-                        </p>
-                        <p class="line-1 font-20 mb-20 bg-green"><a href="#">Cancel</a>
-                        </p>
-                    </div>
-                </form>
-            </div>
+          <div class="modal-content">
+            <p class="font-large font-bold mb-20">Add A New Sign:</p>
+            <a href="#" class="close">&times;</a>
+            <form action="#">
+              <div class="d-flex mb-20">
+                <label class="label flex-1 mb-10" for="name">Image Of Sign :</label>
+                <input class="flex-1 input" type="file" />
+              </div>
+              <div class="d-flex mb-20">
+                <label class="label flex-1 mb-10" for="name">Sign Title :</label>
+                <input class="input flex-1" type="text" id="name" name="name" />
+              </div>
+              <div class="d-flex mb-20">
+                <label class="label flex-1 mb-10" for="name">Sign Content :</label>
+                <textarea class="input flex-1" name="comment" rows="5"></textarea>
+              </div>
+              <div class="d-flex mb-20">
+                <label class="label flex-1 mb-10" for="name">Sign Notes (patrons will not see this):</label>
+                <textarea class="input flex-1" name="comment" rows="5"></textarea>
+              </div>
+              <!-- <label class="label" for="email">Email:</label> -->
+              <!-- <input class="input mb-20" type="email" id="email" name="email"> -->
+              <!-- <label class="label" for="comment">Question/Comment:</label> -->
+              <!-- <textarea class="textarea mb-20" name="comment" rows="10"></textarea> -->
+              <div class="button-div-2 d-flex-r align-center space-center gap-20">
+                <p class="line-1 font-large mb-20 bg-green-hover bg-green border-5 pd-10 shadow pointer text-black">
+                  <a href="#" class="decoration-none">Save</a>
+                </p>
+                <p class="line-1 font-large mb-20 bg-green-hover bg-green border-5 pd-10 shadow pointer text-black">
+                  <a href="#" class="decoration-none">Cancel</a>
+                </p>
+              </div>
+            </form>
+          </div>
         </div>
         <div id="modal3" class="modal">
-            <div class="modal-content">
-                <p class="font-20 font-bold mb-20">Account Settings</p>
-                <a href="#" class="close">&times;</a>
-                <form action="#">
-                    <div class="d-flex mb-20">
-                        <label class="label flex-1" for="name">Company Logo:</label>
-                        <input class="flex-1 input" type="file">
-                    </div>
-                    <div class="d-flex mb-20">
-                        <label class="label flex-1" for="name">Company Name:</label>
-                        <input class="input flex-1" type="text" id="name" name="name">
-                    </div>
-                    <div class="d-flex mb-20">
-                        <label class="label flex-1" for="name">Contact Name:</label>
-                        <input class="input flex-1" type="text" id="name" name="name">
-                    </div>
-                    <div class="d-flex mb-20">
-                        <label class="label flex-1" for="name">Contact Email:</label>
-                        <input class="input flex-1" type="email" id="email" name="email">
-
-                    </div>
-                    <div class="d-flex mb-20">
-                        <label class="label flex-1" for="name">Company Address:</label>
-                        <textarea class="input flex-1" name="comment" rows="5"></textarea>
-                    </div>
-                    <div class="d-flex mb-20">
-                        <label class="label flex-1" for="name">Company Website:</label>
-                        <input class="input flex-1" type="text" id="name" name="name">
-                    </div>
-                    <div class="d-flex mb-20">
-                        <label class="label flex-1" for="name">Custom Locations:</label>
-                        <textarea class="input flex-1" name="comment" rows="5"></textarea>
-                    </div>
-                    <div class="d-flex mb-20">
-                        <label class="label flex-1" for="name">Account Type:</label>
-                        <input class="input flex-1" type="text" id="name" name="name">
-                    </div>
-                    <!-- <label class="label" for="email">Email:</label> -->
-                    <!-- <input class="input mb-20" type="email" id="email" name="email"> -->
-                    <!-- <label class="label" for="comment">Question/Comment:</label> -->
-                    <!-- <textarea class="textarea mb-20" name="comment" rows="10"></textarea> -->
-                    <div class="button-div-2">
-                        <p class="line-1 font-20 mb-20 bg-green"><a href="#">Save</a>
-                        </p>
-                        <p class="line-1 font-20 mb-20 bg-green"><a href="#">Cancel</a>
-                        </p>
-                    </div>
-                </form>
-            </div>
+          <div class="modal-content">
+            <p class="font-large font-bold mb-20">Account Settings</p>
+            <a href="#" class="close">&times;</a>
+            <form action="#">
+              <div class="d-flex mb-20">
+                <label class="label flex-1 mb-10" for="name">Company Logo:</label>
+                <input class="flex-1 input" type="file" />
+              </div>
+              <div class="d-flex mb-20">
+                <label class="label flex-1 mb-10" for="name">Company Name:</label>
+                <input class="input flex-1" type="text" id="name" name="name" />
+              </div>
+              <div class="d-flex mb-20">
+                <label class="label flex-1 mb-10" for="name">Contact Name:</label>
+                <input class="input flex-1" type="text" id="name" name="name" />
+              </div>
+              <div class="d-flex mb-20">
+                <label class="label flex-1 mb-10" for="name">Contact Email:</label>
+                <input class="input flex-1" type="email" id="email" name="email" />
+              </div>
+              <div class="d-flex mb-20">
+                <label class="label flex-1 mb-10" for="name">Company Address:</label>
+                <textarea class="input flex-1" name="comment" rows="5"></textarea>
+              </div>
+              <div class="d-flex mb-20">
+                <label class="label flex-1 mb-10" for="name">Company Website:</label>
+                <input class="input flex-1" type="text" id="name" name="name" />
+              </div>
+              <div class="d-flex mb-20">
+                <label class="label flex-1 mb-10" for="name">Custom Locations:</label>
+                <textarea class="input flex-1" name="comment" rows="5"></textarea>
+              </div>
+              <div class="d-flex mb-20">
+                <label class="label flex-1 mb-10" for="name">Account Type:</label>
+                <input class="input flex-1" type="text" id="name" name="name" />
+              </div>
+              <!-- <label class="label" for="email">Email:</label> -->
+              <!-- <input class="input mb-20" type="email" id="email" name="email"> -->
+              <!-- <label class="label" for="comment">Question/Comment:</label> -->
+              <!-- <textarea class="textarea mb-20" name="comment" rows="10"></textarea> -->
+              <div class="button-div-2 d-flex-r align-center space-center gap-20">
+                <p class="line-1 font-large mb-20 bg-green-hover bg-green border-5 pd-10 shadow pointer text-black"><a
+                    href="#" class="decoration-none">Save</a></p>
+                <p class="line-1 font-large mb-20 bg-green-hover bg-green border-5 pd-10 shadow pointer text-black"><a
+                    href="#" class="decoration-none">Cancel</a></p>
+              </div>
+            </form>
+          </div>
         </div>
-
   type: HtmlTemplate
 is_package: true

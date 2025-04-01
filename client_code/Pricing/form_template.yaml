@@ -1,80 +1,81 @@
 components: []
 container:
   properties:
-    html: |+
-      <!-- Form Section -->
-      <div class="pricing-section">
-          <div class="pricing-container-with-bg">
-              <p class="heading-font-2 text-black font-bold text-center mb-20">Pricing</p>
-              <div class="card-container">
-                  <div class="card-wrapper active">
-                      <p class="font-bold text-white card-heading mb-20">FREE</p>
-                      <p class="text-white mb-20">$0/mo</p>
-                      <p class="text-white">
-                          Unlimited Sign Scans
-                          Translate 249 languages
-                          Instant QR generation
-                          14 day sign expiration
-                          2 smart QR codes
-                          Our logo on QR codes
-                          Limited Support
-                      </p>
-                  </div>
-                  <div class="card-wrapper">
-                      <p class="font-bold text-black card-heading mb-20">SILVER</p>
-                      <p class="text-green mb-20">$5,500*</p>
-                      <p class="text-black">
-                          Unlimited Sign Scans
-                          Translate 249 languages
-                          Instant QR generation
-                          Signs never expire
-                          10 smart QR codes
-                          10 smart QR code signs**
-                          Your logo on QR codes
-                          Monthly analytics
-                          Technical Support
-                      </p>
-                  </div>
-                  <div class="card-wrapper">
-                      <p class="font-bold text-black card-heading mb-20">GOLD</p>
-                      <p class="text-green mb-20">$8,750*</p>
-                      <p class="text-black">
-                          Unlimited Sign Scans
-                          Translate 249 languages
-                          Instant QR generation
-                          Signs never expire
-                          25 smart QR codes
-                          25 smart QR code signs**
-                          Your logo on QR codes
-                          Monthly insights & analytics
-                          Technical Support
-                      </p>
-                  </div>
-                  <div class="card-wrapper">
-                      <p class="font-bold text-black card-heading mb-20">PLATINUM</p>
-                      <p class="text-green mb-20">$15,000*</p>
-                      <p class="text-black">
-                          Unlimited Sign Scans
-                          Translate 249 languages
-                          Instant QR generation
-                          Signs never expire
-                          75 smart QR codes
-                          75 smart QR code signs**
-                          Your logo on QR codes
-                          Weekly insights & analytics
-                          Premium 24/7 Support
-                      </p>
-                  </div>
+    html: |2
+        <!-- Form Section -->
+        <div class="pricing-section container pd-0-40">
+          <div class="pricing-container-with-bg text-center background-contain pd-40-20">
+            <p class="heading-font-2 text-black font-bold text-center mb-20">Pricing</p>
+            <div class="card-container d-flex gap-20">
+              <div class="card-wrapper bg-green-gradient border-20 pd-40-20 active flex-1">
+                <p class="font-bold text-white font-exlarge mb-20">FREE</p>
+                <p class="text-white mb-20">$0/mo</p>
+                <p class="text-white">
+                  Unlimited Sign Scans
+                  Translate 249 languages
+                  Instant QR generation
+                  14 day sign expiration
+                  2 smart QR codes
+                  Our logo on QR codes
+                  Limited Support
+                </p>
               </div>
+              <div class="card-wrapper bg-white border-20 pd-40-20 flex-1">
+                <p class="font-bold text-black font-exlarge mb-20">SILVER</p>
+                <p class="text-green mb-20">$5,500*</p>
+                <p class="text-black">
+                  Unlimited Sign Scans
+                  Translate 249 languages
+                  Instant QR generation
+                  Signs never expire
+                  10 smart QR codes
+                  10 smart QR code signs**
+                  Your logo on QR codes
+                  Monthly analytics
+                  Technical Support
+                </p>
+              </div>
+              <div class="card-wrapper bg-white border-20 pd-40-20 flex-1">
+                <p class="font-bold text-black font-exlarge mb-20">GOLD</p>
+                <p class="text-green mb-20">$8,750*</p>
+                <p class="text-black">
+                  Unlimited Sign Scans
+                  Translate 249 languages
+                  Instant QR generation
+                  Signs never expire
+                  25 smart QR codes
+                  25 smart QR code signs**
+                  Your logo on QR codes
+                  Monthly insights & analytics
+                  Technical Support
+                </p>
+              </div>
+              <div class="card-wrapper bg-white border-20 pd-40-20 flex-1">
+                <p class="font-bold text-black font-exlarge mb-20">PLATINUM</p>
+                <p class="text-green mb-20">$15,000*</p>
+                <p class="text-black">
+                  Unlimited Sign Scans
+                  Translate 249 languages
+                  Instant QR generation
+                  Signs never expire
+                  75 smart QR codes
+                  75 smart QR code signs**
+                  Your logo on QR codes
+                  Weekly insights & analytics
+                  Premium 24/7 Support
+                </p>
+              </div>
+            </div>
           </div>
-          <p class="text-black mb-10">* Total cost to get started. After the first year, annual fees of $200/code(silver),
+          <div class="pd-40-20">
+            <p class="text-black mb-10">* Total cost to get started. After the first year, annual fees of $200/code(silver),
               $150/code(gold),
               $100/code(platinum) will be assessed </p>
-          <p class="text-black mb-10">** Smart QR code signs can be customized to match the style of your existing
+            <p class="text-black mb-10">** Smart QR code signs can be customized to match the style of your existing
               signage. We will provide a
               high-visibility aluminum sign (or comparable) up to 18in x 24in. Anything beyond that size will incur an
               additional fee.</p>
-      </div>
-
+          </div>
+        </div>
   type: HtmlTemplate
 is_package: true
