@@ -3,9 +3,9 @@ container:
   properties:
     html: |2
         <!-- Hero Section -->
-        <div class="hero-section">
-          <div class="hero-container-with-bg">
-            <div class="text-box">
+        <div class="hero-section container-2 pd-0-40">
+          <div class="hero-container-with-bg d-flex space-between align-center background-cover pd-40 border-20">
+            <div class="d-flex flex-1 flex-col gap-40 container-5">
               <p class="text-white font-bold">
                 <span class="mr-10"><img src="_/theme/images/bullet.svg" alt="" srcset="" /></span>SaaS Super App Platform
               </p>
@@ -17,32 +17,33 @@ container:
                 Seamlessly shop, order food, send packages, access medical services,
                 and invest—all from a single, powerful platform.
               </p>
-              <div class="button-container">
-                <button class="btn-spacing btn-white font-dm">
+              <div class="button-container d-flex-r gap-40">
+                <button class="btn-spacing border-none font-normal border-50 btn-white font-dm pd-10-40">
                   Download Now
-                  <span class="ml-10"><img src="_/theme/images/download.svg" alt="" srcset="" /></span>
+                  <span class="ml-10 d-none"><img src="_/theme/images/download.svg"  alt="" srcset="" /></span>
                 </button>
-                <button class="btn-spacing btn-transparent font-dm">
+                <button
+                  class="btn-spacing border-none font-normal border-50 font-dm pd-10-40 text-white bg-transparent border-1-white font-dm">
                   Explore Services
                 </button>
               </div>
-              <div class="hero-card-container">
-                <div class="card-wrapper">
-                  <p class="font-bold text-black card-heading">10 Million+</p>
+              <div class="hero-card-container d-flex gap-40">
+                <div class="bg-grey border-20-r pd-40-20">
+                  <p class="font-bold text-black card-heading font-exlarge">10 Million+</p>
                   <p class="text-black mb-20">Users</p>
                   <p class="text-black">
                     Join millions who rely on Gorengan for their daily needs.
                   </p>
                 </div>
-                <div class="card-wrapper">
-                  <p class="font-bold text-black card-heading">50,000+</p>
+                <div class="bg-grey border-20-r pd-40-20">
+                  <p class="font-bold text-black card-heading font-exlarge">50,000+</p>
                   <p class="text-black mb-20">Merchants</p>
                   <p class="text-black">
                     Access fast network of trusted vendors and services.
                   </p>
                 </div>
-                <div class="card-wrapper">
-                  <p class="font-bold text-black card-heading">24/7</p>
+                <div class="bg-grey border-20-r pd-40-20">
+                  <p class="font-bold text-black card-heading font-exlarge">24/7</p>
                   <p class="text-black mb-20">Service Availability</p>
                   <p class="text-black">
                     Get what you need, anytime, anywhere, with our support.
@@ -50,17 +51,17 @@ container:
                 </div>
               </div>
             </div>
-            <div class="image-box">
+            <div class="flex-1 text-center">
               <img src="_/theme/images/iphone-img.png" alt="" srcset="" />
             </div>
           </div>
         </div>
 
         <!-- Our Services -->
-        <div class="services-section">
-          <div class="services-container-with-bg">
-            <div class="service-text-wrapper">
-              <div class="text-box">
+        <div class="services-section container-2 pd-0-40">
+          <div class="services-container-with-bg background-contain d-flex gap-20 pd-80-0">
+            <div class="service-text-wrapper d-flex flex-col flex-1 gap-20">
+              <div class="text-box flex-1 d-flex flex-col gap-40 container-5">
                 <p class="text-black font-bold">
                   <span class="mr-10"><img src="_/theme/images/bullet.svg" alt="" srcset="" /></span>Our Services
                 </p>
@@ -74,81 +75,81 @@ container:
                   a fast, secure, and seamless experience.
                 </p>
               </div>
-              <div class="card-box">
-                <div class="card-wrapper" style="
-                      background: linear-gradient(
-                        180deg,
-                        rgba(196, 196, 196, 1) 50%,
-                        rgba(0, 0, 0, 0.55) 100%
-                      );
-                    ">
+              <div class="card-box d-flex flex-1">
+                <div class="width-100 border-20-r d-flex flex-col pd-40-20 bg-grey-gradient">
                   <p class="font-bold text-white card-heading">
                     <span class="mr-10"><img src="_/theme/images/flower.svg" alt="" srcset="" /></span>Go Mall
                   </p>
-                  <div class="card-flex-container">
+                  <div class="card-flex-container d-flex flex-1 gap-80 align-end">
                     <p class="text-white">
                       Enjoy online shopping experience with thousands of products at
                       your fingertips.
                     </p>
-                    <button class="btn-spacing btn-green font-dm">
+                    <button
+                      class="font-bold font-dm bg-green line-1 border-none font-normal border-50 font-dm pd-15-40 flex-none text-white">
                       Learn More
-                      <span class="ml-10"><img src="_/theme/images/right-arrow.svg" alt="" srcset="" /></span>
+                      <span class="ml-10"><img class="vertical-middle" src="_/theme/images/right-arrow.svg" alt=""
+                          srcset="" /></span>
                     </button>
                   </div>
                 </div>
               </div>
             </div>
-            <div class="service-card-container">
-              <div class="card-wrapper">
-                <p class="font-bold text-black card-heading">
+            <div class="service-card-container d-flex flex-wrap flex-1 gap-20">
+              <div class="card-wrapper d-flex flex-col gap-40 border-20-r pd-40-20 bg-white width-48">
+                <p class="font-bold text-black font-exlarge">
                   <span class="mr-10"><img src="_/theme/images/flower.svg" alt="" srcset="" /></span>Go Food
                 </p>
                 <p class="text-black">
                   Get fast and reliable food delivery from top restaurants, whenever
                   you crave it.
                 </p>
-                <button class="btn-spacing btn-green font-dm">
+                <button
+                  class="font-bold font-dm bg-green line-1 border-none font-normal border-50 font-dm pd-15-40 flex-none text-white">
                   Learn More
-                  <span class="ml-10"><img src="_/theme/images/right-arrow.svg" alt="" srcset="" /></span>
+                  <span class="ml-10"><img class="vertical-middle" src="_/theme/images/right-arrow.svg" alt="" srcset="" /></span>
                 </button>
               </div>
-              <div class="card-wrapper">
-                <p class="font-bold text-black card-heading">
+              <div class="card-wrapper d-flex flex-col gap-40 border-20-r pd-40-20 bg-white width-48">
+                <p class="font-bold text-black font-exlarge">
                   <span class="mr-10"><img src="_/theme/images/flower.svg" alt="" srcset="" /></span>Go Medicine
                 </p>
                 <p class="text-black">
                   Easily order prescription and over-the-counter medicine with
                   doorstep delivery.
                 </p>
-                <button class="btn-spacing btn-green font-dm">
+                <button
+                  class="font-bold font-dm bg-green line-1 border-none font-normal border-50 font-dm pd-15-40 flex-none text-white">
                   Learn More
-                  <span class="ml-10"><img src="_/theme/images/right-arrow.svg" alt="" srcset="" /></span>
+                  <span class="ml-10"><img class="vertical-middle" src="_/theme/images/right-arrow.svg" alt="" srcset="" /></span>
                 </button>
               </div>
-              <div class="card-wrapper">
-                <p class="font-bold text-black card-heading">
+              <div class="card-wrapper d-flex flex-col gap-40 border-20-r pd-40-20 bg-white width-48">
+                <p class="font-bold text-black font-exlarge">
                   <span class="mr-10"><img src="_/theme/images/flower.svg" alt="" srcset="" /></span>Go Send
                 </p>
                 <p class="text-black">
                   Secure and quick parcel delivery for hassle-free shipping.
                   <br /><br />
                 </p>
-                <button class="btn-spacing btn-green font-dm">
+                <button
+                  class="font-bold font-dm bg-green line-1 border-none font-normal border-50 font-dm pd-15-40 flex-none text-white">
                   Learn More
-                  <span class="ml-10"><img src="_/theme/images/right-arrow.svg" alt="" srcset="" /></span>
+                  <span class="ml-10"><img class="vertical-middle" src="_/theme/images/right-arrow.svg" alt="" srcset="" /></span>
                 </button>
               </div>
-              <div class="card-wrapper">
-                <p class="font-bold text-black card-heading">
+              <div class="card-wrapper d-flex flex-col gap-40 border-20-r pd-40-20 bg-white width-48">
+                <p class="font-bold text-black font-exlarge">
                   <span class="mr-10"><img src="_/theme/images/flower.svg" alt="" srcset="" /></span>Go Invest
                 </p>
                 <p class="text-black">
                   Explore easy and safe investment options to grow your wealth
                   effortlessly.
                 </p>
-                <button class="btn-spacing btn-green font-dm">
+                <button
+                  class="font-bold font-dm bg-green line-1 border-none font-normal border-50 font-dm pd-15-40 flex-none text-white">
                   Learn More
-                  <span class="ml-10"><img src="_/theme/images/right-arrow.svg" alt="" srcset="" /></span>
+                  <span class="ml-10"><img class="vertical-middle" src="_/theme/images/right-arrow.svg" alt="" srcset="" /></span>
                 </button>
               </div>
             </div>
@@ -156,8 +157,8 @@ container:
         </div>
 
         <!-- Step by step guide -->
-        <div class="guide-section">
-          <div class="guide-container-with-bg">
+        <div class="container pd-0-80">
+          <div class="guide-container-with-bg text-center background-contain padding-80-0">
             <div class="text-box">
               <p class="text-black font-bold">
                 <span class="mr-10"><img src="_/theme/images/bullet.svg" alt="" srcset="" /></span>Step-by-Step Guide
@@ -172,39 +173,39 @@ container:
               </p>
             </div>
             <div class="auto-tabs">
-              <div class="tabs-container">
-                <div class="tab active"></div>
-                <div class="tab active"></div>
-                <div class="tab"></div>
-                <div class="tab"></div>
+              <div class="tabs-container container-4 d-flex space-between d-none">
+                <div class="tab-icon active"></div>
+                <div class="tab-icon active"></div>
+                <div class="tab-icon"></div>
+                <div class="tab-icon"></div>
               </div>
-              <div class="card-container">
-                <div class="card-wrapper active">
-                  <p class="font-bold text-white card-heading mb-20">Step 1</p>
+              <div class="card-container gap-20 d-flex text-left-r">
+                <div class="pd-40-20 border-20-r active bg-green-gradient">
+                  <p class="font-bold text-white font-exlarge mb-20">Step 1</p>
                   <p class="text-white mb-20">Download the Gorengan App</p>
                   <p class="text-white">
                     Get the app from the App Store or Google Play, sign up in
                     seconds, and start exploring instantly.
                   </p>
                 </div>
-                <div class="card-wrapper">
-                  <p class="font-bold text-black card-heading mb-20">Step 2</p>
+                <div class="bg-white pd-40-20 border-20-r text-left-r">
+                  <p class="font-bold text-black font-exlarge mb-20">Step 2</p>
                   <p class="text-green mb-20">Choose Your Desired Service</p>
                   <p class="text-black">
                     Need food, shopping, medicine, parcel delivery, or investment
                     options? Select what suits you best!
                   </p>
                 </div>
-                <div class="card-wrapper">
-                  <p class="font-bold text-black card-heading mb-20">Step 3</p>
+                <div class="bg-white pd-40-20 border-20-r text-left-r">
+                  <p class="font-bold text-black font-exlarge mb-20">Step 3</p>
                   <p class="text-green mb-20">Place Your Order or Request</p>
                   <p class="text-black">
                     Customize your order, confirm details, and make a secure
                     payment—all within the app.
                   </p>
                 </div>
-                <div class="card-wrapper">
-                  <p class="font-bold text-black card-heading mb-20">Step 1</p>
+                <div class="bg-white pd-40-20 border-20-r text-left-r">
+                  <p class="font-bold text-black font-exlarge mb-20">Step 4</p>
                   <p class="text-green mb-20">Enjoy Hassle-Free Service</p>
                   <p class="text-black">
                     Sit back and relax while Gorengan handles the rest with speed,
@@ -217,13 +218,13 @@ container:
         </div>
 
         <!-- Why Choose -->
-        <div class="choose-container-with-bg">
-          <div class="choose-section">
-            <div class="choose-text-box-1">
+        <div class="choose-container-with-bg background-cover">
+          <div class="choose-section container d-flex flex-col gap-40 pd-80-40">
+            <div class="choose-text-box-1 d-flex flex-col gap-40">
               <p class="text-black font-bold">
                 <span class="mr-10"><img src="_/theme/images/bullet.svg" alt="" srcset="" /></span>Why Choose Gorengan?
               </p>
-              <div class="sub-text-box">
+              <div class="sub-text-box d-flex gap-40 align-center">
                 <p class="heading-font-2 text-black font-bold flex-2">
                   More Than Just an App – A Smarter, Faster, and More Convenient Way to Live
                 </p>
@@ -231,45 +232,43 @@ container:
                   Gorengan isn’t just a service—it’s a smarter way to live. Whether you need food, shopping, medicine,
                   delivery, or investment options, we’ve got you covered with speed, security, and convenience.
                 </p>
-                <div>
-                </div>
               </div>
             </div>
-            <div class="choose-text-box-2">
+            <div class="choose-text-box-2 d-flex gap-40">
               <div class="flex-1">
-                <div class="point-item mb-20">
+                <div class="point-item d-flex-r gap-40 mb-20">
                   <img src="_/theme/images/why-icon-1.png" alt="">
-                  <div class="short-text">
-                    <p class="text-green font-bold flex-1">Lightning-Fast Service</p>
+                  <div class="short-text d-flex flex-col">
+                    <p class="text-green font-bold font-exlarge flex-1">Lightning-Fast Service</p>
                     <p class="text-green flex-1">Get everything you need delivered right to your doorstep in just minutes—no
                       delays, no hassle.</p>
                   </div>
                 </div>
-                <div class="point-item mb-20">
+                <div class="point-item d-flex-r gap-40 mb-20">
                   <img src="_/theme/images/why-icon-2.png" alt="">
-                  <div class="short-text">
-                    <p class="text-black font-bold flex-1">Secure & Reliable</p>
+                  <div class="short-text d-flex flex-col">
+                    <p class="text-black font-bold font-exlarge flex-1">Secure & Reliable</p>
                     <p class="text-black flex-1">Trusted by millions nationwide, Gorengan ensures safe transactions and
                       top-tier service quality.</p>
                   </div>
                 </div>
-                <div class="point-item mb-20">
+                <div class="point-item d-flex-r gap-40 mb-20">
                   <img src="_/theme/images/why-icon-3.png" alt="">
-                  <div class="short-text">
-                    <p class="text-black font-bold flex-1">Affordable & Transparent</p>
+                  <div class="short-text d-flex flex-col">
+                    <p class="text-black font-bold font-exlarge flex-1">Affordable & Transparent</p>
                     <p class="text-black flex-1">Enjoy the best prices with no hidden fees—what you see is what you pay.</p>
                   </div>
                 </div>
-                <div class="point-item mb-20">
+                <div class="point-item d-flex-r gap-40 mb-20">
                   <img src="_/theme/images/why-icon-4.png" alt="">
-                  <div class="short-text">
-                    <p class="text-black font-bold flex-1">One Tap for Everything</p>
+                  <div class="short-text d-flex flex-col">
+                    <p class="text-black font-bold font-exlarge flex-1">One Tap for Everything</p>
                     <p class="text-black flex-1">No more switching between multiple apps—access all essential services from a
                       single, easy-to-use platform.</p>
                   </div>
                 </div>
               </div>
-              <div class="flex-1 image-box">
+              <div class="flex-1 image-box text-right">
                 <img src="_/theme/images/why-choose-image.png" alt="">
               </div>
             </div>
@@ -277,13 +276,13 @@ container:
         </div>
 
         <!-- Testimonials -->
-        <div class="test-container-with-bg">
-          <div class="test-section">
-            <div class="test-text-box-1">
+        <div class="test-container-with-bg background-cover">
+          <div class="test-section container d-flex flex-col gap-40 pd-100-40">
+            <div class="test-text-box-1 d-flex flex-col gap-40">
               <p class="text-black font-bold">
                 <span class="mr-10"><img src="_/theme/images/bullet.svg" alt="" srcset="" /></span>Customer Testimonials
               </p>
-              <div class="sub-text-box">
+              <div class="sub-text-box d-flex gap-40 align-center">
                 <p class="heading-font-2 text-black font-bold flex-2">
                   What Our Users Say – Real Experiences from Satisfied Customers
                 </p>
@@ -295,33 +294,33 @@ container:
                 </div>
               </div>
             </div>
-            <div class="test-card-wrapper">
-              <div class="test-card">
+            <div class="test-card-wrapper d-flex gap-20">
+              <div class="test-card bg-white border-20-r text-center pd-20-40-0-40">
                 <img src="_/theme/images/rating.png" class="mb-10" alt="">
                 <p class="mb-10 text-black">"I love how I can get my medicines delivered in minutes. So convenient and
                   hassle-free!"</p>
-                <p class="font-bold text-black">Siti Aisyah</p>
+                <p class="font-bold text-black mb-10">Siti Aisyah</p>
                 <img class="customer-image" src="_/theme/images/customer.png" alt="">
               </div>
-              <div class="test-card">
+              <div class="test-card bg-white border-20-r text-center pd-20-40-0-40">
                 <img src="_/theme/images/rating.png" class="mb-10" alt="">
                 <p class="mb-10 text-black">"Gorengan has completely changed the way I shop and order food. Super fast and
                   reliable!"</p>
-                <p class="font-bold text-black">Ahmad Firdaus</p>
+                <p class="font-bold text-black mb-10">Ahmad Firdaus</p>
                 <img class="customer-image" src="_/theme/images/customer.png" alt="">
               </div>
-              <div class="test-card">
+              <div class="test-card bg-white border-20-r text-center pd-20-40-0-40">
                 <img src="_/theme/images/rating.png" class="mb-10" alt="">
                 <p class="mb-10 text-black">"From food delivery to parcel shipping, Gorengan makes everything effortless. One
                   app for everything!"</p>
-                <p class="font-bold text-black">Faisal Rahman</p>
+                <p class="font-bold text-black mb-10">Faisal Rahman</p>
                 <img class="customer-image" src="_/theme/images/customer.png" alt="">
               </div>
-              <div class="test-card">
+              <div class="test-card bg-white border-20-r text-center pd-20-40-0-40">
                 <img src="_/theme/images/rating.png" class="mb-10" alt="">
                 <p class="mb-10 text-black">"Affordable prices, excellent service, and super quick delivery—I can’t imagine my
                   daily routine without Gorengan!"</p>
-                <p class="font-bold text-black">Rina Kartika</p>
+                <p class="font-bold text-black mb-10">Rina Kartika</p>
                 <img class="customer-image" src="_/theme/images/customer.png" alt="">
               </div>
             </div>
@@ -329,19 +328,19 @@ container:
         </div>
 
         <!-- Get Started -->
-        <div class="get-started-bg">
-          <div class="get-started-section">
+        <div class="get-started-bg background-cover">
+          <div class="get-started-section container-6 d-flex pd-80-0">
             <div class="flex-1">
               <img src="_/theme/images/get-device.png" alt="">
             </div>
-            <div class="flex-1 gap-20">
+            <div class="flex-1 d-flex flex-col gap-40">
               <p class="heading-font-2 text-black">Get Started Today</p>
               <p class="text-black">Unlock a world of unmatched convenience with <span class="font-bold">Gorengan</span>, the
                 ultimate all-in-one super app designed to simplify your everyday life. Whether you're shopping for essentials,
                 ordering your favorite meals, accessing medical services, sending parcels, or exploring investment
                 opportunities, Gorengan brings everything together in one seamless platform. Say goodbye to juggling multiple
                 apps—download now and enjoy fast, secure, and hassle-free services, all at your fingertips!</p>
-              <div class="flex-gap-20">
+              <div class="d-flex-r gap-20">
                 <a href="#">
                   <img src="_/theme/images/play-store.png" alt="">
                 </a>
@@ -354,17 +353,16 @@ container:
         </div>
 
         <!-- Cta section -->
-        <div class="cta-section">
-          <div class="cta-bg">
-            <div class="cta-text-box">
+        <div class="cta-section container-3 pd-0-40">
+          <div class="cta-bg background-cover border-20">
+            <div class="cta-text-box container-5 d-flex flex-col gap-40 text-center pd-60-0">
               <p class="heading-font-2 text-white font-bold">Simplify Your Life with Gorengan!</p>
               <p class="text-white font-bold">One App. Multiple Services. Maximum Convenience.</p>
-              <div class="button-container justify-center">
-                <button class="btn-spacing btn-white font-dm">
+              <div class="d-flex-r gap-40 space-center">
+                <button class="border-none pd-10-40 font-normal border-50 bg-white text-black font-bold font-dm">
                   Join Now
-
                 </button>
-                <button class="btn-spacing btn-transparent font-dm">
+                <button class="border-none pd-10-40 font-normal border-50 border-1-white text-white bg-transparent font-dm">
                   Learn More
                 </button>
               </div>

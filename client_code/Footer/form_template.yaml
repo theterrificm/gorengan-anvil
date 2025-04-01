@@ -3,44 +3,43 @@ container:
   properties:
     html: |2-
         <!-- Footer -->
-        <div class="footer-container-with-bg">
-          <div class="footer-col-1">
-            <img src="_/theme/images/logo.png" class="mb-20" alt="" srcset="">
-            <p class="mb-20">Seamlessly connect to the services you need—shopping, food delivery, medicine, logistics, and
-              investments—all in one powerful app.</p>
-            <p>Experience convenience anytime, anywhere!</p>
+          <div class="footer-container-with-bg d-flex container-3 pd-80-40 background-contain">
+              <div class="flex-1">
+                <img src="_/theme/images/logo.png" class="mb-20" alt="" srcset="">
+                <p class="mb-20">Seamlessly connect to the services you need—shopping, food delivery, medicine, logistics, and
+                  investments—all in one powerful app.</p>
+                <p>Experience convenience anytime, anywhere!</p>
+              </div>
+              <div class="footer-col-2">
+                <p class="font-exlarge font-bold mb-20">Explore Gorengan</p>
+                <p class="mb-10">About us</p>
+                <p class="mb-10">Our Service</p>
+                <p class="mb-10">How It Works</p>
+                <p class="mb-10">Testimonials</p>
+                <p>Blog & Updates</p>
+              </div>
+              <div class="footer-col-3">
+                <p class="text-green mb-20">Support & Help</p>
+                <p class="mb-10">FAQ</p>
+                <p class="mb-10">Contact Us</p>
+                <p class="mb-10">Privacy Policy</p>
+                <p class="mb-10">Terms & Conditions</p>
+              </div>
+              <div class="footer-col-4">
+                <p class="text-green mb-20">Social</p>
+                <div class="social-container d-flex-r gap-10">
+                  <a href="#"><img src="_/theme/images/twitter.svg" alt="" srcset=""></a>
+                  <a href="#"><img src="_/theme/images/instagram.svg" alt="" srcset=""></a>
+                  <a href="#"><img src="_/theme/images/facebook.svg" alt="" srcset=""></a>
+                  <a href="#"><img src="_/theme/images/youtube.svg" alt="" srcset=""></a>
+                  <a href="#"><img src="_/theme/images/tiktok.svg" alt="" srcset=""></a>
+                </div>
+              </div>
           </div>
-          <div class="footer-col-2">
-            <p class="text-green mb-20">Explore Gorengan</p>
-            <p class="mb-10">About us</p>
-            <p class="mb-10">Our Service</p>
-            <p class="mb-10">How It Works</p>
-            <p class="mb-10">Testimonials</p>
-            <p>Blog & Updates</p>
-          </div>
-          <div class="footer-col-3">
-            <p class="text-green mb-20">Support & Help</p>
-            <p class="mb-10">FAQ</p>
-            <p class="mb-10">Contact Us</p>
-            <p class="mb-10">Privacy Policy</p>
-            <p class="mb-10">Terms & Conditions</p>
-          </div>
-          <div class="footer-col-4">
-            <p class="text-green mb-20">Social</p>
-            <div class="social-container">
-              <a href="#"><img src="_/theme/images/twitter.svg" alt="" srcset=""></a>
-              <a href="#"><img src="_/theme/images/instagram.svg" alt="" srcset=""></a>
-              <a href="#"><img src="_/theme/images/facebook.svg" alt="" srcset=""></a>
-              <a href="#"><img src="_/theme/images/youtube.svg" alt="" srcset=""></a>
-              <a href="#"><img src="_/theme/images/tiktok.svg" alt="" srcset=""></a>
-            </div>
-          </div>
-        </div>
-        <p class="footer-copyright">
-          © 2025 Gorengan. All Rights Reserved.
-        </p>
-      </body>
-
+          <p class="footer-copyright container-3 pd-40-20 text-center">
+            © 2025 Gorengan. All Rights Reserved.
+          </p>
+        </body>
       </html>
   type: HtmlTemplate
 is_package: true
