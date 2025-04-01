@@ -9,7 +9,7 @@ components:
   event_bindings: {click: nav_link_click}
   layout_properties: {slot: logo-slot}
   name: Home
-  properties: {text: '', visible: true}
+  properties: {col_spacing: none, text: '', visible: true}
   type: Link
 - event_bindings: {click: nav_link_click}
   layout_properties: {slot: login-page-slot}
