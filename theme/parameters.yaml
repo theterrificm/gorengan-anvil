@@ -1,1 +1,7 @@
-roles: []
+color_scheme:
+  colors:
+  - {color: '#6abf4b', name: primary}
+  - {color: '#fff', name: white}
+  preset_groups: []
+roles:
+- {components: null, display_in_toolbox: false, name: account-page-btn}

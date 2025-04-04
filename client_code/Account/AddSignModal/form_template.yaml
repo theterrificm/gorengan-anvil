@@ -1,0 +1,59 @@
+components:
+- components:
+  - components:
+    - name: label_1
+      properties: {text: 'Image Of Sign :'}
+      type: Label
+    - layout_properties: {width: 572.573251953125}
+      name: file_loader_1
+      properties: {align: right}
+      type: FileLoader
+    layout_properties: {grid_position: 'TGOZQK,CMBJFQ'}
+    name: flow_panel_1
+    properties: {}
+    type: FlowPanel
+  - layout_properties: {grid_position: 'YUWNOZ,OPCTPO'}
+    name: label_2
+    properties: {text: 'Sign Title :'}
+    type: Label
+  - layout_properties: {grid_position: 'YUWNOZ,RWUIPH'}
+    name: text_box_1
+    properties: {align: left}
+    type: TextBox
+  - layout_properties: {grid_position: 'NVQIIT,EWVTSO'}
+    name: label_3
+    properties: {text: 'Sign Content :'}
+    type: Label
+  - layout_properties: {grid_position: 'NVQIIT,VSGTZG'}
+    name: text_area_1
+    properties: {}
+    type: TextArea
+  - layout_properties: {grid_position: 'UNQSJZ,ZJLKTK'}
+    name: label_4
+    properties: {text: 'Sign Notes (patrons will not see this):'}
+    type: Label
+  - layout_properties: {grid_position: 'UNQSJZ,QJDJMX'}
+    name: text_area_2
+    properties: {}
+    type: TextArea
+  - layout_properties: {grid_position: 'WHBXYD,ASNAEC'}
+    name: button_1
+    properties:
+      background: theme:primary
+      bold: false
+      font_size: 20
+      foreground: theme:white
+      role: null
+      spacing:
+        margin: [13, null, null, null]
+      text: Save
+    type: Button
+  layout_properties: {slot: add-a-new-sign-slot}
+  name: column_panel_1
+  properties: {col_widths: '{}'}
+  type: ColumnPanel
+container:
+  properties:
+    html: "<div>\n  <p class=\"font-large font-bold mb-20\">Add A New Sign:</p>\n  <!-- <a href=\"#\" class=\"close\">&times;</a> -->\n  <span anvil-slot=\"add-a-new-sign-slot\" >\n      <span class=\"placeholder anvil-designer-only\" anvil-if-slot-empty=\"add-a-new-sign-slot\" \n        anvil-drop-here>\n        [Add ]\n      </span>\n  </span>\n\n  <!-- \n  <form action=\"#\">\n    <div class=\"d-flex mb-20\">\n      <label class=\"label flex-1 mb-10\" for=\"name\">Image Of Sign :</label>\n      <input class=\"flex-1 input\" type=\"file\" />\n    </div>\n    <div class=\"d-flex mb-20\">\n      <label class=\"label flex-1 mb-10\" for=\"name\">Sign Title :</label>\n      <input class=\"input flex-1\" type=\"text\" id=\"name\" name=\"name\" />\n    </div>\n    <div class=\"d-flex mb-20\">\n      <label class=\"label flex-1 mb-10\" for=\"name\">Sign Content :</label>\n      <textarea class=\"input flex-1\" name=\"comment\" rows=\"5\"></textarea>\n    </div>\n    <div class=\"d-flex mb-20\">\n      <label class=\"label flex-1 mb-10\" for=\"name\">Sign Notes (patrons will not see this):</label>\n      <textarea class=\"input flex-1\" name=\"comment\" rows=\"5\"></textarea>\n    </div>\n    \n    <div class=\"button-div-2 d-flex-r align-center space-center gap-20\">\n      <p class=\"line-1 font-large mb-20 bg-green-hover bg-green border-5 pd-10 shadow pointer text-black\">\n        <a href=\"#\" class=\"decoration-none\">Save</a>\n      </p>\n      <p class=\"line-1 font-large mb-20 bg-green-hover bg-green border-5 pd-10 shadow pointer text-black\">\n        <a href=\"#\" class=\"decoration-none\">Cancel</a>\n      </p>\n    </div>\n  </form> -->\n</div>\n\n"
+  type: HtmlTemplate
+is_package: true

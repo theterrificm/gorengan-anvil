@@ -1,0 +1,88 @@
+components:
+- components:
+  - layout_properties: {grid_position: 'JKZNVE,LUULEF'}
+    name: label_1
+    properties: {bold: true, font_size: 22, text: 'Account Settings:'}
+    type: Label
+  - layout_properties: {grid_position: 'TKWKFG,PSLUSL'}
+    name: label_2
+    properties: {text: 'Company Name:'}
+    type: Label
+  - layout_properties: {grid_position: 'TKWKFG,ULYLTN'}
+    name: text_box_1
+    properties: {}
+    type: TextBox
+  - layout_properties: {grid_position: 'TKWKFG,LGHZPR'}
+    name: label_3
+    properties: {text: 'Company Logo:'}
+    type: Label
+  - layout_properties: {grid_position: 'TKWKFG,TXGVSS'}
+    name: file_loader_1
+    properties: {}
+    type: FileLoader
+  - layout_properties: {grid_position: 'QXKWXN,CRZGGB'}
+    name: label_4
+    properties: {text: 'Contact Name:'}
+    type: Label
+  - layout_properties: {grid_position: 'QXKWXN,KZKZVA'}
+    name: text_box_2
+    properties: {}
+    type: TextBox
+  - layout_properties: {grid_position: 'QXKWXN,DVSIXY'}
+    name: label_5
+    properties: {text: 'Contact Email:'}
+    type: Label
+  - layout_properties: {grid_position: 'QXKWXN,FLQKAS'}
+    name: text_box_3
+    properties: {}
+    type: TextBox
+  - layout_properties: {grid_position: 'ZGMQUA,FGHVZR'}
+    name: label_6
+    properties: {text: 'Company Address:'}
+    type: Label
+  - layout_properties: {grid_position: 'ZGMQUA,VZFWUN'}
+    name: text_area_1
+    properties: {}
+    type: TextArea
+  - layout_properties: {grid_position: 'ZGMQUA,LOZNMP'}
+    name: label_7
+    properties: {text: 'Company Website:'}
+    type: Label
+  - layout_properties: {grid_position: 'ZGMQUA,YNSJDC'}
+    name: text_area_2
+    properties: {}
+    type: TextArea
+  - layout_properties: {grid_position: 'ZBLCWP,SGPDGV'}
+    name: label_8
+    properties: {text: 'Custom Locations:'}
+    type: Label
+  - layout_properties: {grid_position: 'ZBLCWP,GXPVER'}
+    name: text_area_3
+    properties: {}
+    type: TextArea
+  - layout_properties: {grid_position: 'ZBLCWP,WPBBJU'}
+    name: label_9
+    properties: {text: 'Account Type:'}
+    type: Label
+  - layout_properties: {grid_position: 'ZBLCWP,XWCSSN'}
+    name: text_box_4
+    properties: {}
+    type: TextBox
+  - layout_properties: {grid_position: 'HGDZGU,RCIZFY'}
+    name: button_1
+    properties:
+      background: theme:primary
+      font_size: 21
+      foreground: theme:white
+      spacing:
+        margin: [16, null, null, null]
+      text: Save
+    type: Button
+  layout_properties: {slot: default}
+  name: content_panel
+  properties: {}
+  type: ColumnPanel
+container:
+  properties: {html: '@theme:standard-page.html'}
+  type: HtmlTemplate
+is_package: true
