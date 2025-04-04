@@ -11,7 +11,7 @@ components:
   name: Home
   properties: {col_spacing: none, text: '', visible: true}
   type: Link
-- event_bindings: {click: nav_link_click}
+- event_bindings: {}
   layout_properties: {slot: login-page-slot}
   name: login_page_link
   properties: {text: Login}

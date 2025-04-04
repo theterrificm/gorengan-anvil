@@ -28,8 +28,29 @@ components:
       padding: ['10', '10', '10', '10']
     text: Settings
   type: Button
+- components:
+  - layout_properties: {}
+    name: repeating_panel_1
+    properties: {background: none, item_template: Account.RowTemplate1, role: null}
+    type: RepeatingPanel
+  data_bindings: []
+  layout_properties: {slot: tables-slot}
+  name: data_grid_1
+  properties:
+    auto_header: true
+    background: theme:primary
+    border: 1px solid black
+    columns:
+    - {data_key: column_1, id: JKSDUP, title: Date Added}
+    - {data_key: column_2, id: VJQQOR, title: Sign Name}
+    - {data_key: column_3, id: OJLQEN, title: Location}
+    foreground: ''
+    margin: [null, '30', null, '30']
+    role: table
+    show_page_controls: true
+  type: DataGrid
 container:
   properties:
-    html: "  <!-- Page Header -->\n  <div class=\"page-header-section container-2\">\n    <div class=\"page-header-container-with-bg border-20 background-cover\">\n      <p class=\"heading-font-2 text-white text-center\">My Account</p>\n    </div>\n  </div>\n\n  <!-- Button Divs -->\n  <div class=\"button-div d-flex flex-col align-center space-center mb-20\">\n    <span anvil-slot=\"add-a-new-sign-slot\" >\n      <span class=\"placeholder anvil-designer-only\" anvil-if-slot-empty=\"add-a-new-sign-slot\" \n        anvil-drop-here>\n        [Add a new sign]\n      </span>\n    </span>\n    \n    <span anvil-slot=\"settings-slot\" >\n      <span class=\"placeholder anvil-designer-only\" anvil-if-slot-empty=\"settings-slot\" \n        anvil-drop-here>\n        [Settings Button]\n      </span>\n    </span>\n  </div>\n\n  <!-- Table -->\n  <table>\n    <tr>\n      <th>Date Added</th>\n      <th>Sign Name</th>\n      <th><a href=\"#modal\">Location</a></th>\n    </tr>\n    <tr>\n      <td>Alfreds Futterkiste</td>\n      <td>Maria Anders</td>\n      <td>Germany</td>\n    </tr>\n  </table>\n"
+    html: "  <!-- Page Header -->\n  <div class=\"page-header-section container-2\">\n    <div class=\"page-header-container-with-bg border-20 background-cover\">\n      <p class=\"heading-font-2 text-white text-center\">My Account</p>\n    </div>\n  </div>\n\n  <!-- Button Divs -->\n  <div class=\"button-div d-flex flex-col align-center space-center mb-20\">\n    <span anvil-slot=\"add-a-new-sign-slot\" >\n      <span class=\"placeholder anvil-designer-only\" anvil-if-slot-empty=\"add-a-new-sign-slot\" \n        anvil-drop-here>\n        [Add a new sign]\n      </span>\n    </span>\n    \n    <span anvil-slot=\"settings-slot\" >\n      <span class=\"placeholder anvil-designer-only\" anvil-if-slot-empty=\"settings-slot\" \n        anvil-drop-here>\n        [Settings Button]\n      </span>\n    </span>\n  </div>\n\n  <!-- Table -->\n    <span anvil-slot=\"tables-slot\" >\n      <span class=\"placeholder anvil-designer-only\" anvil-if-slot-empty=\"tables-slot\" \n        anvil-drop-here>\n        [Settings Button]\n      </span>\n    </span>\n  <!-- <table>\n    <tr>\n      <th>Date Added</th>\n      <th>Sign Name</th>\n      <th><a href=\"#modal\">Location</a></th>\n    </tr>\n    <tr>\n      <td>Alfreds Futterkiste</td>\n      <td>Maria Anders</td>\n      <td>Germany</td>\n    </tr>\n  </table> -->\n"
   type: HtmlTemplate
 is_package: true
