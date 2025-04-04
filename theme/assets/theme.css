@@ -1328,3 +1328,11 @@ tr:nth-child(odd) {
   color: #6abf4b;
   
 }
+
+.anvil-role-table {
+    background-color: #6abf4b;
+    color: #fff;
+}
+.anvil-role-table .data-grid-footer-panel {
+    background: transparent
+}

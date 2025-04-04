@@ -5,3 +5,4 @@ color_scheme:
   preset_groups: []
 roles:
 - {components: null, display_in_toolbox: false, name: account-page-btn}
+- {components: null, display_in_toolbox: false, name: table}

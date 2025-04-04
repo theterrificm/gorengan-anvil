@@ -1,6 +1,6 @@
 allow_embedding: false
-name: Gorengan
-package_name: Gorengan
+name: SignSageTech
+package_name: SignSageTech
 runtime_options:
   client_version: '3'
   server_spec: {base: python310-minimal}
