@@ -1,6 +1,7 @@
 from ._anvil_designer import AccountTemplate
 from anvil import *
 from .AddSignModal import AddSignModal
+from .SettingsModal import SettingsModal
 
 
 class Account(AccountTemplate):
@@ -13,4 +14,7 @@ class Account(AccountTemplate):
   def add_new_sign_click(self, **event_args):
     # alert()
     alert(AddSignModal(), large=True)
+
+  def settings_btn_click(self, **event_args):
+    alert(SettingsModal(), large=True)
 

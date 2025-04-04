@@ -1,56 +1,88 @@
-components: []
+components:
+- components:
+  - layout_properties: {grid_position: 'JKZNVE,LUULEF'}
+    name: label_1
+    properties: {bold: true, font_size: 22, text: 'Account Settings:'}
+    type: Label
+  - layout_properties: {grid_position: 'TKWKFG,PSLUSL'}
+    name: label_2
+    properties: {text: 'Company Name:'}
+    type: Label
+  - layout_properties: {grid_position: 'TKWKFG,ULYLTN'}
+    name: text_box_1
+    properties: {}
+    type: TextBox
+  - layout_properties: {grid_position: 'TKWKFG,LGHZPR'}
+    name: label_3
+    properties: {text: 'Company Logo:'}
+    type: Label
+  - layout_properties: {grid_position: 'TKWKFG,TXGVSS'}
+    name: file_loader_1
+    properties: {}
+    type: FileLoader
+  - layout_properties: {grid_position: 'QXKWXN,CRZGGB'}
+    name: label_4
+    properties: {text: 'Contact Name:'}
+    type: Label
+  - layout_properties: {grid_position: 'QXKWXN,KZKZVA'}
+    name: text_box_2
+    properties: {}
+    type: TextBox
+  - layout_properties: {grid_position: 'QXKWXN,DVSIXY'}
+    name: label_5
+    properties: {text: 'Contact Email:'}
+    type: Label
+  - layout_properties: {grid_position: 'QXKWXN,FLQKAS'}
+    name: text_box_3
+    properties: {}
+    type: TextBox
+  - layout_properties: {grid_position: 'ZGMQUA,FGHVZR'}
+    name: label_6
+    properties: {text: 'Company Address:'}
+    type: Label
+  - layout_properties: {grid_position: 'ZGMQUA,VZFWUN'}
+    name: text_area_1
+    properties: {}
+    type: TextArea
+  - layout_properties: {grid_position: 'ZGMQUA,LOZNMP'}
+    name: label_7
+    properties: {text: 'Company Website:'}
+    type: Label
+  - layout_properties: {grid_position: 'ZGMQUA,YNSJDC'}
+    name: text_area_2
+    properties: {}
+    type: TextArea
+  - layout_properties: {grid_position: 'ZBLCWP,SGPDGV'}
+    name: label_8
+    properties: {text: 'Custom Locations:'}
+    type: Label
+  - layout_properties: {grid_position: 'ZBLCWP,GXPVER'}
+    name: text_area_3
+    properties: {}
+    type: TextArea
+  - layout_properties: {grid_position: 'ZBLCWP,WPBBJU'}
+    name: label_9
+    properties: {text: 'Account Type:'}
+    type: Label
+  - layout_properties: {grid_position: 'ZBLCWP,XWCSSN'}
+    name: text_box_4
+    properties: {}
+    type: TextBox
+  - layout_properties: {grid_position: 'HGDZGU,RCIZFY'}
+    name: button_1
+    properties:
+      background: theme:primary
+      font_size: 21
+      foreground: theme:white
+      spacing:
+        margin: [16, null, null, null]
+      text: Save
+    type: Button
+  layout_properties: {slot: default}
+  name: content_panel
+  properties: {}
+  type: ColumnPanel
 container:
-  properties:
-    html: |2-
-        <div id="modal3" class="modal">
-          <div class="modal-content">
-            <p class="font-large font-bold mb-20">Account Settings</p>
-            <a href="#" class="close">&times;</a>
-            <form action="#">
-              <div class="d-flex mb-20">
-                <label class="label flex-1 mb-10" for="name">Company Logo:</label>
-                <input class="flex-1 input" type="file" />
-              </div>
-              <div class="d-flex mb-20">
-                <label class="label flex-1 mb-10" for="name">Company Name:</label>
-                <input class="input flex-1" type="text" id="name" name="name" />
-              </div>
-              <div class="d-flex mb-20">
-                <label class="label flex-1 mb-10" for="name">Contact Name:</label>
-                <input class="input flex-1" type="text" id="name" name="name" />
-              </div>
-              <div class="d-flex mb-20">
-                <label class="label flex-1 mb-10" for="name">Contact Email:</label>
-                <input class="input flex-1" type="email" id="email" name="email" />
-              </div>
-              <div class="d-flex mb-20">
-                <label class="label flex-1 mb-10" for="name">Company Address:</label>
-                <textarea class="input flex-1" name="comment" rows="5"></textarea>
-              </div>
-              <div class="d-flex mb-20">
-                <label class="label flex-1 mb-10" for="name">Company Website:</label>
-                <input class="input flex-1" type="text" id="name" name="name" />
-              </div>
-              <div class="d-flex mb-20">
-                <label class="label flex-1 mb-10" for="name">Custom Locations:</label>
-                <textarea class="input flex-1" name="comment" rows="5"></textarea>
-              </div>
-              <div class="d-flex mb-20">
-                <label class="label flex-1 mb-10" for="name">Account Type:</label>
-                <input class="input flex-1" type="text" id="name" name="name" />
-              </div>
-              <!-- <label class="label" for="email">Email:</label> -->
-              <!-- <input class="input mb-20" type="email" id="email" name="email"> -->
-              <!-- <label class="label" for="comment">Question/Comment:</label> -->
-              <!-- <textarea class="textarea mb-20" name="comment" rows="10"></textarea> -->
-              <div class="button-div-2 d-flex-r align-center space-center gap-20">
-                <p class="line-1 font-large mb-20 bg-green-hover bg-green border-5 pd-10 shadow pointer text-black"><a
-                    href="#" class="decoration-none">Save</a></p>
-                <p class="line-1 font-large mb-20 bg-green-hover bg-green border-5 pd-10 shadow pointer text-black"><a
-                    href="#" class="decoration-none">Cancel</a></p>
-              </div>
-            </form>
-          </div>
-        </div>
+  properties: {html: '@theme:standard-page.html'}
   type: HtmlTemplate
 is_package: true
