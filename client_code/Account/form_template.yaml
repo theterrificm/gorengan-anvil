@@ -1,7 +1,13 @@
 components:
 - layout_properties: {slot: add-a-new-sign-slot}
   name: button_1
-  properties: {font_size: 15, role: null, text: Add a new sign}
+  properties:
+    font_size: 15
+    role: null
+    spacing:
+      margin: ['0', null, '0', null]
+      padding: ['0', '0', '0', '0']
+    text: Add a new sign
   type: Button
 container:
   properties:
