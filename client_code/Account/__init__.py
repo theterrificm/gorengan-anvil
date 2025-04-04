@@ -11,5 +11,6 @@ class Account(AccountTemplate):
     # Any code you write here will run before the form opens.
 
   def add_new_sign_click(self, **event_args):
-    alert(AddSignModal())
+    # alert()
+    alert(AddSignModal(), large=True)
 

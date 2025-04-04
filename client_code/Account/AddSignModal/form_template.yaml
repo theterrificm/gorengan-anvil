@@ -1,41 +1,23 @@
-components: []
+components:
+- components:
+  - components:
+    - name: label_1
+      properties: {text: 'Image Of Sign :'}
+      type: Label
+    - layout_properties: {width: 572.573251953125}
+      name: file_loader_1
+      properties: {align: right}
+      type: FileLoader
+    layout_properties: {grid_position: 'TGOZQK,CMBJFQ'}
+    name: flow_panel_1
+    properties: {}
+    type: FlowPanel
+  layout_properties: {slot: add-a-new-sign-slot}
+  name: column_panel_1
+  properties: {}
+  type: ColumnPanel
 container:
   properties:
-    html: |+
-      <div>
-        <p class="font-large font-bold mb-20">Add A New Sign:</p>
-        <a href="#" class="close">&times;</a>
-        <form action="#">
-          <div class="d-flex mb-20">
-            <label class="label flex-1 mb-10" for="name">Image Of Sign :</label>
-            <input class="flex-1 input" type="file" />
-          </div>
-          <div class="d-flex mb-20">
-            <label class="label flex-1 mb-10" for="name">Sign Title :</label>
-            <input class="input flex-1" type="text" id="name" name="name" />
-          </div>
-          <div class="d-flex mb-20">
-            <label class="label flex-1 mb-10" for="name">Sign Content :</label>
-            <textarea class="input flex-1" name="comment" rows="5"></textarea>
-          </div>
-          <div class="d-flex mb-20">
-            <label class="label flex-1 mb-10" for="name">Sign Notes (patrons will not see this):</label>
-            <textarea class="input flex-1" name="comment" rows="5"></textarea>
-          </div>
-          <!-- <label class="label" for="email">Email:</label> -->
-          <!-- <input class="input mb-20" type="email" id="email" name="email"> -->
-          <!-- <label class="label" for="comment">Question/Comment:</label> -->
-          <!-- <textarea class="textarea mb-20" name="comment" rows="10"></textarea> -->
-          <div class="button-div-2 d-flex-r align-center space-center gap-20">
-            <p class="line-1 font-large mb-20 bg-green-hover bg-green border-5 pd-10 shadow pointer text-black">
-              <a href="#" class="decoration-none">Save</a>
-            </p>
-            <p class="line-1 font-large mb-20 bg-green-hover bg-green border-5 pd-10 shadow pointer text-black">
-              <a href="#" class="decoration-none">Cancel</a>
-            </p>
-          </div>
-        </form>
-      </div>
-
+    html: "<div>\n  <p class=\"font-large font-bold mb-20\">Add A New Sign:</p>\n  <!-- <a href=\"#\" class=\"close\">&times;</a> -->\n  <span anvil-slot=\"add-a-new-sign-slot\" >\n      <span class=\"placeholder anvil-designer-only\" anvil-if-slot-empty=\"add-a-new-sign-slot\" \n        anvil-drop-here>\n        [Add ]\n      </span>\n  </span>\n\n  <!-- \n  <form action=\"#\">\n    <div class=\"d-flex mb-20\">\n      <label class=\"label flex-1 mb-10\" for=\"name\">Image Of Sign :</label>\n      <input class=\"flex-1 input\" type=\"file\" />\n    </div>\n    <div class=\"d-flex mb-20\">\n      <label class=\"label flex-1 mb-10\" for=\"name\">Sign Title :</label>\n      <input class=\"input flex-1\" type=\"text\" id=\"name\" name=\"name\" />\n    </div>\n    <div class=\"d-flex mb-20\">\n      <label class=\"label flex-1 mb-10\" for=\"name\">Sign Content :</label>\n      <textarea class=\"input flex-1\" name=\"comment\" rows=\"5\"></textarea>\n    </div>\n    <div class=\"d-flex mb-20\">\n      <label class=\"label flex-1 mb-10\" for=\"name\">Sign Notes (patrons will not see this):</label>\n      <textarea class=\"input flex-1\" name=\"comment\" rows=\"5\"></textarea>\n    </div>\n    \n    <div class=\"button-div-2 d-flex-r align-center space-center gap-20\">\n      <p class=\"line-1 font-large mb-20 bg-green-hover bg-green border-5 pd-10 shadow pointer text-black\">\n        <a href=\"#\" class=\"decoration-none\">Save</a>\n      </p>\n      <p class=\"line-1 font-large mb-20 bg-green-hover bg-green border-5 pd-10 shadow pointer text-black\">\n        <a href=\"#\" class=\"decoration-none\">Cancel</a>\n      </p>\n    </div>\n  </form> -->\n</div>\n\n"
   type: HtmlTemplate
 is_package: true
