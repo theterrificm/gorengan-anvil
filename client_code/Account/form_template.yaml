@@ -1,6 +1,7 @@
 components:
-- layout_properties: {slot: add-a-new-sign-slot}
-  name: button_1
+- event_bindings: {click: add_new_sign_click}
+  layout_properties: {slot: add-a-new-sign-slot}
+  name: add_new_sign
   properties:
     font_size: 15
     role: null
