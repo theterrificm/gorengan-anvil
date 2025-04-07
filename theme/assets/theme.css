@@ -1341,3 +1341,8 @@ tr:nth-child(odd) {
   font-weight: bold;
   margin-bottom: 20px;
 }
+.anvil-role-main-heading {
+  font-size: 64px;
+  font-weight: 600;
+  font-weight: bold;
+}
