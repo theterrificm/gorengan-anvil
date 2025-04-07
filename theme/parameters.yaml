@@ -8,3 +8,4 @@ roles:
 - {components: null, display_in_toolbox: false, name: table}
 - {components: null, display_in_toolbox: false, name: heading-h3}
 - {name: main-heading}
+- {name: secondary-white-btn}
