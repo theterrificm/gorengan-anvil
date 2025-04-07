@@ -1330,9 +1330,14 @@ tr:nth-child(odd) {
 }
 
 .anvil-role-table {
-    background-color: #6abf4b;
-    color: #fff;
+  background-color: #6abf4b;
+  color: #fff;
 }
 .anvil-role-table .data-grid-footer-panel {
-    background: transparent
+  background: transparent
+}
+.anvil-role-heading-h3 {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 20px;
 }
