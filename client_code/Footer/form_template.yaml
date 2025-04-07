@@ -1,45 +1,79 @@
-components: []
+components:
+- components:
+  - layout_properties: {grid_position: 'SOACSW,VAWXTL'}
+    name: footer_logo
+    properties: {display_mode: original_size, source: _/theme/images/logo.png}
+    type: Image
+  - layout_properties: {full_width_row: true, grid_position: 'BYNKHD,NFNGXW', row_background: ''}
+    name: label_4
+    properties: {align: center, text: 'SignSafe Tech, LLCⒸ 2025'}
+    type: Label
+  layout_properties: {slot: footer-logo}
+  name: column_panel_4
+  properties: {}
+  type: ColumnPanel
+- components:
+  - layout_properties: {grid_position: 'HJKRFP,BXDSUF'}
+    name: label_2
+    properties: {role: heading-h3, text: Website Info}
+    type: Label
+  - components: []
+    layout_properties: {grid_position: 'RIXPOL,XZVZXK'}
+    name: link_2
+    properties: {foreground: 'theme:primary', text: FAQs}
+    type: Link
+  - layout_properties: {grid_position: 'NFKXIU,EYEVCP'}
+    name: link_3
+    properties: {foreground: 'theme:primary', text: Privacy Policy}
+    type: Link
+  layout_properties: {slot: footer-column-3}
+  name: column_panel_2
+  properties: {}
+  type: ColumnPanel
+- components:
+  - layout_properties: {grid_position: 'UXMVKW,NZPJQH'}
+    name: label_1
+    properties: {role: heading-h3, text: Company}
+    type: Label
+  - layout_properties: {grid_position: 'ZRZGML,DRPBHL'}
+    name: link_1
+    properties: {foreground: 'theme:primary', text: Contact Us}
+    type: Link
+  layout_properties: {slot: footer-column-2}
+  name: column_panel_1
+  properties: {}
+  type: ColumnPanel
+- layout_properties: {slot: footer-bottom}
+  name: footer_bottom_bar
+  properties: {text: © 2025 Gorengan. All Rights Reserved.}
+  type: Label
+- components:
+  - layout_properties: {grid_position: 'WUJHVD,RDQMWP'}
+    name: label_3
+    properties: {role: heading-h3, text: Social}
+    type: Label
+  - components:
+    - layout_properties: {}
+      name: image_1
+      properties: {display_mode: original_size, source: _/theme/images/twitter.svg}
+      type: Image
+    - layout_properties: {}
+      name: image_3
+      properties: {display_mode: original_size, source: _/theme/images/tiktok.svg}
+      type: Image
+    - name: image_2
+      properties: {display_mode: original_size, source: _/theme/images/youtube.svg}
+      type: Image
+    layout_properties: {grid_position: 'ZCCQIV,ZRTYST'}
+    name: flow_panel_1
+    properties: {}
+    type: FlowPanel
+  layout_properties: {slot: footer-column-4}
+  name: column_panel_3
+  properties: {}
+  type: ColumnPanel
 container:
   properties:
-    html: |2-
-        <!-- Footer -->
-          <div class="footer-container-with-bg d-flex container-3 pd-80-40 background-contain">
-              <div class="flex-1">
-                <img src="_/theme/images/logo.png" class="mb-20" alt="" srcset="">
-                <p class="mb-20">Seamlessly connect to the services you need—shopping, food delivery, medicine, logistics, and
-                  investments—all in one powerful app.</p>
-                <p>Experience convenience anytime, anywhere!</p>
-              </div>
-              <div class="footer-col-2">
-                <p class="font-exlarge font-bold mb-20">Explore Gorengan</p>
-                <p class="mb-10">About us</p>
-                <p class="mb-10">Our Service</p>
-                <p class="mb-10">How It Works</p>
-                <p class="mb-10">Testimonials</p>
-                <p>Blog & Updates</p>
-              </div>
-              <div class="footer-col-3">
-                <p class="text-green mb-20">Support & Help</p>
-                <p class="mb-10">FAQ</p>
-                <p class="mb-10">Contact Us</p>
-                <p class="mb-10">Privacy Policy</p>
-                <p class="mb-10">Terms & Conditions</p>
-              </div>
-              <div class="footer-col-4">
-                <p class="text-green mb-20">Social</p>
-                <div class="social-container d-flex-r gap-10">
-                  <a href="#"><img src="_/theme/images/twitter.svg" alt="" srcset=""></a>
-                  <a href="#"><img src="_/theme/images/instagram.svg" alt="" srcset=""></a>
-                  <a href="#"><img src="_/theme/images/facebook.svg" alt="" srcset=""></a>
-                  <a href="#"><img src="_/theme/images/youtube.svg" alt="" srcset=""></a>
-                  <a href="#"><img src="_/theme/images/tiktok.svg" alt="" srcset=""></a>
-                </div>
-              </div>
-          </div>
-          <p class="footer-copyright container-3 pd-40-20 text-center">
-            © 2025 Gorengan. All Rights Reserved.
-          </p>
-        </body>
-      </html>
+    html: "  <!-- Footer -->\n    <div class=\"footer-container-with-bg d-flex container-3 pd-80-40 background-contain\">\n        <div class=\"flex-1\">\n          <span anvil-slot=\"footer-logo\" >\n            <span class=\"placeholder anvil-designer-only\" anvil-if-slot-empty=\"footer-logo\" \n              anvil-drop-here>\n              [Footer Logo]\n            </span>\n          </span>\n        </div>\n        <div class=\"footer-col-2\">\n          <span anvil-slot=\"footer-column-2\" >\n            <span class=\"placeholder anvil-designer-only\" anvil-if-slot-empty=\"footer-column-2\" \n              anvil-drop-here>\n              [Footer Column 2]\n            </span>\n          </span>\n        </div>\n        <div class=\"footer-col-3\">\n          <span anvil-slot=\"footer-column-3\" >\n            <span class=\"placeholder anvil-designer-only\" anvil-if-slot-empty=\"footer-column-3\" \n              anvil-drop-here>\n              [Footer Column 3]\n            </span>\n          </span>\n          \n        </div>\n        <div class=\"footer-col-4\">\n          <div class=\"social-container d-flex-r gap-10\">\n            <span anvil-slot=\"footer-column-4\" >\n              <span class=\"placeholder anvil-designer-only\" anvil-if-slot-empty=\"footer-column-4\" \n                anvil-drop-here>\n                [Footer Column 4]\n              </span>\n            </span>\n            <!-- <p class=\"text-green mb-20\">Social</p>\n            <a href=\"#\"><img src=\"_/theme/images/twitter.svg\" alt=\"\" srcset=\"\"></a>\n            <a href=\"#\"><img src=\"_/theme/images/instagram.svg\" alt=\"\" srcset=\"\"></a>\n            <a href=\"#\"><img src=\"_/theme/images/facebook.svg\" alt=\"\" srcset=\"\"></a>\n            <a href=\"#\"><img src=\"_/theme/images/youtube.svg\" alt=\"\" srcset=\"\"></a>\n            <a href=\"#\"><img src=\"_/theme/images/tiktok.svg\" alt=\"\" srcset=\"\"></a> -->\n          </div>\n        </div>\n    </div>\n    <p class=\"footer-copyright container-3 pd-40-20 text-center\">\n      <span anvil-slot=\"footer-bottom\" >\n        <span class=\"placeholder anvil-designer-only\" anvil-if-slot-empty=\"footer-bottom\" \n          anvil-drop-here>\n          [Footer Bottom Text]\n        </span>\n      </span>\n    </p>\n  </body>\n</html>"
   type: HtmlTemplate
 is_package: true
