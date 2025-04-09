@@ -1341,3 +1341,18 @@ tr:nth-child(odd) {
   font-weight: bold;
   margin-bottom: 20px;
 }
+.anvil-role-main-heading {
+  font-size: 64px;
+  font-weight: 600;
+  font-weight: bold;
+}
+.anvil-role-secondary-btn button {
+  outline: none;
+  border: 1px solid white;
+  background: none;
+  box-shadow: none;
+  text-shadow: none;
+  border-radius: 50px;
+  padding: 10px 40px;
+  font-family: "DM Sans", sans-serif;
+}
