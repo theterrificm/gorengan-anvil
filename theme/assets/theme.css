@@ -1346,9 +1346,12 @@ tr:nth-child(odd) {
   font-weight: 600;
   font-weight: bold;
 }
-.anvil-role-secondary-white-btn {
-  outline: 0;
-  border: 0;
+.anvil-role-secondary-btn button {
+  outline: none;
+  /* border: none;
+  background: none; */
+  background: none;
+  box-shadow: none;
   border-radius: 50px;
   padding: 10px 40px;
   font-family: "DM Sans", sans-serif;
