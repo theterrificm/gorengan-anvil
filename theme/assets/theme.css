@@ -1348,10 +1348,10 @@ tr:nth-child(odd) {
 }
 .anvil-role-secondary-btn button {
   outline: none;
-  /* border: none;
-  background: none; */
+  border: 1px solid white;
   background: none;
   box-shadow: none;
+  text-shadow: none;
   border-radius: 50px;
   padding: 10px 40px;
   font-family: "DM Sans", sans-serif;
