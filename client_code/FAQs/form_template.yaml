@@ -1,0 +1,92 @@
+components:
+- layout_properties: {slot: first-question-slot}
+  name: label_1
+  properties:
+    spacing:
+      padding: ['0', null, '0', null]
+    text: How would a patron to my establishment interact with this product?
+  type: Label
+- layout_properties: {slot: first-answer-slot}
+  name: label_2
+  properties:
+    spacing:
+      padding: ['0', null, '0', null]
+    text: The patron would use their smart phone or tablet to scan the QR code with their camera app. A web browser window will automatically open and show them the sign they are looking at, translated into whatever language their device is set to.  No downloads, no app, no additional software required.
+  type: Label
+- layout_properties: {slot: second-question-slot}
+  name: label_3
+  properties:
+    spacing:
+      margin: [0, null, null, null]
+      padding: ['0', null, '0', null]
+    text: How do I add a new sign to my account?
+  type: Label
+- layout_properties: {slot: second-answer-slot}
+  name: label_4
+  properties:
+    spacing:
+      margin: [null, null, '5', null]
+      padding: ['0', null, '0', null]
+    text: Simply snap a clear photo of the sign which you want to add to your account.  From there, click `Add New Sign` and select the photo you just took.  You can even use built in AI to scan the text from the sign automatically.  After that, you can immediately attach the generated QR code onto your existing signage.
+  type: Label
+- layout_properties: {slot: third-question-slot}
+  name: label_5
+  properties:
+    spacing:
+      padding: ['0', null, 0, null]
+    text: What languages do you support?
+  type: Label
+- layout_properties: {slot: third-answer-slot}
+  name: label_6
+  properties:
+    spacing:
+      padding: ['0', null, '0', null]
+    text: Currently we support 249 languages.  Whatever language your device is set to - we can translate.
+  type: Label
+- layout_properties: {slot: fourth-question-slot}
+  name: label_7
+  properties:
+    spacing:
+      padding: ['0', null, '0', null]
+    text: Can I try this before purchasing?
+  type: Label
+- layout_properties: {slot: fourth-answer-slot}
+  name: label_8
+  properties:
+    spacing:
+      padding: ['0', null, '0', null]
+    text: ' Completely free trials are available 24/7.  All you need is an email address.  A trial account supports 2 signs and will expire after 14 days.  Should you need more time or more signs, please reach out and we are happy to extend your trial on a case-by-case basis.'
+  type: Label
+- layout_properties: {slot: fifth-question-slot}
+  name: label_9
+  properties:
+    spacing:
+      padding: ['0', null, '0', null]
+    text: I am a current customer and am experiencing difficulties.  How can I get in touch?
+  type: Label
+- layout_properties: {slot: fifth-answer-slot}
+  name: label_10
+  properties:
+    spacing:
+      padding: ['0', null, '0', null]
+    text: For support, please email help@signsafetech.com or use the `Contact Us` button at the top of the page.  We will respond within 24 hours.
+  type: Label
+- layout_properties: {slot: sixth-question-slot}
+  name: label_11
+  properties:
+    spacing:
+      padding: ['0', null, '0', null]
+    text: Can't I just use Google Translate on my phone?
+  type: Label
+- layout_properties: {slot: sixth-answer-slot}
+  name: label_12
+  properties:
+    spacing:
+      padding: ['0', null, '0', null]
+    text: Unlike Google Translate, SignSafe Tech is a fully automated service that requires no input or action from the end user besides scanning a QR code with a device and app that they already have.  We require no additional app, no login, and no configuration needed for your patrons to get the sign translated.
+  type: Label
+container:
+  properties:
+    html: "<!-- Faq -->\n<div class=\"container-4 pd-40-20\">\n    <p class=\"text-center heading-font-2 mb-20\">Frequently Asked Questions</p>\n    <ul class=\"faq\">\n        <li>\n            <input type=\"checkbox\" checked>\n            <i></i>\n            <h2 class=\"font-large font-bold mb-10\">\n              <span anvil-slot=\"first-question-slot\" >\n                <span class=\"placeholder anvil-designer-only\" anvil-if-slot-empty=\"first-question-slot\" \n                  anvil-drop-here>\n                  [First question]\n                </span>\n              </span>\n            </h2>\n            <!-- <h2 class=\"font-large font-bold mb-10\">How would a patron to my establishment interact with this product?</h2> -->\n            <p class=\"font-normal text-green\">\n              <span anvil-slot=\"first-answer-slot\" >\n                <span class=\"placeholder anvil-designer-only\" anvil-if-slot-empty=\"first-answer-slot\" \n                  anvil-drop-here>\n                  [First answer]\n                </span>\n              </span>\n            </p>\n        </li>\n        <li>\n            <input type=\"checkbox\" checked>\n            <i></i>\n            <h2 class=\"font-large font-bold mb-10\">\n              <span anvil-slot=\"second-question-slot\" >\n                <span class=\"placeholder anvil-designer-only\" anvil-if-slot-empty=\"second-question-slot\" \n                  anvil-drop-here>\n                  [Second question]\n                </span>\n              </span>\n            </h2>\n            <!-- <h2 class=\"font-large font-bold mb-10\">How would a patron to my establishment interact with this product?</h2> -->\n            <p class=\"font-normal text-green\">\n              <span anvil-slot=\"second-answer-slot\" >\n                <span class=\"placeholder anvil-designer-only\" anvil-if-slot-empty=\"second-answer-slot\" \n                  anvil-drop-here>\n                  [Second answer]\n                </span>\n              </span>\n            </p>\n        </li>\n        <li>\n            <input type=\"checkbox\" checked>\n            <i></i>\n            <h2 class=\"font-large font-bold mb-10\">\n              <span anvil-slot=\"third-question-slot\" >\n                <span class=\"placeholder anvil-designer-only\" anvil-if-slot-empty=\"third-question-slot\" \n                  anvil-drop-here>\n                  [Third question]\n                </span>\n              </span>\n            </h2>\n            <!-- <h2 class=\"font-large font-bold mb-10\">How would a patron to my establishment interact with this product?</h2> -->\n            <p class=\"font-normal text-green\">\n              <span anvil-slot=\"third-answer-slot\" >\n                <span class=\"placeholder anvil-designer-only\" anvil-if-slot-empty=\"third-answer-slot\" \n                  anvil-drop-here>\n                  [Third answer]\n                </span>\n              </span>\n            </p>\n        </li>\n        <li>\n            <input type=\"checkbox\" checked>\n            <i></i>\n            <h2 class=\"font-large font-bold mb-10\">\n              <span anvil-slot=\"fourth-question-slot\" >\n                <span class=\"placeholder anvil-designer-only\" anvil-if-slot-empty=\"fourth-question-slot\" \n                  anvil-drop-here>\n                  [Fourth question]\n                </span>\n              </span>\n            </h2>\n            <!-- <h2 class=\"font-large font-bold mb-10\">How would a patron to my establishment interact with this product?</h2> -->\n            <p class=\"font-normal text-green\">\n              <span anvil-slot=\"fourth-answer-slot\" >\n                <span class=\"placeholder anvil-designer-only\" anvil-if-slot-empty=\"fourth-answer-slot\" \n                  anvil-drop-here>\n                  [Fourth answer]\n                </span>\n              </span>\n            </p>\n        </li>\n        <li>\n            <input type=\"checkbox\" checked>\n            <i></i>\n            <h2 class=\"font-large font-bold mb-10\">\n              <span anvil-slot=\"fifth-question-slot\" >\n                <span class=\"placeholder anvil-designer-only\" anvil-if-slot-empty=\"fifth-question-slot\" \n                  anvil-drop-here>\n                  [Fifth question]\n                </span>\n              </span>\n            </h2>\n            <!-- <h2 class=\"font-large font-bold mb-10\">How would a patron to my establishment interact with this product?</h2> -->\n            <p class=\"font-normal text-green\">\n              <span anvil-slot=\"fifth-answer-slot\" >\n                <span class=\"placeholder anvil-designer-only\" anvil-if-slot-empty=\"fifth-answer-slot\" \n                  anvil-drop-here>\n                  [Fifth answer]\n                </span>\n              </span>\n            </p>\n        </li>\n        <li>\n            <input type=\"checkbox\" checked>\n            <i></i>\n            <h2 class=\"font-large font-bold mb-10\">\n              <span anvil-slot=\"sixth-question-slot\" >\n                <span class=\"placeholder anvil-designer-only\" anvil-if-slot-empty=\"sixth-question-slot\" \n                  anvil-drop-here>\n                  [Sixth question]\n                </span>\n              </span>\n            </h2>\n            <!-- <h2 class=\"font-large font-bold mb-10\">How would a patron to my establishment interact with this product?</h2> -->\n            <p class=\"font-normal text-green\">\n              <span anvil-slot=\"sixth-answer-slot\" >\n                <span class=\"placeholder anvil-designer-only\" anvil-if-slot-empty=\"sixth-answer-slot\" \n                  anvil-drop-here>\n                  [Sixth answer]\n                </span>\n              </span>\n            </p>\n        </li>\n        <!-- <li>\n            <input type=\"checkbox\" checked>\n            <i></i>\n            <h2 class=\"font-large font-bold mb-10\">How do I add a new sign to my account?</h2>\n            <p class=\"font-normal text-green\">Simply snap a clear photo of the sign which you want to add to your account.  From there, click `Add New Sign` and select the photo you just took.  You can even use built in AI to scan the text from the sign automatically.  After that, you can immediately attach the generated QR code onto your existing signage.</p>\n        </li>\n        <li>\n            <input type=\"checkbox\" checked>\n            <i></i>\n            <h2 class=\"font-large font-bold mb-10\">What languages do you support?</h2>\n            <p class=\"font-normal text-green\">Currently we support 249 languages.  Whatever language your device is set to - we can translate.</p>\n        </li>\n        <li>\n            <input type=\"checkbox\" checked>\n            <i></i>\n            <h2 class=\"font-large font-bold mb-10\">Can I try this before purchasing?</h2>\n            <p class=\"font-normal text-green\"> Completely free trials are available 24/7.  All you need is an email address.  A trial account supports 2 signs and will expire after 14 days.  Should you need more time or more signs, please reach out and we are happy to extend your trial on a case-by-case basis.</p>\n        </li>\n        <li>\n            <input type=\"checkbox\" checked>\n            <i></i>\n            <h2 class=\"font-large font-bold mb-10\">I am a current customer and am experiencing difficulties.  How can I get in touch?</h2>\n            <p class=\"font-normal text-green\">For support, please email help@signsafetech.com or use the `Contact Us` button at the top of the page.  We will respond within 24 hours.</p>\n        </li>\n        <li>\n            <input type=\"checkbox\" checked>\n            <i></i>\n            <h2 class=\"font-large font-bold mb-10\">Can't I just use Google Translate on my phone?</h2>\n            <p class=\"font-normal text-green\">Unlike Google Translate, SignSafe Tech is a fully automated service that requires no input or action from the end user besides scanning a QR code with a device and app that they already have.  We require no additional app, no login, and no configuration needed for your patrons to get the sign translated.</p>\n        </li> -->\n    </ul>\n</div>"
+  type: HtmlTemplate
+is_package: true

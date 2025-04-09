@@ -5,6 +5,7 @@ from ..Account import Account
 from ..Pricing import Pricing
 from ..Login import Login
 from ..Home import Home
+from ..FAQs import FAQs
 
 
 forms_to_change = {
@@ -13,6 +14,7 @@ forms_to_change = {
   'Account': Account(),
   'Login': Login(),
   'Home': Home(),
+  'FAQs': FAQs(),
 }
 
 class Main(MainTemplate):
