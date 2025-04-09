@@ -1,0 +1,48 @@
+components: []
+container:
+  properties:
+    html: |-
+      <!-- Faq -->
+      <div class="container-4 pd-40-20">
+          <p class="text-center heading-font-2 mb-20">Frequently Asked Questions</p>
+          <ul class="faq">
+              <li>
+                  <input type="checkbox" checked>
+                  <i></i>
+                  <h2 class="font-large font-bold mb-10">How would a patron to my establishment interact with this product?</h2>
+                  <p class="font-normal text-green">The patron would use their smart phone or tablet to scan the QR code with their camera app. A web browser window will automatically open and show them the sign they are looking at, translated into whatever language their device is set to.  No downloads, no app, no additional software required.</p>
+              </li>
+              <li>
+                  <input type="checkbox" checked>
+                  <i></i>
+                  <h2 class="font-large font-bold mb-10">How do I add a new sign to my account?</h2>
+                  <p class="font-normal text-green">Simply snap a clear photo of the sign which you want to add to your account.  From there, click `Add New Sign` and select the photo you just took.  You can even use built in AI to scan the text from the sign automatically.  After that, you can immediately attach the generated QR code onto your existing signage.</p>
+              </li>
+              <li>
+                  <input type="checkbox" checked>
+                  <i></i>
+                  <h2 class="font-large font-bold mb-10">What languages do you support?</h2>
+                  <p class="font-normal text-green">Currently we support 249 languages.  Whatever language your device is set to - we can translate.</p>
+              </li>
+              <li>
+                  <input type="checkbox" checked>
+                  <i></i>
+                  <h2 class="font-large font-bold mb-10">Can I try this before purchasing?</h2>
+                  <p class="font-normal text-green"> Completely free trials are available 24/7.  All you need is an email address.  A trial account supports 2 signs and will expire after 14 days.  Should you need more time or more signs, please reach out and we are happy to extend your trial on a case-by-case basis.</p>
+              </li>
+              <li>
+                  <input type="checkbox" checked>
+                  <i></i>
+                  <h2 class="font-large font-bold mb-10">I am a current customer and am experiencing difficulties.  How can I get in touch?</h2>
+                  <p class="font-normal text-green">For support, please email help@signsafetech.com or use the `Contact Us` button at the top of the page.  We will respond within 24 hours.</p>
+              </li>
+              <li>
+                  <input type="checkbox" checked>
+                  <i></i>
+                  <h2 class="font-large font-bold mb-10">Can't I just use Google Translate on my phone?</h2>
+                  <p class="font-normal text-green">Unlike Google Translate, SignSafe Tech is a fully automated service that requires no input or action from the end user besides scanning a QR code with a device and app that they already have.  We require no additional app, no login, and no configuration needed for your patrons to get the sign translated.</p>
+              </li>
+          </ul>
+      </div>
+  type: HtmlTemplate
+is_package: true

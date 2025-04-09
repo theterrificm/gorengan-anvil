@@ -18,6 +18,7 @@ components:
     properties: {role: heading-h3, text: Website Info}
     type: Label
   - components: []
+    event_bindings: {click: nav_link_click}
     layout_properties: {grid_position: 'RIXPOL,XZVZXK'}
     name: link_2
     properties: {foreground: 'theme:primary', text: FAQs}
@@ -35,7 +36,8 @@ components:
     name: label_1
     properties: {role: heading-h3, text: Company}
     type: Label
-  - layout_properties: {grid_position: 'ZRZGML,DRPBHL'}
+  - event_bindings: {click: nav_link_click}
+    layout_properties: {grid_position: 'ZRZGML,DRPBHL'}
     name: link_1
     properties: {foreground: 'theme:primary', text: Contact Us}
     type: Link
