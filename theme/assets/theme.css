@@ -1356,3 +1356,9 @@ tr:nth-child(odd) {
   padding: 10px 40px;
   font-family: "DM Sans", sans-serif;
 }
+.anvil-role-heading-h2 {
+  font-size: 40px;
+  font-weight: 600;
+  font-weight: bold;
+  color: #1c1c1c;
+}
