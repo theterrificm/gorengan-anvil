@@ -1356,6 +1356,17 @@ tr:nth-child(odd) {
   padding: 10px 40px;
   font-family: "DM Sans", sans-serif;
 }
+.anvil-role-primary-green-btn button {
+  outline: none;
+  background: none;
+  box-shadow: none;
+  text-shadow: none;
+  width: 20rem;
+  border: 1px solid #6abf4b;
+  border-radius: 50px;
+  padding: 10px 40px;
+  font-family: "DM Sans", sans-serif;
+}
 .anvil-role-heading-h2 {
   font-size: 40px;
   font-weight: 600;

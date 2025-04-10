@@ -10,3 +10,4 @@ roles:
 - {name: main-heading}
 - {name: secondary-btn}
 - {name: heading-h2}
+- {name: primary-green-btn}
