@@ -1,0 +1,34 @@
+components:
+- layout_properties: {slot: sub-services-slot}
+  name: label_1
+  properties: {text: Sign View}
+  type: Label
+- layout_properties: {slot: heading-slot}
+  name: label_2
+  properties: {align: center, role: heading-h2, text: SEASCAPE PARK WELCOME SIGN}
+  type: Label
+- layout_properties: {slot: main-image-slot}
+  name: image_1
+  properties: {display_mode: original_size, source: _/theme/images/why-choose-image.png}
+  type: Image
+- layout_properties: {slot: translated-text-slot}
+  name: label_3
+  properties:
+    foreground: theme:primary
+    role: heading-h3
+    text: |-
+      PARK HOURS ARE SUNRISE TO SUNSET.
+
+      NO MOTORCYCLES ALLOWED.
+
+      DOGS MUST BE LEASHED.
+
+      PRESERVE AND PROTECT YOUR FACILITY.
+
+      COUNTY OF SANTA CRUZ.
+  type: Label
+container:
+  properties:
+    html: "    <div class=\"container pd-20-40\">\n        <div class=\"guide-container-with-bg text-center background-contain padding-80-0\">\n            <p class=\"text-black font-bold\">\n              <span class=\"mr-10\"><img src=\"_/theme/images/bullet.svg\" alt=\"\" srcset=\"\" /></span>\n              <span anvil-slot=\"sub-services-slot\" >\n                <span class=\"placeholder anvil-designer-only\" anvil-if-slot-empty=\"sub-services-slot\" \n                  anvil-drop-here>\n                  [Our Services]\n                </span>\n              </span>\n            </p>\n            <div class=\"text-box text-box-2\">\n              <span anvil-slot=\"heading-slot\" >\n                <span class=\"placeholder anvil-designer-only\" anvil-if-slot-empty=\"heading-slot\" \n                  anvil-drop-here>\n                  [Heading Slot]\n                </span>\n              </span>\n                <!-- <p class=\"heading-font-2 text-black font-bold\">\n                    SEASCAPE PARK WELCOME SIGN\n                </p> -->\n            </div>\n            <div class=\"choose-section container d-flex flex-col gap-40 pd-20-40-0-40\">\n                <div class=\"choose-text-box-2 d-flex gap-40\">\n                    <div class=\"flex-1 image-box text-right\">\n                      <span anvil-slot=\"main-image-slot\" >\n                        <span class=\"placeholder anvil-designer-only\" anvil-if-slot-empty=\"main-image-slot\" \n                          anvil-drop-here>\n                          [Main image]\n                        </span>\n                      </span>\n                        <!-- <img src=\"_/theme/images/why-choose-image.png\" alt=\"\"> -->\n                    </div>\n                    <div class=\"flex-1 d-flex space-center\">\n                      <span anvil-slot=\"translated-text-slot\" >\n                        <span class=\"placeholder anvil-designer-only\" anvil-if-slot-empty=\"translated-text-slot\" \n                          anvil-drop-here>\n                          [Translated text]\n                        </span>\n                      </span>\n                    </div>\n                </div>\n            </div>\n        </div>\n    </div>\n\n    <!-- Button Divs -->\n  <div class=\"button-div d-flex flex-col align-center space-center\">\n    <p class=\"line-1 font-large mb-20 pointer text-black text-center\">\n      <span anvil-slot=\"info-slot\" >\n        <span class=\"placeholder anvil-designer-only\" anvil-if-slot-empty=\"info-slot\" \n          anvil-drop-here>\n          [Info text]\n        </span>\n      </span>\n      <span anvil-slot=\"info-slot\" >\n        <span class=\"placeholder anvil-designer-only\" anvil-if-slot-empty=\"info-slot\" \n          anvil-drop-here>\n          [Info text]\n        </span>\n      </span>\n        <!-- <a href=\"#\" class=\"decoration-none decoration-none-hover\">For more information, please click here to visit our website</a> -->\n      </p>\n    <!-- <p class=\"line-1 font-large mb-20 bg-green-hover bg-green border-5 pd-10 shadow pointer text-black\">\n      <a href=\"#\" class=\"decoration-none\"><span class=\"mr-10\">\n        <img src=\"./images/volume-up.svg\" class=\"vertical-bottom\" alt=\"\" srcset=\"\" />\n      </span>Hear this Sign</a>\n    </p> -->\n  </div>"
+  type: HtmlTemplate
+is_package: true
