@@ -23,7 +23,8 @@ components:
     name: link_2
     properties: {foreground: 'theme:primary', text: FAQs}
     type: Link
-  - layout_properties: {grid_position: 'NFKXIU,EYEVCP'}
+  - event_bindings: {click: link_3_click}
+    layout_properties: {grid_position: 'NFKXIU,EYEVCP'}
     name: link_3
     properties: {foreground: 'theme:primary', text: Privacy Policy}
     type: Link

@@ -2,7 +2,27 @@ components:
 - components:
   - layout_properties: {grid_position: 'EPUEZZ,PNBRIM'}
     name: label_1
-    properties: {text: Privacy Policy}
+    properties: {align: center, role: heading-h2, text: Privacy Policy}
+    type: Label
+  - layout_properties: {grid_position: 'GTSSQC,ZHPWOW'}
+    name: label_2
+    properties: {align: center, bold: true, font_size: 18, text: 'Last updated: February 07, 2025'}
+    type: Label
+  - layout_properties: {grid_position: 'DPVNQI,WTVMZM'}
+    name: label_3
+    properties: {text: 'This Privacy Policy describes Our policies and procedures on the collection, use and disclosure of Your information when You use the Service and tells You about Your privacy rights and how the law protects You.We use Your Personal data to provide and improve the Service. By using the Service, You agree to the collection and use of information in accordance with this Privacy Policy. This Privacy Policy has been created with the help of the Privacy Policy Generator.'}
+    type: Label
+  - layout_properties: {grid_position: 'MNKHGK,ZSIHVX'}
+    name: label_4
+    properties: {role: heading-h3, text: Interpretation and Definitions}
+    type: Label
+  - layout_properties: {grid_position: 'IAVBAV,RKRTWT'}
+    name: label_5
+    properties: {bold: true, text: Interpretation}
+    type: Label
+  - layout_properties: {grid_position: 'PIXVWT,QXUVUZ'}
+    name: label_6
+    properties: {text: The words of which the initial letter is capitalized have meanings defined under the following conditions. The following definitions shall have the same meaning regardless of whether they appear in singular or in plural.}
     type: Label
   layout_properties: {slot: default}
   name: content_panel
