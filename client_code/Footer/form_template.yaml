@@ -48,7 +48,11 @@ components:
   type: ColumnPanel
 - layout_properties: {slot: footer-bottom}
   name: footer_bottom_bar
-  properties: {text: © 2025 Gorengan. All Rights Reserved.}
+  properties:
+    spacing:
+      margin: [0, null, 0, null]
+      padding: [0, null, 0, null]
+    text: © 2025 Gorengan. All Rights Reserved.
   type: Label
 - components:
   - layout_properties: {grid_position: 'WUJHVD,RDQMWP'}

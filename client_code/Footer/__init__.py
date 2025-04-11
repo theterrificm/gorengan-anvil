@@ -15,4 +15,4 @@ class Footer(FooterTemplate):
     self.parent.parent.change_content_panel(form_to_update)
 
   def link_3_click(self, **event_args):
-    alert(PrivacyPolicy(), large=True)
+    alert(PrivacyPolicy(), large=True, buttons=None)
