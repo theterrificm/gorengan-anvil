@@ -1,4 +1,95 @@
 components:
+- layout_properties: {slot: sub-customer-heading}
+  name: label_30
+  properties: {text: Customer Testimonials}
+  type: Label
+- components:
+  - layout_properties: {grid_position: 'ZCJMRS,PXBCHU'}
+    name: label_26
+    properties:
+      foreground: theme:primary
+      role: heading-h3
+      spacing:
+        margin: [0, null, '0', null]
+        padding: ['0', null, '7', null]
+      text: Lightning-Fast Service
+    type: Label
+  - layout_properties: {grid_position: 'CQKEKQ,ITLOKG'}
+    name: label_27
+    properties:
+      foreground: theme:primary
+      spacing:
+        margin: [0, null, null, null]
+        padding: ['0', null, null, null]
+      text: |+
+        Get everything you need delivered right to your doorstep in just minutes—no delays, no hassle.
+
+    type: Label
+  layout_properties: {slot: lightening-slot}
+  name: column_panel_8
+  properties:
+    spacing:
+      margin: [0, null, null, null]
+  type: ColumnPanel
+- components:
+  - layout_properties: {grid_position: 'ESJOKM,SCEUGY'}
+    name: label_20_copy_copy_copy
+    properties:
+      role: heading-h3
+      spacing:
+        margin: [0, null, 0, null]
+        padding: ['0', null, null, null]
+      text: |
+        Step 4
+    type: Label
+  - layout_properties: {grid_position: 'GRXXZG,WZGFGM'}
+    name: label_21_copy_copy_copy
+    properties: {text: Choose Your Desired Service}
+    type: Label
+  - layout_properties: {grid_position: 'ZBULDW,NFULUD'}
+    name: label_22_copy_copy_copy
+    properties: {text: 'Need food, shopping, medicine, parcel delivery, or investment options? Select what suits you best!'}
+    type: Label
+  layout_properties: {slot: step-four-slot}
+  name: step_4_column_panel
+  properties:
+    spacing:
+      margin: [0, null, null, null]
+  type: ColumnPanel
+- components:
+  - layout_properties: {grid_position: 'XIHPGG,OVPAMF'}
+    name: label_20_copy
+    properties:
+      role: heading-h3
+      spacing:
+        margin: [0, null, 0, null]
+        padding: ['0', null, null, null]
+      text: |
+        Step 2
+    type: Label
+  - layout_properties: {grid_position: 'WNKRUP,SYYLYX'}
+    name: label_21_copy
+    properties: {text: Choose Your Desired Service}
+    type: Label
+  - layout_properties: {grid_position: 'DZFQMN,RUYFJA'}
+    name: label_22_copy
+    properties: {text: 'Need food, shopping, medicine, parcel delivery, or investment options? Select what suits you best!'}
+    type: Label
+  layout_properties: {slot: step-two-slot}
+  name: step_2_column_panel
+  properties: {}
+  type: ColumnPanel
+- components:
+  - name: image_2
+    properties: {display_mode: original_size, horizontal_align: left, source: _/theme/images/flower.svg}
+    type: Image
+  - name: label_14
+    properties: {text: Go Mall}
+    type: Label
+  layout_properties: {slot: flower-img-slot}
+  name: flow_panel_1
+  properties: {}
+  type: FlowPanel
 - layout_properties: {slot: main-heading-slot}
   name: main_heading
   properties:
@@ -126,8 +217,516 @@ components:
   name: label_13
   properties: {text: 'Whether you''re shopping for your favorite products, ordering delicious meals, accessing healthcare essentials, sending packages, or exploring investment opportunities, Gorengan provides a fast, secure, and seamless experience.'}
   type: Label
+- layout_properties: {slot: learn-btn-slot}
+  name: button_3
+  properties:
+    background: theme:primary
+    bold: true
+    font_size: 16
+    foreground: theme:white
+    icon: fa:arrow-right
+    icon_align: right
+    role: primary-green-btn
+    spacing:
+      margin: [null, 0, null, null]
+    text: Learn More
+  type: Button
+- components:
+  - components:
+    - layout_properties: {}
+      name: image_3
+      properties: {display_mode: original_size, horizontal_align: left, source: _/theme/images/flower.svg, vertical_align: center}
+      type: Image
+    - layout_properties: {}
+      name: label_15
+      properties:
+        role: heading-h3
+        spacing:
+          margin: [null, null, '0', null]
+          padding: ['0', null, '0', null]
+        text: Go Food
+      type: Label
+    layout_properties: {grid_position: 'CSIQAX,YSOQGF'}
+    name: flow_panel_2
+    properties:
+      gap: tiny
+      spacing:
+        margin: ['0', null, null, null]
+      vertical_align: middle
+    type: FlowPanel
+  - layout_properties: {grid_position: 'VJOSMC,EQDVMB'}
+    name: label_16
+    properties:
+      spacing:
+        margin: ['20', null, null, null]
+        padding: ['20', null, null, null]
+      text: Get fast and reliable food delivery from top restaurants, whenever you crave it.
+    type: Label
+  - layout_properties: {grid_position: 'RQTLTQ,PSXFRR'}
+    name: button_4
+    properties:
+      background: theme:primary
+      bold: true
+      font_size: 15
+      foreground: theme:white
+      icon: fa:chevron-right
+      icon_align: right
+      role: primary-green-btn
+      spacing:
+        margin: ['25', null, null, null]
+      text: Learn More
+    type: Button
+  layout_properties: {slot: go-food-slot}
+  name: column_panel_4
+  properties: {}
+  type: ColumnPanel
+- components:
+  - components:
+    - name: image_3_copy
+      properties: {display_mode: original_size, horizontal_align: left, source: _/theme/images/flower.svg, vertical_align: center}
+      type: Image
+    - layout_properties: {}
+      name: label_15_copy
+      properties:
+        role: heading-h3
+        spacing:
+          margin: [null, null, '0', null]
+          padding: ['0', null, '0', null]
+        text: Go Medicine
+      type: Label
+    layout_properties: {grid_position: 'DCNRZJ,JHPKBQ'}
+    name: flow_panel_3
+    properties:
+      gap: tiny
+      spacing:
+        margin: [0, null, null, null]
+      vertical_align: top
+    type: FlowPanel
+  - layout_properties: {grid_position: 'QHSDAS,QVTWYZ'}
+    name: label_16_copy
+    properties:
+      spacing:
+        margin: ['20', null, null, null]
+        padding: ['20', null, null, null]
+      text: Get fast and reliable food delivery from top restaurants, whenever you crave it.
+    type: Label
+  - layout_properties: {grid_position: 'SIBDUS,TFRANO'}
+    name: button_4_copy
+    properties:
+      background: theme:primary
+      bold: true
+      font_size: 15
+      foreground: theme:white
+      icon: fa:chevron-right
+      icon_align: right
+      role: primary-green-btn
+      spacing:
+        margin: ['25', null, null, null]
+      text: Learn More
+    type: Button
+  layout_properties: {slot: go-medicine-slot}
+  name: column_panel_5
+  properties: {}
+  type: ColumnPanel
+- components:
+  - components:
+    - name: image_3_copy_copy
+      properties: {display_mode: original_size, horizontal_align: left, source: _/theme/images/flower.svg, vertical_align: center}
+      type: Image
+    - layout_properties: {}
+      name: label_15_copy_copy
+      properties:
+        role: heading-h3
+        spacing:
+          margin: [null, null, '0', null]
+          padding: ['0', null, '0', null]
+        text: Go Send
+      type: Label
+    layout_properties: {grid_position: 'XVAWNY,KTFCRM'}
+    name: flow_panel_3_copy
+    properties:
+      gap: tiny
+      spacing:
+        margin: [0, null, null, null]
+      vertical_align: top
+    type: FlowPanel
+  - layout_properties: {grid_position: 'ILAKPX,DIEOTJ'}
+    name: label_16_copy_copy
+    properties:
+      spacing:
+        margin: ['20', null, null, null]
+        padding: ['20', null, null, null]
+      text: Get fast and reliable food delivery from top restaurants, whenever you crave it.
+    type: Label
+  - layout_properties: {grid_position: 'DYPSBQ,PVTPYK'}
+    name: button_4_copy_copy
+    properties:
+      background: theme:primary
+      bold: true
+      font_size: 15
+      foreground: theme:white
+      icon: fa:chevron-right
+      icon_align: right
+      role: primary-green-btn
+      spacing:
+        margin: ['25', null, null, null]
+      text: Learn More
+    type: Button
+  layout_properties: {slot: go-send-slot}
+  name: column_panel_6
+  properties: {}
+  type: ColumnPanel
+- components:
+  - components:
+    - name: image_3_copy_copy_copy
+      properties: {display_mode: original_size, horizontal_align: left, source: _/theme/images/flower.svg, vertical_align: center}
+      type: Image
+    - layout_properties: {}
+      name: label_15_copy_copy_copy
+      properties:
+        role: heading-h3
+        spacing:
+          margin: [null, null, '0', null]
+          padding: ['0', null, '0', null]
+        text: Go Invest
+      type: Label
+    layout_properties: {grid_position: 'KOSQDF,CSWNXW'}
+    name: flow_panel_3_copy_copy
+    properties:
+      gap: tiny
+      spacing:
+        margin: [0, null, null, null]
+      vertical_align: top
+    type: FlowPanel
+  - layout_properties: {grid_position: 'AUFEKM,TPIJZP'}
+    name: label_16_copy_copy_copy
+    properties:
+      spacing:
+        margin: ['20', null, null, null]
+        padding: ['20', null, null, null]
+      text: Get fast and reliable food delivery from top restaurants, whenever you crave it.
+    type: Label
+  - layout_properties: {grid_position: 'AEFCRY,YBQPVH'}
+    name: button_4_copy_copy_copy
+    properties:
+      background: theme:primary
+      bold: true
+      font_size: 15
+      foreground: theme:white
+      icon: fa:chevron-right
+      icon_align: right
+      role: primary-green-btn
+      spacing:
+        margin: ['25', null, null, null]
+      text: Learn More
+    type: Button
+  layout_properties: {slot: go-invest-slot}
+  name: column_panel_7
+  properties: {}
+  type: ColumnPanel
+- layout_properties: {slot: small-label-slot}
+  name: label_17
+  properties: {text: Step-by-Step Guide}
+  type: Label
+- layout_properties: {slot: heading-effortless-slot}
+  name: label_18
+  properties: {role: heading-h2, text: Effortless & Seamless Experience}
+  type: Label
+- layout_properties: {slot: heading-effortless-slot}
+  name: label_19
+  properties: {align: center, text: 'Using Gorengan is as easy as 1-2-3! With just a few taps, you can access a wide range of essential services—all in one app. Follow these simple steps to get started:'}
+  type: Label
+- components:
+  - layout_properties: {grid_position: 'BCPGLN,AFVCJB'}
+    name: label_20
+    properties:
+      role: heading-h3
+      spacing:
+        margin: [0, null, 0, null]
+        padding: ['0', null, null, null]
+      text: Step 1
+    type: Label
+  - layout_properties: {grid_position: 'GGKZTQ,ZDTVWM'}
+    name: label_21
+    properties: {text: Choose Your Desired Service}
+    type: Label
+  - layout_properties: {grid_position: 'URQABY,JWRICI'}
+    name: label_22
+    properties: {text: 'Need food, shopping, medicine, parcel delivery, or investment options? Select what suits you best!'}
+    type: Label
+  layout_properties: {slot: step-one-slot}
+  name: step_1_column_panel
+  properties:
+    spacing:
+      margin: [0, null, null, null]
+  type: ColumnPanel
+- components:
+  - layout_properties: {grid_position: 'RHXDEW,LUAOHS'}
+    name: label_20_copy_copy
+    properties:
+      role: heading-h3
+      spacing:
+        margin: [0, null, 0, null]
+        padding: ['0', null, null, null]
+      text: |
+        Step 3
+    type: Label
+  - layout_properties: {grid_position: 'HVDTGF,PNXYXW'}
+    name: label_21_copy_copy
+    properties: {text: Choose Your Desired Service}
+    type: Label
+  - layout_properties: {grid_position: 'PQVZUS,EOQUUX'}
+    name: label_22_copy_copy
+    properties: {text: 'Need food, shopping, medicine, parcel delivery, or investment options? Select what suits you best!'}
+    type: Label
+  layout_properties: {slot: step-three-slot}
+  name: step_3_column_panel
+  properties: {}
+  type: ColumnPanel
+- layout_properties: {slot: more-heading-slot}
+  name: label_23
+  properties: {role: heading-h2, text: 'More Than Just an App – A Smarter, Faster, and More Convenient Way to Live'}
+  type: Label
+- layout_properties: {slot: subtext-gorengan-slot}
+  name: label_24
+  properties: {align: right, text: 'Gorengan isn’t just a service—it’s a smarter way to live. Whether you need food, shopping, medicine, delivery, or investment options, we’ve got you covered with speed, security, and convenience.'}
+  type: Label
+- layout_properties: {slot: why-small-slot}
+  name: label_25
+  properties: {text: 'Why Choose Gorengan?'}
+  type: Label
+- layout_properties: {slot: lightening-image-slot}
+  name: image_4
+  properties: {display_mode: original_size, source: _/theme/images/why-icon-1.png}
+  type: Image
+- layout_properties: {slot: secure-image-slot}
+  name: image_5
+  properties: {display_mode: original_size, source: _/theme/images/why-icon-2.png}
+  type: Image
+- components:
+  - layout_properties: {grid_position: 'TOFRQW,QUJLSD'}
+    name: label_28
+    properties:
+      role: heading-h3
+      spacing:
+        margin: [0, null, 0, null]
+        padding: ['0', null, null, null]
+      text: Secure & Reliable
+    type: Label
+  - layout_properties: {grid_position: 'WKJIWZ,KQVAQM'}
+    name: label_29
+    properties:
+      spacing:
+        margin: [0, null, null, null]
+        padding: ['0', null, null, null]
+      text: Trusted by millions nationwide, Gorengan ensures safe transactions and top-tier service quality.
+    type: Label
+  layout_properties: {slot: secure-slot}
+  name: secure_column_panel
+  properties:
+    spacing:
+      margin: [0, null, null, null]
+  type: ColumnPanel
+- layout_properties: {slot: affordable-image-slot}
+  name: image_6
+  properties: {display_mode: fill_width, source: _/theme/images/why-icon-3.png}
+  type: Image
+- components:
+  - layout_properties: {grid_position: 'YWGLLG,KQTKZG'}
+    name: label_28_copy
+    properties:
+      role: heading-h3
+      spacing:
+        margin: [0, null, 0, null]
+        padding: ['0', null, null, null]
+      text: Affordable & Transparent
+    type: Label
+  - layout_properties: {grid_position: 'TCDIVD,XUHPKG'}
+    name: label_29_copy
+    properties:
+      spacing:
+        margin: [0, null, null, null]
+        padding: ['0', null, null, null]
+      text: Enjoy the best prices with no hidden fees—what you see is what you pay.
+    type: Label
+  layout_properties: {slot: affordable-slot}
+  name: column_panel_9
+  properties: {}
+  type: ColumnPanel
+- layout_properties: {slot: tap-image-slot}
+  name: image_7
+  properties: {display_mode: fill_width, source: _/theme/images/why-icon-4.png}
+  type: Image
+- components:
+  - layout_properties: {grid_position: 'YWGLLG,KQTKZG'}
+    name: label_28_copy_copy
+    properties:
+      role: heading-h3
+      spacing:
+        margin: [0, null, 0, null]
+        padding: ['0', null, null, null]
+      text: One Tap for Everything
+    type: Label
+  - layout_properties: {grid_position: 'TCDIVD,XUHPKG'}
+    name: label_29_copy_copy
+    properties:
+      spacing:
+        margin: [0, null, null, null]
+        padding: ['0', null, null, null]
+      text: No more switching between multiple apps—access all essential services from a single, easy-to-use platform.
+    type: Label
+  layout_properties: {slot: tap-slot}
+  name: column_panel_9_copy
+  properties: {}
+  type: ColumnPanel
+- layout_properties: {slot: why-image-slot}
+  name: image_8
+  properties: {display_mode: original_size, source: _/theme/images/why-choose-image.png}
+  type: Image
+- layout_properties: {slot: what-our-slot}
+  name: label_31
+  properties: {role: heading-h2, text: What Our Users Say – Real Experiences from Satisfied Customers}
+  type: Label
+- layout_properties: {slot: discover-how-slot}
+  name: label_32
+  properties: {text: 'Discover how Gorengan is revolutionizing convenience with fast deliveries, secure transactions, and a seamless all-in-one experience. Millions of users rely on Gorengan to simplify their everyday lives!'}
+  type: Label
+- components:
+  - layout_properties: {grid_position: 'AWWJRQ,HXTWQP'}
+    name: image_9
+    properties: {display_mode: original_size, source: _/theme/images/rating.png}
+    type: Image
+  - layout_properties: {grid_position: 'CMQQKR,QISARL'}
+    name: label_33
+    properties: {align: center, text: '"I love how I can get my medicines delivered in minutes. So convenient and hassle-free!"'}
+    type: Label
+  - layout_properties: {grid_position: 'WUNGSL,SCYLUG'}
+    name: label_34
+    properties: {align: center, bold: true, text: Siti Aisyah}
+    type: Label
+  - layout_properties: {grid_position: 'ZJSNJG,ZCUWNN'}
+    name: image_10
+    properties: {display_mode: original_size, source: _/theme/images/customer.png}
+    type: Image
+  layout_properties: {slot: customer-test-1-slot}
+  name: column_panel_10
+  properties: {}
+  type: ColumnPanel
+- components:
+  - layout_properties: {grid_position: 'DADLFA,FBRFLN'}
+    name: image_9_copy
+    properties: {display_mode: original_size, height: 20, source: _/theme/images/rating.png}
+    type: Image
+  - layout_properties: {grid_position: 'UUXGOT,DZTFDU'}
+    name: label_33_copy
+    properties: {align: center, text: '"I love how I can get my medicines delivered in minutes. So convenient and hassle-free!"'}
+    type: Label
+  - layout_properties: {grid_position: 'SIOLRL,GLAVGT'}
+    name: label_34_copy
+    properties: {align: center, bold: true, text: Siti Aisyah}
+    type: Label
+  - layout_properties: {grid_position: 'HEBWZG,LJYYGW'}
+    name: image_10_copy
+    properties: {display_mode: original_size, source: _/theme/images/customer.png}
+    type: Image
+  layout_properties: {slot: customer-test-2-slot}
+  name: column_panel_11
+  properties: {}
+  type: ColumnPanel
+- components:
+  - layout_properties: {grid_position: 'DHNMRD,OLMHIA'}
+    name: image_9_copy_copy
+    properties: {display_mode: original_size, height: 20, source: _/theme/images/rating.png}
+    type: Image
+  - layout_properties: {grid_position: 'NCGJQR,XZQKDT'}
+    name: label_33_copy_copy
+    properties: {align: center, text: '"I love how I can get my medicines delivered in minutes. So convenient and hassle-free!"'}
+    type: Label
+  - layout_properties: {grid_position: 'VMUJMY,GIOHRI'}
+    name: label_34_copy_copy
+    properties: {align: center, bold: true, text: Siti Aisyah}
+    type: Label
+  - layout_properties: {grid_position: 'QFJYIO,DJXXYH'}
+    name: image_10_copy_copy
+    properties: {display_mode: original_size, source: _/theme/images/customer.png}
+    type: Image
+  layout_properties: {slot: customer-test-3-slot}
+  name: column_panel_12
+  properties: {}
+  type: ColumnPanel
+- components:
+  - layout_properties: {grid_position: 'WGYSHL,KKPIZJ'}
+    name: image_9_copy_copy_copy
+    properties: {display_mode: original_size, height: 20, source: _/theme/images/rating.png}
+    type: Image
+  - layout_properties: {grid_position: 'NWIMQM,RQXPUV'}
+    name: label_33_copy_copy_copy
+    properties: {align: center, text: '"I love how I can get my medicines delivered in minutes. So convenient and hassle-free!"'}
+    type: Label
+  - layout_properties: {grid_position: 'XZEMLZ,GOMZKR'}
+    name: label_34_copy_copy_copy
+    properties: {align: center, bold: true, text: Siti Aisyah}
+    type: Label
+  layout_properties: {slot: customer-test-4-slot}
+  name: column_panel_13
+  properties: {}
+  type: ColumnPanel
+- layout_properties: {slot: customer-test-4-slot}
+  name: image_10_copy_copy_copy
+  properties: {display_mode: original_size, source: _/theme/images/customer.png}
+  type: Image
+- layout_properties: {slot: get-started-image-slot}
+  name: image_11
+  properties: {display_mode: original_size, source: _/theme/images/get-device.png}
+  type: Image
+- components:
+  - layout_properties: {grid_position: 'LCWMER,NBRVSL'}
+    name: label_35
+    properties: {role: heading-h2, text: Get Started Today}
+    type: Label
+  - layout_properties: {grid_position: 'BVRGXK,GQEAHK'}
+    name: label_36
+    properties: {text: 'Unlock a world of unmatched convenience with Gorengan, the ultimate all-in-one super app designed to simplify your everyday life. Whether you''re shopping for essentials, ordering your favorite meals, accessing medical services, sending parcels, or exploring investment opportunities, Gorengan brings everything together in one seamless platform. Say goodbye to juggling multiple apps—download now and enjoy fast, secure, and hassle-free services, all at your fingertips!'}
+    type: Label
+  layout_properties: {slot: get-started-text-slot}
+  name: column_panel_14
+  properties: {}
+  type: ColumnPanel
+- components:
+  - layout_properties: {grid_position: 'GEGTHC,KYSCPN'}
+    name: label_37
+    properties: {align: center, foreground: 'theme:white', role: heading-h2, text: Simplify Your Life with Gorengan!}
+    type: Label
+  - layout_properties: {grid_position: 'MRYDOV,EMFAVF'}
+    name: label_38
+    properties: {align: center, foreground: 'theme:white', text: One App. Multiple Services. Maximum Convenience.}
+    type: Label
+  - components:
+    - layout_properties: {}
+      name: button_5
+      properties: {background: 'theme:white', bold: true, role: secondary-btn, text: Join Now}
+      type: Button
+    - layout_properties: {}
+      name: button_6
+      properties:
+        foreground: theme:white
+        role: secondary-btn
+        text: |
+          Learn More
+      type: Button
+    layout_properties: {grid_position: 'WDTSOA,OALFLS'}
+    name: flow_panel_4
+    properties:
+      align: center
+      spacing:
+        margin: [null, 5, null, null]
+    type: FlowPanel
+  layout_properties: {slot: cta-slot}
+  name: column_panel_15
+  properties: {}
+  type: ColumnPanel
 container:
   properties:
-    html: "  <!-- Hero Section -->\n  <div class=\"hero-section container-2 pd-0-40\">\n    <div class=\"hero-container-with-bg d-flex space-between align-center background-cover pd-40 border-20\">\n      <div class=\"d-flex flex-1 flex-col gap-40 container-5\">\n        <span anvil-slot=\"main-heading-slot\" >\n          <span class=\"placeholder anvil-designer-only\" anvil-if-slot-empty=\"main-heading-slot\" \n            anvil-drop-here>\n            [Main Heading]\n          </span>\n        </span>\n        <span anvil-slot=\"sub-banner-text-slot\" >\n          <span class=\"placeholder anvil-designer-only\" anvil-if-slot-empty=\"sub-banner-text-slot\" \n            anvil-drop-here>\n            [Sub banner text]\n          </span>\n        </span>\n        \n        <div class=\"button-container d-flex-r gap-40\">\n          <span anvil-slot=\"white-btn-slot\" >\n            <span class=\"placeholder anvil-designer-only\" anvil-if-slot-empty=\"white-btn-slot\" \n              anvil-drop-here>\n              [White btn]\n            </span>\n          </span>\n          <span anvil-slot=\"transparent-btn-slot\" >\n            <span class=\"placeholder anvil-designer-only\" anvil-if-slot-empty=\"transparent-btn-slot\" \n              anvil-drop-here>\n              [Transparent btn]\n            </span>\n          </span>\n        </div>\n        <div class=\"hero-card-container d-flex gap-40\">\n          <div class=\"bg-grey border-20-r pd-40-20\">\n            <span anvil-slot=\"banner-card-1-slot\" >\n              <span class=\"placeholder anvil-designer-only\" anvil-if-slot-empty=\"banner-card-1-slot\" \n                anvil-drop-here>\n                [Banner Card 1]\n              </span>\n            </span>\n            <!-- <p class=\"font-bold text-black card-heading font-exlarge\">10 Million+</p>\n            <p class=\"text-black mb-20\">Users</p>\n            <p class=\"text-black\">\n              Join millions who rely on Gorengan for their daily needs.\n            </p> -->\n          </div>\n          <div class=\"bg-grey border-20-r pd-40-20\">\n            <span anvil-slot=\"banner-card-2-slot\" >\n              <span class=\"placeholder anvil-designer-only\" anvil-if-slot-empty=\"banner-card-2-slot\" \n                anvil-drop-here>\n                [Banner Card 2]\n              </span>\n            </span>\n          </div>\n          <div class=\"bg-grey border-20-r pd-40-20\">\n            <span anvil-slot=\"banner-card-3-slot\" >\n              <span class=\"placeholder anvil-designer-only\" anvil-if-slot-empty=\"banner-card-3-slot\" \n                anvil-drop-here>\n                [Banner Card 3]\n              </span>\n            </span>\n          </div>\n        </div>\n      </div>\n      <div class=\"flex-1 text-center\">\n        <span anvil-slot=\"banner-img-slot\" >\n          <span class=\"placeholder anvil-designer-only\" anvil-if-slot-empty=\"banner-img-slot\" \n            anvil-drop-here>\n            [Banner img]\n          </span>\n        </span>\n      </div>\n    </div>\n  </div>\n\n  <!-- Our Services -->\n  <div class=\"services-section container-2 pd-0-40\">\n    <div class=\"services-container-with-bg background-contain d-flex gap-20 pd-80-0\">\n      <div class=\"service-text-wrapper d-flex flex-col flex-1 gap-20\">\n        <div class=\"text-box flex-1 d-flex flex-col gap-40 container-5\">\n          <p class=\"text-black font-bold\">\n            <span class=\"mr-10\"><img src=\"_/theme/images/bullet.svg\" alt=\"\" srcset=\"\" /></span>\n            <span anvil-slot=\"sub-services-slot\" >\n              <span class=\"placeholder anvil-designer-only\" anvil-if-slot-empty=\"sub-services-slot\" \n                anvil-drop-here>\n                [Our Services]\n              </span>\n            </span>\n          </p>\n          <span anvil-slot=\"all-in-one-slot\" >\n            <span class=\"placeholder anvil-designer-only\" anvil-if-slot-empty=\"all-in-one-slot\" \n              anvil-drop-here>\n              [All in one]\n            </span>\n          </span>\n          <span anvil-slot=\"label-text-slot\" >\n            <span class=\"placeholder anvil-designer-only\" anvil-if-slot-empty=\"label-text-slot\" \n              anvil-drop-here>\n              [label text]\n            </span>\n          </span>\n        </div>\n        <div class=\"card-box d-flex flex-1\">\n          <div class=\"width-100 border-20-r d-flex flex-col pd-40-20 bg-grey-gradient\">\n            <p class=\"font-bold text-white card-heading\">\n              <span class=\"mr-10\"><img src=\"_/theme/images/flower.svg\" alt=\"\" srcset=\"\" /></span>Go Mall\n            </p>\n            <div class=\"card-flex-container d-flex flex-1 gap-80 align-end\">\n              <p class=\"text-white\">\n                Enjoy online shopping experience with thousands of products at\n                your fingertips.\n              </p>\n              <button\n                class=\"font-bold font-dm bg-green line-1 border-none font-normal border-50 font-dm pd-15-40 flex-none text-white\">\n                Learn More\n                <span class=\"ml-10\"><img class=\"vertical-middle\" src=\"_/theme/images/right-arrow.svg\" alt=\"\"\n                    srcset=\"\" /></span>\n              </button>\n            </div>\n          </div>\n        </div>\n      </div>\n      <div class=\"service-card-container d-flex flex-wrap flex-1 gap-20\">\n        <div class=\"card-wrapper d-flex flex-col gap-40 border-20-r pd-40-20 bg-white width-48\">\n          <p class=\"font-bold text-black font-exlarge\">\n            <span class=\"mr-10\"><img src=\"_/theme/images/flower.svg\" alt=\"\" srcset=\"\" /></span>Go Food\n          </p>\n          <p class=\"text-black\">\n            Get fast and reliable food delivery from top restaurants, whenever\n            you crave it.\n          </p>\n          <button\n            class=\"font-bold font-dm bg-green line-1 border-none font-normal border-50 font-dm pd-15-40 flex-none text-white\">\n            Learn More\n            <span class=\"ml-10\"><img class=\"vertical-middle\" src=\"_/theme/images/right-arrow.svg\" alt=\"\" srcset=\"\" /></span>\n          </button>\n        </div>\n        <div class=\"card-wrapper d-flex flex-col gap-40 border-20-r pd-40-20 bg-white width-48\">\n          <p class=\"font-bold text-black font-exlarge\">\n            <span class=\"mr-10\"><img src=\"_/theme/images/flower.svg\" alt=\"\" srcset=\"\" /></span>Go Medicine\n          </p>\n          <p class=\"text-black\">\n            Easily order prescription and over-the-counter medicine with\n            doorstep delivery.\n          </p>\n          <button\n            class=\"font-bold font-dm bg-green line-1 border-none font-normal border-50 font-dm pd-15-40 flex-none text-white\">\n            Learn More\n            <span class=\"ml-10\"><img class=\"vertical-middle\" src=\"_/theme/images/right-arrow.svg\" alt=\"\" srcset=\"\" /></span>\n          </button>\n        </div>\n        <div class=\"card-wrapper d-flex flex-col gap-40 border-20-r pd-40-20 bg-white width-48\">\n          <p class=\"font-bold text-black font-exlarge\">\n            <span class=\"mr-10\"><img src=\"_/theme/images/flower.svg\" alt=\"\" srcset=\"\" /></span>Go Send\n          </p>\n          <p class=\"text-black\">\n            Secure and quick parcel delivery for hassle-free shipping.\n            <br /><br />\n          </p>\n          <button\n            class=\"font-bold font-dm bg-green line-1 border-none font-normal border-50 font-dm pd-15-40 flex-none text-white\">\n            Learn More\n            <span class=\"ml-10\"><img class=\"vertical-middle\" src=\"_/theme/images/right-arrow.svg\" alt=\"\" srcset=\"\" /></span>\n          </button>\n        </div>\n        <div class=\"card-wrapper d-flex flex-col gap-40 border-20-r pd-40-20 bg-white width-48\">\n          <p class=\"font-bold text-black font-exlarge\">\n            <span class=\"mr-10\"><img src=\"_/theme/images/flower.svg\" alt=\"\" srcset=\"\" /></span>Go Invest\n          </p>\n          <p class=\"text-black\">\n            Explore easy and safe investment options to grow your wealth\n            effortlessly.\n          </p>\n          <button\n            class=\"font-bold font-dm bg-green line-1 border-none font-normal border-50 font-dm pd-15-40 flex-none text-white\">\n            Learn More\n            <span class=\"ml-10\"><img class=\"vertical-middle\" src=\"_/theme/images/right-arrow.svg\" alt=\"\" srcset=\"\" /></span>\n          </button>\n        </div>\n      </div>\n    </div>\n  </div>\n\n  <!-- Step by step guide -->\n  <div class=\"container pd-0-80\">\n    <div class=\"guide-container-with-bg text-center background-contain padding-80-0\">\n      <div class=\"text-box\">\n        <p class=\"text-black font-bold\">\n          <span class=\"mr-10\"><img src=\"_/theme/images/bullet.svg\" alt=\"\" srcset=\"\" /></span>Step-by-Step Guide\n        </p>\n        <p class=\"heading-font-2 text-black font-bold\">\n          Effortless & Seamless Experience\n        </p>\n        <p class=\"text-black\">\n          Using Gorengan is as easy as 1-2-3! With just a few taps, you can\n          access a wide range of essential services—all in one app. Follow\n          these simple steps to get started:\n        </p>\n      </div>\n      <div class=\"auto-tabs\">\n        <div class=\"tabs-container container-4 d-flex space-between d-none\">\n          <div class=\"tab-icon active\"></div>\n          <div class=\"tab-icon active\"></div>\n          <div class=\"tab-icon\"></div>\n          <div class=\"tab-icon\"></div>\n        </div>\n        <div class=\"card-container gap-20 d-flex text-left-r\">\n          <div class=\"pd-40-20 border-20-r active bg-green-gradient\">\n            <p class=\"font-bold text-white font-exlarge mb-20\">Step 1</p>\n            <p class=\"text-white mb-20\">Download the Gorengan App</p>\n            <p class=\"text-white\">\n              Get the app from the App Store or Google Play, sign up in\n              seconds, and start exploring instantly.\n            </p>\n          </div>\n          <div class=\"bg-white pd-40-20 border-20-r text-left-r\">\n            <p class=\"font-bold text-black font-exlarge mb-20\">Step 2</p>\n            <p class=\"text-green mb-20\">Choose Your Desired Service</p>\n            <p class=\"text-black\">\n              Need food, shopping, medicine, parcel delivery, or investment\n              options? Select what suits you best!\n            </p>\n          </div>\n          <div class=\"bg-white pd-40-20 border-20-r text-left-r\">\n            <p class=\"font-bold text-black font-exlarge mb-20\">Step 3</p>\n            <p class=\"text-green mb-20\">Place Your Order or Request</p>\n            <p class=\"text-black\">\n              Customize your order, confirm details, and make a secure\n              payment—all within the app.\n            </p>\n          </div>\n          <div class=\"bg-white pd-40-20 border-20-r text-left-r\">\n            <p class=\"font-bold text-black font-exlarge mb-20\">Step 4</p>\n            <p class=\"text-green mb-20\">Enjoy Hassle-Free Service</p>\n            <p class=\"text-black\">\n              Sit back and relax while Gorengan handles the rest with speed,\n              security, and reliability.\n            </p>\n          </div>\n        </div>\n      </div>\n    </div>\n  </div>\n\n  <!-- Why Choose -->\n  <div class=\"choose-container-with-bg background-cover\">\n    <div class=\"choose-section container d-flex flex-col gap-40 pd-80-40\">\n      <div class=\"choose-text-box-1 d-flex flex-col gap-40\">\n        <p class=\"text-black font-bold\">\n          <span class=\"mr-10\"><img src=\"_/theme/images/bullet.svg\" alt=\"\" srcset=\"\" /></span>Why Choose Gorengan?\n        </p>\n        <div class=\"sub-text-box d-flex gap-40 align-center\">\n          <p class=\"heading-font-2 text-black font-bold flex-2\">\n            More Than Just an App – A Smarter, Faster, and More Convenient Way to Live\n          </p>\n          <p class=\"text-black flex-1\">\n            Gorengan isn’t just a service—it’s a smarter way to live. Whether you need food, shopping, medicine,\n            delivery, or investment options, we’ve got you covered with speed, security, and convenience.\n          </p>\n        </div>\n      </div>\n      <div class=\"choose-text-box-2 d-flex gap-40\">\n        <div class=\"flex-1\">\n          <div class=\"point-item d-flex-r gap-40 mb-20\">\n            <img src=\"_/theme/images/why-icon-1.png\" alt=\"\">\n            <div class=\"short-text d-flex flex-col\">\n              <p class=\"text-green font-bold font-exlarge flex-1\">Lightning-Fast Service</p>\n              <p class=\"text-green flex-1\">Get everything you need delivered right to your doorstep in just minutes—no\n                delays, no hassle.</p>\n            </div>\n          </div>\n          <div class=\"point-item d-flex-r gap-40 mb-20\">\n            <img src=\"_/theme/images/why-icon-2.png\" alt=\"\">\n            <div class=\"short-text d-flex flex-col\">\n              <p class=\"text-black font-bold font-exlarge flex-1\">Secure & Reliable</p>\n              <p class=\"text-black flex-1\">Trusted by millions nationwide, Gorengan ensures safe transactions and\n                top-tier service quality.</p>\n            </div>\n          </div>\n          <div class=\"point-item d-flex-r gap-40 mb-20\">\n            <img src=\"_/theme/images/why-icon-3.png\" alt=\"\">\n            <div class=\"short-text d-flex flex-col\">\n              <p class=\"text-black font-bold font-exlarge flex-1\">Affordable & Transparent</p>\n              <p class=\"text-black flex-1\">Enjoy the best prices with no hidden fees—what you see is what you pay.</p>\n            </div>\n          </div>\n          <div class=\"point-item d-flex-r gap-40 mb-20\">\n            <img src=\"_/theme/images/why-icon-4.png\" alt=\"\">\n            <div class=\"short-text d-flex flex-col\">\n              <p class=\"text-black font-bold font-exlarge flex-1\">One Tap for Everything</p>\n              <p class=\"text-black flex-1\">No more switching between multiple apps—access all essential services from a\n                single, easy-to-use platform.</p>\n            </div>\n          </div>\n        </div>\n        <div class=\"flex-1 image-box text-right\">\n          <img src=\"_/theme/images/why-choose-image.png\" alt=\"\">\n        </div>\n      </div>\n    </div>\n  </div>\n\n  <!-- Testimonials -->\n  <div class=\"test-container-with-bg background-cover\">\n    <div class=\"test-section container d-flex flex-col gap-40 pd-100-40\">\n      <div class=\"test-text-box-1 d-flex flex-col gap-40\">\n        <p class=\"text-black font-bold\">\n          <span class=\"mr-10\"><img src=\"_/theme/images/bullet.svg\" alt=\"\" srcset=\"\" /></span>Customer Testimonials\n        </p>\n        <div class=\"sub-text-box d-flex gap-40 align-center\">\n          <p class=\"heading-font-2 text-black font-bold flex-2\">\n            What Our Users Say – Real Experiences from Satisfied Customers\n          </p>\n          <p class=\"text-black flex-1\">\n            Discover how Gorengan is revolutionizing convenience with fast deliveries, secure transactions, and a\n            seamless all-in-one experience. Millions of users rely on Gorengan to simplify their everyday lives!\n          </p>\n          <div>\n          </div>\n        </div>\n      </div>\n      <div class=\"test-card-wrapper d-flex gap-20\">\n        <div class=\"test-card bg-white border-20-r text-center pd-20-40-0-40\">\n          <img src=\"_/theme/images/rating.png\" class=\"mb-10\" alt=\"\">\n          <p class=\"mb-10 text-black\">\"I love how I can get my medicines delivered in minutes. So convenient and\n            hassle-free!\"</p>\n          <p class=\"font-bold text-black mb-10\">Siti Aisyah</p>\n          <img class=\"customer-image\" src=\"_/theme/images/customer.png\" alt=\"\">\n        </div>\n        <div class=\"test-card bg-white border-20-r text-center pd-20-40-0-40\">\n          <img src=\"_/theme/images/rating.png\" class=\"mb-10\" alt=\"\">\n          <p class=\"mb-10 text-black\">\"Gorengan has completely changed the way I shop and order food. Super fast and\n            reliable!\"</p>\n          <p class=\"font-bold text-black mb-10\">Ahmad Firdaus</p>\n          <img class=\"customer-image\" src=\"_/theme/images/customer.png\" alt=\"\">\n        </div>\n        <div class=\"test-card bg-white border-20-r text-center pd-20-40-0-40\">\n          <img src=\"_/theme/images/rating.png\" class=\"mb-10\" alt=\"\">\n          <p class=\"mb-10 text-black\">\"From food delivery to parcel shipping, Gorengan makes everything effortless. One\n            app for everything!\"</p>\n          <p class=\"font-bold text-black mb-10\">Faisal Rahman</p>\n          <img class=\"customer-image\" src=\"_/theme/images/customer.png\" alt=\"\">\n        </div>\n        <div class=\"test-card bg-white border-20-r text-center pd-20-40-0-40\">\n          <img src=\"_/theme/images/rating.png\" class=\"mb-10\" alt=\"\">\n          <p class=\"mb-10 text-black\">\"Affordable prices, excellent service, and super quick delivery—I can’t imagine my\n            daily routine without Gorengan!\"</p>\n          <p class=\"font-bold text-black mb-10\">Rina Kartika</p>\n          <img class=\"customer-image\" src=\"_/theme/images/customer.png\" alt=\"\">\n        </div>\n      </div>\n    </div>\n  </div>\n\n  <!-- Get Started -->\n  <div class=\"get-started-bg background-cover\">\n    <div class=\"get-started-section container-6 d-flex pd-80-0\">\n      <div class=\"flex-1\">\n        <img src=\"_/theme/images/get-device.png\" alt=\"\">\n      </div>\n      <div class=\"flex-1 d-flex flex-col gap-40\">\n        <p class=\"heading-font-2 text-black\">Get Started Today</p>\n        <p class=\"text-black\">Unlock a world of unmatched convenience with <span class=\"font-bold\">Gorengan</span>, the\n          ultimate all-in-one super app designed to simplify your everyday life. Whether you're shopping for essentials,\n          ordering your favorite meals, accessing medical services, sending parcels, or exploring investment\n          opportunities, Gorengan brings everything together in one seamless platform. Say goodbye to juggling multiple\n          apps—download now and enjoy fast, secure, and hassle-free services, all at your fingertips!</p>\n        <div class=\"d-flex-r gap-20\">\n          <a href=\"#\">\n            <img src=\"_/theme/images/play-store.png\" alt=\"\">\n          </a>\n          <a href=\"#\">\n            <img src=\"_/theme/images/app-store.png\" alt=\"\">\n          </a>\n        </div>\n      </div>\n    </div>\n  </div>\n\n  <!-- Cta section -->\n  <div class=\"cta-section container-3 pd-0-40\">\n    <div class=\"cta-bg background-cover border-20\">\n      <div class=\"cta-text-box container-5 d-flex flex-col gap-40 text-center pd-60-0\">\n        <p class=\"heading-font-2 text-white font-bold\">Simplify Your Life with Gorengan!</p>\n        <p class=\"text-white font-bold\">One App. Multiple Services. Maximum Convenience.</p>\n        <div class=\"d-flex-r gap-40 space-center\">\n          <button class=\"border-none pd-10-40 font-normal border-50 bg-white text-black font-bold font-dm\">\n            Join Now\n          </button>\n          <button class=\"border-none pd-10-40 font-normal border-50 border-1-white text-white bg-transparent font-dm\">\n            Learn More\n          </button>\n        </div>\n      </div>\n    </div>\n  </div>\n"
+    html: "  <!-- Hero Section -->\n  <div class=\"hero-section container-2 pd-0-40\">\n    <div class=\"hero-container-with-bg d-flex space-between align-center background-cover pd-40 border-20\">\n      <div class=\"d-flex flex-1 flex-col gap-40 container-5\">\n        <span anvil-slot=\"main-heading-slot\" >\n          <span class=\"placeholder anvil-designer-only\" anvil-if-slot-empty=\"main-heading-slot\" \n            anvil-drop-here>\n            [Main Heading]\n          </span>\n        </span>\n        <span anvil-slot=\"sub-banner-text-slot\" >\n          <span class=\"placeholder anvil-designer-only\" anvil-if-slot-empty=\"sub-banner-text-slot\" \n            anvil-drop-here>\n            [Sub banner text]\n          </span>\n        </span>\n        \n        <div class=\"button-container d-flex-r gap-40\">\n          <span anvil-slot=\"white-btn-slot\" >\n            <span class=\"placeholder anvil-designer-only\" anvil-if-slot-empty=\"white-btn-slot\" \n              anvil-drop-here>\n              [White btn]\n            </span>\n          </span>\n          <span anvil-slot=\"transparent-btn-slot\" >\n            <span class=\"placeholder anvil-designer-only\" anvil-if-slot-empty=\"transparent-btn-slot\" \n              anvil-drop-here>\n              [Transparent btn]\n            </span>\n          </span>\n        </div>\n        <div class=\"hero-card-container d-flex gap-40\">\n          <div class=\"bg-grey border-20-r pd-40-20\">\n            <span anvil-slot=\"banner-card-1-slot\" >\n              <span class=\"placeholder anvil-designer-only\" anvil-if-slot-empty=\"banner-card-1-slot\" \n                anvil-drop-here>\n                [Banner Card 1]\n              </span>\n            </span>\n            <!-- <p class=\"font-bold text-black card-heading font-exlarge\">10 Million+</p>\n            <p class=\"text-black mb-20\">Users</p>\n            <p class=\"text-black\">\n              Join millions who rely on Gorengan for their daily needs.\n            </p> -->\n          </div>\n          <div class=\"bg-grey border-20-r pd-40-20\">\n            <span anvil-slot=\"banner-card-2-slot\" >\n              <span class=\"placeholder anvil-designer-only\" anvil-if-slot-empty=\"banner-card-2-slot\" \n                anvil-drop-here>\n                [Banner Card 2]\n              </span>\n            </span>\n          </div>\n          <div class=\"bg-grey border-20-r pd-40-20\">\n            <span anvil-slot=\"banner-card-3-slot\" >\n              <span class=\"placeholder anvil-designer-only\" anvil-if-slot-empty=\"banner-card-3-slot\" \n                anvil-drop-here>\n                [Banner Card 3]\n              </span>\n            </span>\n          </div>\n        </div>\n      </div>\n      <div class=\"flex-1 text-center\">\n        <span anvil-slot=\"banner-img-slot\" >\n          <span class=\"placeholder anvil-designer-only\" anvil-if-slot-empty=\"banner-img-slot\" \n            anvil-drop-here>\n            [Banner img]\n          </span>\n        </span>\n      </div>\n    </div>\n  </div>\n\n  <!-- Our Services -->\n  <div class=\"services-section container-2 pd-0-40\">\n    <div class=\"services-container-with-bg background-contain d-flex gap-20 pd-80-0\">\n      <div class=\"service-text-wrapper d-flex flex-col flex-1 gap-20\">\n        <div class=\"text-box flex-1 d-flex flex-col gap-40 container-5\">\n          <p class=\"text-black font-bold\">\n            <span class=\"mr-10\"><img src=\"_/theme/images/bullet.svg\" alt=\"\" srcset=\"\" /></span>\n            <span anvil-slot=\"sub-services-slot\" >\n              <span class=\"placeholder anvil-designer-only\" anvil-if-slot-empty=\"sub-services-slot\" \n                anvil-drop-here>\n                [Our Services]\n              </span>\n            </span>\n          </p>\n          <span anvil-slot=\"all-in-one-slot\" >\n            <span class=\"placeholder anvil-designer-only\" anvil-if-slot-empty=\"all-in-one-slot\" \n              anvil-drop-here>\n              [All in one]\n            </span>\n          </span>\n          <span anvil-slot=\"label-text-slot\" >\n            <span class=\"placeholder anvil-designer-only\" anvil-if-slot-empty=\"label-text-slot\" \n              anvil-drop-here>\n              [label text]\n            </span>\n          </span>\n        </div>\n        <div class=\"card-box d-flex flex-1\">\n          <div class=\"width-100 border-20-r d-flex flex-col pd-40-20 bg-grey-gradient\">\n            <p class=\"font-bold text-white card-heading\">\n              <!-- <span anvil-slot=\"flower-img-slot\" >\n                <span class=\"placeholder anvil-designer-only\" anvil-if-slot-empty=\"flower-img-slot\" \n                  anvil-drop-here>\n                  [Flower Image]\n                </span>\n              </span>\n              <span anvil-slot=\"img-text-slot\" ></span> -->\n              <span class=\"mr-10\">\n                <span anvil-slot=\"flower-img-slot\" >\n                  <span class=\"placeholder anvil-designer-only\" anvil-if-slot-empty=\"flower-img-slot\" \n                    anvil-drop-here>\n                    [Flower Image]\n                  </span>\n                </span>\n              </span><span anvil-slot=\"img-text-slot\" ></span>\n            </p>\n            <div class=\"card-flex-container d-flex flex-1 gap-80 align-end\">\n              <p class=\"text-white\">\n                Enjoy online shopping experience with thousands of products at\n                your fingertips.\n              </p>\n              <span anvil-slot=\"learn-btn-slot\" >\n                <span class=\"placeholder anvil-designer-only\" anvil-if-slot-empty=\"learn-btn-slot\" \n                  anvil-drop-here>\n                  [Learn More]\n                </span>\n              </span>\n            </div>\n          </div>\n        </div>\n      </div>\n      <div class=\"service-card-container d-flex flex-wrap flex-1 gap-20\">\n        <div class=\"card-wrapper d-flex flex-col gap-40 border-20-r pd-40-20 bg-white width-48\">\n          <span anvil-slot=\"go-food-slot\" >\n            <span class=\"placeholder anvil-designer-only\" anvil-if-slot-empty=\"go-food-slot\" \n              anvil-drop-here>\n              [Go Food]\n            </span>\n          </span>\n        </div>\n        <div class=\"card-wrapper d-flex flex-col gap-40 border-20-r pd-40-20 bg-white width-48\">\n          <span anvil-slot=\"go-medicine-slot\" >\n            <span class=\"placeholder anvil-designer-only\" anvil-if-slot-empty=\"go-medicine-slot\" \n              anvil-drop-here>\n              [Go Medicine]\n            </span>\n          </span>\n        </div>\n        <div class=\"card-wrapper d-flex flex-col gap-40 border-20-r pd-40-20 bg-white width-48\">\n          <span anvil-slot=\"go-send-slot\" >\n            <span class=\"placeholder anvil-designer-only\" anvil-if-slot-empty=\"go-send-slot\" \n              anvil-drop-here>\n              [Go Send]\n            </span>\n          </span>\n        </div>\n        <div class=\"card-wrapper d-flex flex-col gap-40 border-20-r pd-40-20 bg-white width-48\">\n          <span anvil-slot=\"go-invest-slot\" >\n            <span class=\"placeholder anvil-designer-only\" anvil-if-slot-empty=\"go-invest-slot\" \n              anvil-drop-here>\n              [Go Invest]\n            </span>\n          </span>\n        </div>\n      </div>\n    </div>\n  </div>\n\n  <!-- Step by step guide -->\n  <div class=\"container pd-0-80\">\n    <div class=\"guide-container-with-bg text-center background-contain padding-80-0\">\n      <div class=\"text-box\">\n        <p class=\"text-black font-bold\">\n          <span class=\"mr-10\"><img src=\"_/theme/images/bullet.svg\" alt=\"\" srcset=\"\" /></span>\n          <span anvil-slot=\"small-label-slot\" >\n            <span class=\"placeholder anvil-designer-only\" anvil-if-slot-empty=\"small-label-slot\" \n              anvil-drop-here>\n              [Step by step]\n            </span>\n          </span>\n        </p>\n        <span anvil-slot=\"heading-effortless-slot\" >\n          <span class=\"placeholder anvil-designer-only\" anvil-if-slot-empty=\"heading-effortless-slot\" \n            anvil-drop-here>\n            [Effortless & Seamless Experience]\n          </span>\n        </span>\n        <span anvil-slot=\"effort-label-slot\" ></span>\n      </div>\n      <div class=\"auto-tabs\">\n        <div class=\"tabs-container container-4 d-flex space-between d-none\">\n          <div class=\"tab-icon active\"></div>\n          <div class=\"tab-icon active\"></div>\n          <div class=\"tab-icon\"></div>\n          <div class=\"tab-icon\"></div>\n        </div>\n        <div class=\"card-container gap-20 d-flex text-left-r\">\n          <div class=\"pd-40-20 border-20-r active bg-green-gradient\">\n            <span anvil-slot=\"step-one-slot\" >\n              <span class=\"placeholder anvil-designer-only\" anvil-if-slot-empty=\"step-one-slot\" \n                anvil-drop-here>\n                [Step One]\n              </span>\n            </span>\n          </div>\n          <div class=\"bg-white pd-40-20 border-20-r text-left-r\">\n            <span anvil-slot=\"step-two-slot\" >\n              <span class=\"placeholder anvil-designer-only\" anvil-if-slot-empty=\"step-two-slot\" \n                anvil-drop-here>\n                [Step Two]\n              </span>\n            </span>\n          </div>\n          <div class=\"bg-white pd-40-20 border-20-r text-left-r\">\n            <span anvil-slot=\"step-three-slot\" >\n              <span class=\"placeholder anvil-designer-only\" anvil-if-slot-empty=\"step-three-slot\" \n                anvil-drop-here>\n                [Step Three]\n              </span>\n            </span>\n          </div>\n          <div class=\"bg-white pd-40-20 border-20-r text-left-r\">\n            <span anvil-slot=\"step-four-slot\" >\n              <span class=\"placeholder anvil-designer-only\" anvil-if-slot-empty=\"step-four-slot\" \n                anvil-drop-here>\n                [Step Four]\n              </span>\n            </span>\n          </div>\n        </div>\n      </div>\n    </div>\n  </div>\n\n  <!-- Why Choose -->\n  <div class=\"choose-container-with-bg background-cover\">\n    <div class=\"choose-section container d-flex flex-col gap-40 pd-80-40\">\n      <div class=\"choose-text-box-1 d-flex flex-col gap-40\">\n        <p class=\"text-black font-bold\">\n          <span class=\"mr-10\"><img src=\"_/theme/images/bullet.svg\" alt=\"\" srcset=\"\" /></span>\n           <span anvil-slot=\"why-small-slot\" >\n              <span class=\"placeholder anvil-designer-only\" anvil-if-slot-empty=\"why-small-slot\" \n                anvil-drop-here>\n                [Why Choose Gorengan?]\n              </span>\n            </span>\n          \n        </p>\n        <div class=\"sub-text-box d-flex gap-40 align-center\">\n\n          <span anvil-slot=\"more-heading-slot\" >\n            <span class=\"placeholder anvil-designer-only\" anvil-if-slot-empty=\"more-heading-slot\" \n              anvil-drop-here>\n              [More Than Just an App]\n            </span>\n          </span>\n          \n          <span anvil-slot=\"subtext-gorengan-slot\" >\n            <span class=\"placeholder anvil-designer-only\" anvil-if-slot-empty=\"subtext-gorengan-slot\" \n              anvil-drop-here>\n              [Gorengan isn’t...]\n            </span>\n          </span>\n        </div>\n      </div>\n      <div class=\"choose-text-box-2 d-flex gap-40\">\n        <div class=\"flex-1\">\n          <div class=\"point-item d-flex-r gap-40 mb-20\">\n            <span anvil-slot=\"lightening-image-slot\" >\n              <span class=\"placeholder anvil-designer-only\" anvil-if-slot-empty=\"lightening-image-slot\" anvil-drop-here>[Lightening image]</span>\n            </span>\n            <!-- <img src=\"_/theme/images/why-icon-1.png\" alt=\"\"> -->\n            <div class=\"short-text d-flex flex-col\">\n              <span anvil-slot=\"lightening-slot\" >\n                <span class=\"placeholder anvil-designer-only\" anvil-if-slot-empty=\"lightening-slot\" \n                  anvil-drop-here>\n                  [Lightening]\n                </span>\n              </span>\n            </div>\n          </div>\n          <div class=\"point-item d-flex-r gap-40 mb-20\">\n            <span anvil-slot=\"secure-image-slot\" >\n              <span class=\"placeholder anvil-designer-only\" anvil-if-slot-empty=\"secure-image-slot\" anvil-drop-here>[Secure image]</span>\n            </span>            \n            <div class=\"short-text d-flex flex-col\">\n              <span anvil-slot=\"secure-slot\" >\n                <span class=\"placeholder anvil-designer-only\" anvil-if-slot-empty=\"secure-slot\" \n                  anvil-drop-here>\n                  [Secure]\n                </span>\n              </span>\n            </div>\n          </div>\n          <div class=\"point-item d-flex-r gap-40 mb-20\">\n            <span anvil-slot=\"affordable-image-slot\" >\n              <span class=\"placeholder anvil-designer-only\" anvil-if-slot-empty=\"affordable-image-slot\" anvil-drop-here>[Affordable image]</span>\n            </span>\n            <div class=\"short-text d-flex flex-col\">\n              <span anvil-slot=\"affordable-slot\" >\n                <span class=\"placeholder anvil-designer-only\" anvil-if-slot-empty=\"affordable-slot\" \n                  anvil-drop-here>\n                  [Affordable]\n                </span>\n              </span>\n            </div>\n          </div>\n          <div class=\"point-item d-flex-r gap-40 mb-20\">\n            <span anvil-slot=\"tap-image-slot\" >\n              <span class=\"placeholder anvil-designer-only\" anvil-if-slot-empty=\"tap-image-slot\" anvil-drop-here>[Tap image]</span>\n            </span>\n            <div class=\"short-text d-flex flex-col\">\n              <span anvil-slot=\"tap-slot\" >\n                <span class=\"placeholder anvil-designer-only\" anvil-if-slot-empty=\"tap-slot\" \n                  anvil-drop-here>\n                  [Tap]\n                </span>\n              </span>\n            </div>\n          </div>\n        </div>\n        <div class=\"flex-1 image-box text-right\">\n          <span anvil-slot=\"why-image-slot\" >\n              <span class=\"placeholder anvil-designer-only\" anvil-if-slot-empty=\"why-image-slot\" anvil-drop-here>[Why choose image]</span>\n          </span>\n        </div>\n      </div>\n    </div>\n  </div>\n\n  <!-- Testimonials -->\n  <div class=\"test-container-with-bg background-cover\">\n    <div class=\"test-section container d-flex flex-col gap-40 pd-100-40\">\n      <div class=\"test-text-box-1 d-flex flex-col gap-40\">\n        <p class=\"text-black font-bold\">\n          <span class=\"mr-10\"><img src=\"_/theme/images/bullet.svg\" alt=\"\" srcset=\"\" /></span>\n          <span anvil-slot=\"sub-customer-heading\" >\n          </span>\n        </p>\n        <div class=\"sub-text-box d-flex gap-40 align-center\">\n          <span anvil-slot=\"what-our-slot\" >\n              <span class=\"placeholder anvil-designer-only\" anvil-if-slot-empty=\"what-our-slot\" anvil-drop-here>[What our users]</span>\n          </span>\n          <span anvil-slot=\"discover-how-slot\" >\n              <span class=\"placeholder anvil-designer-only\" anvil-if-slot-empty=\"discover-how-slot\" anvil-drop-here>[Discover how]</span>\n          </span>\n          <!-- <div>\n          </div> -->\n        </div>\n      </div>\n      <div class=\"test-card-wrapper d-flex gap-20\">\n        <div class=\"test-card bg-white border-20-r text-center pd-20-40-0-40\">\n          <span anvil-slot=\"customer-test-1-slot\" >\n              <span class=\"placeholder anvil-designer-only\" anvil-if-slot-empty=\"customer-test-1-slot\" anvil-drop-here>[Customer Testimonials]</span>\n          </span>\n        </div>\n        <div class=\"test-card bg-white border-20-r text-center pd-20-40-0-40\">\n          <span anvil-slot=\"customer-test-2-slot\" >\n            <span class=\"placeholder anvil-designer-only\" anvil-if-slot-empty=\"customer-test-2-slot\" anvil-drop-here>[Customer Testimonials 2]</span>\n          </span>\n        </div>\n        <div class=\"test-card bg-white border-20-r text-center pd-20-40-0-40\">\n          <span anvil-slot=\"customer-test-3-slot\" >\n            <span class=\"placeholder anvil-designer-only\" anvil-if-slot-empty=\"customer-test-3-slot\" anvil-drop-here>[Customer Testimonials 3]</span>\n          </span>\n        </div>\n        <div class=\"test-card bg-white border-20-r text-center pd-20-40-0-40\">\n          <span anvil-slot=\"customer-test-4-slot\" >\n            <span class=\"placeholder anvil-designer-only\" anvil-if-slot-empty=\"customer-test-4-slot\" anvil-drop-here>[Customer Testimonials 4]</span>\n          </span>\n        </div>\n      </div>\n    </div>\n  </div>\n\n  <!-- Get Started -->\n  <div class=\"get-started-bg background-cover\">\n    <div class=\"get-started-section container-6 d-flex pd-80-0\">\n      <div class=\"flex-1\">\n        <span anvil-slot=\"get-started-image-slot\" >\n          <span class=\"placeholder anvil-designer-only\" anvil-if-slot-empty=\"get-started-image-slot\" anvil-drop-here>[Get Started Image]</span>\n        </span>\n        <!-- <img src=\"_/theme/images/get-device.png\" alt=\"\"> -->\n      </div>\n      <div class=\"flex-1 d-flex flex-col gap-40\">\n        <span anvil-slot=\"get-started-text-slot\" >\n          <span class=\"placeholder anvil-designer-only\" anvil-if-slot-empty=\"get-started-text-slot\" anvil-drop-here>[Get Started Text]</span>\n        </span>\n      </div>\n    </div>\n  </div>\n\n  <!-- Cta section -->\n  <div class=\"cta-section container-3 pd-0-40\">\n    <div class=\"cta-bg background-cover border-20\">\n      <div class=\"cta-text-box container-5 d-flex flex-col gap-40 text-center pd-60-0\">\n        <span anvil-slot=\"cta-slot\" >\n          <span class=\"placeholder anvil-designer-only\" anvil-if-slot-empty=\"cta-slot\" anvil-drop-here>[Get Started Text]</span>\n        </span>\n        <!-- <p class=\"heading-font-2 text-white font-bold\">Simplify Your Life with Gorengan!</p>\n        <p class=\"text-white font-bold\">One App. Multiple Services. Maximum Convenience.</p>\n        <div class=\"d-flex-r gap-40 space-center\">\n          <button class=\"border-none pd-10-40 font-normal border-50 bg-white text-black font-bold font-dm\">\n            Join Now\n          </button>\n          <button class=\"border-none pd-10-40 font-normal border-50 border-1-white text-white bg-transparent font-dm\">\n            Learn More\n          </button>\n        </div> -->\n      </div>\n    </div>\n  </div>\n"
   type: HtmlTemplate
 is_package: true
