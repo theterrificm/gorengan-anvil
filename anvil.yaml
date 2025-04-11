@@ -1,6 +1,6 @@
 allow_embedding: false
-name: SignSageTech
-package_name: SignSageTech
+name: SignSafeTech - Musaf
+package_name: SignSafeTech___Musaf
 runtime_options:
   client_version: '3'
   server_spec: {base: python310-minimal}
