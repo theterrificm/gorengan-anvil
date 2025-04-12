@@ -1,0 +1,60 @@
+components:
+- components:
+  - layout_properties: {grid_position: 'EPUEZZ,PNBRIM'}
+    name: label_1
+    properties: {align: center, role: heading-h2, text: Privacy Policy}
+    type: Label
+  - layout_properties: {grid_position: 'GTSSQC,ZHPWOW'}
+    name: label_2
+    properties: {align: center, bold: true, font_size: 18, text: 'Last updated: February 07, 2025'}
+    type: Label
+  - layout_properties: {grid_position: 'DPVNQI,WTVMZM'}
+    name: label_3
+    properties: {text: 'This Privacy Policy describes Our policies and procedures on the collection, use and disclosure of Your information when You use the Service and tells You about Your privacy rights and how the law protects You.We use Your Personal data to provide and improve the Service. By using the Service, You agree to the collection and use of information in accordance with this Privacy Policy. This Privacy Policy has been created with the help of the Privacy Policy Generator.'}
+    type: Label
+  - layout_properties: {grid_position: 'MNKHGK,ZSIHVX'}
+    name: label_4
+    properties: {role: heading-h3, text: Interpretation and Definitions}
+    type: Label
+  - layout_properties: {grid_position: 'IAVBAV,RKRTWT'}
+    name: label_5
+    properties: {bold: true, text: Interpretation}
+    type: Label
+  - layout_properties: {grid_position: 'PIXVWT,QXUVUZ'}
+    name: label_6
+    properties: {text: The words of which the initial letter is capitalized have meanings defined under the following conditions. The following definitions shall have the same meaning regardless of whether they appear in singular or in plural.}
+    type: Label
+  - layout_properties: {grid_position: 'CWUUJF,MKONGI'}
+    name: label_7
+    properties: {role: heading-h3, text: Definitions}
+    type: Label
+  - layout_properties: {grid_position: 'UBDWBN,CTRVSK'}
+    name: label_8
+    properties: {bold: true, text: 'For the purposes of this Privacy Policy:'}
+    type: Label
+  - layout_properties: {grid_position: 'FCVWJG,WGRDSH'}
+    name: label_9
+    properties:
+      text: |-
+        Account means a unique account created for You to access our Service or parts of our Service.
+
+        Affiliate means an entity that controls, is controlled by or is under common control with a party, where "control" means ownership of 50% or more of the shares, equity interest or other securities entitled to vote for election of directors or other managing authority.
+
+        Company (referred to as either "the Company", "We", "Us" or "Our" in this Agreement) refers to SignSafe Tech, LLC, Las Vegas, NV.
+
+        Cookies are small files that are placed on Your computer, mobile device or any other device by a website, containing the details of Your browsing history on that website among its many uses.
+
+        Country refers to: Nevada, United States
+
+        Device means any device that can access the Service such as a computer, a cellphone or a digital tablet.
+
+        Personal Data is any information that relates to an identified or identifiable individual.
+    type: Label
+  layout_properties: {slot: default}
+  name: content_panel
+  properties: {}
+  type: ColumnPanel
+container:
+  properties: {html: '@theme:standard-page.html'}
+  type: HtmlTemplate
+is_package: true
