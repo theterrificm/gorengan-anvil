@@ -1,9 +1,8 @@
-from ._anvil_designer import RowTemplate1Template
+from ._anvil_designer import EditSignModalTemplate
 from anvil import *
 
 
-
-class RowTemplate1(RowTemplate1Template):
+class EditSignModal(EditSignModalTemplate):
   def __init__(self, **properties):
     # Set Form properties and Data Bindings.
     self.init_components(**properties)

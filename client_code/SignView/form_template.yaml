@@ -1,8 +1,4 @@
 components:
-- layout_properties: {slot: sub-services-slot}
-  name: header_1
-  properties: {}
-  type: form:Header
 - layout_properties: {slot: heading-slot}
   name: label_2
   properties: {align: center, role: heading-h2, text: SEASCAPE PARK WELCOME SIGN}
@@ -41,10 +37,6 @@ components:
       padding: [null, '0', null, '0']
     text: Hear this sign
   type: Button
-- layout_properties: {slot: hear-sign-slot}
-  name: footer_1
-  properties: {}
-  type: form:Footer
 - components:
   - components:
     - layout_properties: {}

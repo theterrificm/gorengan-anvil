@@ -41,11 +41,11 @@ components:
     background: ''
     border: 1px solid black
     columns:
-    - {data_key: column_1, id: JKSDUP, title: Date Added}
-    - {data_key: column_2, id: VJQQOR, title: Sign Name}
-    - {data_key: column_3, id: OJLQEN, title: Location}
+    - {data_key: id, id: JKSDUP, title: Date Added}
+    - {data_key: name, id: VJQQOR, title: Sign Name}
+    - {data_key: email, id: OJLQEN, title: Location}
     - {data_key: column_1, id: LSUKGP, title: More information}
-    - {data_key: column_1, id: ARPROX, title: Assign a location}
+    - {data_key: column_1, id: ARPROX, title: Location}
     - {data_key: column_1, id: ORWVGF, title: Manage}
     foreground: ''
     margin: [null, '30', null, '30']
