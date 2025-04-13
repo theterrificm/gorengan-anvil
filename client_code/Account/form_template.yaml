@@ -41,7 +41,7 @@ components:
     background: ''
     border: 1px solid black
     columns:
-    - {data_key: id, id: JKSDUP, title: Date Added}
+    - {data_key: id, expand: false, id: JKSDUP, title: Date Added, width: 249.66665649414062}
     - {data_key: name, id: VJQQOR, title: Sign Name}
     - {data_key: email, id: OJLQEN, title: Location}
     - {data_key: column_1, id: LSUKGP, title: More information}

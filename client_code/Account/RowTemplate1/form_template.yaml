@@ -1,7 +1,8 @@
 components:
 - components:
   - components:
-    - layout_properties: {}
+    - event_bindings: {click: button_1_click}
+      layout_properties: {}
       name: button_1
       properties:
         icon: fa:download
@@ -71,7 +72,7 @@ components:
         items: [Assign a location]
         placeholder: ''
       type: DropDown
-    layout_properties: {full_width_row: true, grid_position: 'ATXRAD,ZCSDRM'}
+    layout_properties: {full_width_row: false, grid_position: 'ATXRAD,ZCSDRM'}
     name: flow_panel_2
     properties: {gap: tiny}
     type: FlowPanel
