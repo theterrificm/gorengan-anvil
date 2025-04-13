@@ -1,17 +1,18 @@
 components:
 - components:
   - components:
-    - event_bindings: {click: button_1_click}
+    - event_bindings: {}
       layout_properties: {}
-      name: button_1
+      name: download_btn
       properties:
         icon: fa:download
         spacing:
           padding: [null, null, null, null]
         text: ''
       type: Button
-    - layout_properties: {}
-      name: button_2
+    - event_bindings: {click: edit_sign_btn_click}
+      layout_properties: {}
+      name: edit_sign_btn
       properties: {background: 'theme:primary', foreground: 'theme:white', icon: 'fa:edit', text: ''}
       type: Button
     - layout_properties: {}

@@ -3,6 +3,7 @@ from anvil import *
 from .AddSignModal import AddSignModal
 from .SettingsModal import SettingsModal
 
+
 data = [
         {"id": 1, "name": "John Doe", "email": "john.doe@example.com", },
         {"id": 2, "name": "Jane Smith", "email": "jane.smith@example.com", },
