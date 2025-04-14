@@ -1307,6 +1307,21 @@ tr:nth-child(odd) {
   .button-div-2 p {
     margin-bottom: 10px;
   }
+  /* CSS for fixing mobile NAV start */
+  .anvil-panel-col {
+    overflow-x: visible!important;
+  }
+  .anvil-container-overflow {
+    overflow-x: visible!important;
+  }
+  .m-nav{
+    position: relative;
+    z-index: 2;
+  }
+  /* CSS for fixing mobile NAV end */
+  div.link-text{
+    width: max-content;
+  }
 }
 
 /* Anvil css */
