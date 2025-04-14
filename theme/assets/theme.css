@@ -507,12 +507,9 @@ nav {
   overflow: visible;
 }
 
-#menuToggle ul {
+#menuToggle input:checked~ul {
   transform: translate(-100%, 0);
 }
-/* #menuToggle input:checked~ul {
-  transform: translate(-100%, 0);
-} */
 
 /* D/Navbar */
 
