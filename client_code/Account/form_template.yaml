@@ -51,6 +51,8 @@ components:
     margin: [null, '30', null, '30']
     role: null
     show_page_controls: true
+    spacing_above: small
+    spacing_below: small
     wrap_on: mobile
   type: DataGrid
 container:

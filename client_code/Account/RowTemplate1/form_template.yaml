@@ -21,7 +21,7 @@ components:
       type: Button
     layout_properties: {grid_position: 'QBKVOR,KPNVTG'}
     name: flow_panel_1
-    properties: {gap: tiny}
+    properties: {align: center, gap: tiny}
     type: FlowPanel
   layout_properties: {column: ORWVGF}
   name: column_panel_1
@@ -82,6 +82,10 @@ components:
   properties: {}
   type: ColumnPanel
 container:
-  properties: {background: transparent, foreground: black, role: null}
+  properties:
+    background: transparent
+    foreground: black
+    margin: ['20', null, '20', null]
+    role: null
   type: DataRowPanel
 is_package: true
