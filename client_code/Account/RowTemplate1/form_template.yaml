@@ -83,6 +83,7 @@ components:
   type: ColumnPanel
 container:
   properties:
+    align: left
     background: transparent
     foreground: black
     margin: ['20', null, '20', null]
