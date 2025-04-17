@@ -1,6 +1,5 @@
 components:
-- data_bindings: []
-  event_bindings: {click: add_new_sign_click}
+- event_bindings: {click: add_new_sign_click}
   layout_properties: {slot: add-a-new-sign-slot}
   name: add_new_sign
   properties:
@@ -33,7 +32,6 @@ components:
     name: repeating_panel_1
     properties: {background: none, item_template: Account.RowTemplate1, role: null}
     type: RepeatingPanel
-  data_bindings: []
   layout_properties: {slot: tables-slot}
   name: data_grid_1
   properties:
@@ -51,6 +49,8 @@ components:
     margin: [null, '30', null, '30']
     role: null
     show_page_controls: true
+    spacing_above: small
+    spacing_below: small
     wrap_on: mobile
   type: DataGrid
 container:
