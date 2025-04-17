@@ -1388,3 +1388,9 @@ tr:nth-child(odd) {
   font-weight: bold;
   color: #1c1c1c;
 }
+
+@media (max-width: 768px) {
+  .anvil-role-main-heading {
+  font-size: 38px!important;
+  }
+}
