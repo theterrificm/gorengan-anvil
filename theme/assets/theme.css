@@ -1389,6 +1389,10 @@ tr:nth-child(odd) {
   color: #1c1c1c;
 }
 
+.data-row-col {
+    border-bottom: 1px solid grey;
+}
+
 @media (max-width: 768px) {
   .anvil-role-main-heading {
   font-size: 38px!important;
